@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Templates/Template - Half Bulkead" itemID="559efd3c-00000342" sourceLibraryItemHRef="- Templates/Template - Bulkhead Base copy" lastModified="1436483144">
+  <timeline>
+    <DOMTimeline name="Template - Half Bulkead">
+      <layers>
+        <DOMLayer name="Door" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="80" objectHeight="15" x="356.95" y="62" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="-321.95" ty="-62"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="396.95" y="68.25"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#625E5E"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="150" objectHeight="15" x="356.95" y="62" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="-356.95" ty="-62"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="431.95" y="69.5"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor alpha="0.0156862745098039"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
