@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Templates/Template - Room 2x6 Base" itemID="559eec9c-0000024e" sourceLibraryItemHRef="- Templates/Template - Room 2x4 Base copy" lastModified="1436478902">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Templates/Template - Room 2x6 Base" itemID="559eec9c-0000024e" sourceLibraryItemHRef="- Templates/Template - Room 2x4 Base copy" lastModified="1436481883" lastUniqueIdentifier="19">
   <timeline>
     <DOMTimeline name="Template - Room 2x6 Base">
       <layers>
@@ -39,6 +39,30 @@
                     <SolidColor color="#FFFFFF"/>
                   </fill>
                 </DOMRectangleObject>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - 2x2 Tiles" name="" centerPoint3DX="-5" centerPoint3DY="-155">
+                  <matrix>
+                    <Matrix tx="-75" ty="-225"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="70" y="70"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - 2x2 Tiles" name="" centerPoint3DX="-5" centerPoint3DY="-5">
+                  <matrix>
+                    <Matrix tx="-75" ty="-75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="70" y="70"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - 2x2 Tiles" name="" centerPoint3DX="-5" centerPoint3DY="145">
+                  <matrix>
+                    <Matrix tx="-75" ty="75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="70" y="70"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

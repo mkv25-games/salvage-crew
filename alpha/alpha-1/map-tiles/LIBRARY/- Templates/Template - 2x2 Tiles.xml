@@ -1,0 +1,58 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Templates/Template - 2x2 Tiles" itemID="559ef913-000002ca" sourceLibraryItemHRef="Symbol 1" lastModified="1436482148" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="Template - 2x2 Tiles">
+      <layers>
+        <DOMLayer name="Tiles" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - 1x1 Tile" name="" centerPoint3DX="32.5" centerPoint3DY="32.5">
+                  <transformationPoint>
+                    <Point x="37.5" y="37.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - 1x1 Tile" name="" centerPoint3DX="107.5" centerPoint3DY="32.5">
+                  <matrix>
+                    <Matrix tx="75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.5" y="37.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - 1x1 Tile" name="" centerPoint3DX="32.5" centerPoint3DY="107.5">
+                  <matrix>
+                    <Matrix ty="75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.5" y="37.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - 1x1 Tile" name="" centerPoint3DX="107.5" centerPoint3DY="107.5">
+                  <matrix>
+                    <Matrix tx="75" ty="75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.5" y="37.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box" color="#9933CC" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="150" objectHeight="150" x="0" y="0" lockFlag="true">
+                  <fill>
+                    <SolidColor alpha="0.00784313725490196"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

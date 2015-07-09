@@ -1,8 +1,32 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Templates/Template - Room 2x4 Base" itemID="559eea15-00000217" sourceLibraryItemHRef="Symbol 1" lastModified="1436478002">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Templates/Template - Room 2x4 Base" itemID="559eea15-00000217" sourceLibraryItemHRef="Symbol 1" lastModified="1436481902" lastUniqueIdentifier="11">
   <timeline>
     <DOMTimeline name="Template - Room 2x4 Base">
       <layers>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="Grid" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - 2x2 Tiles" name="" centerPoint3DY="-75">
+                  <matrix>
+                    <Matrix tx="-75" ty="-150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - 2x2 Tiles" name="" centerPoint3DY="75">
+                  <matrix>
+                    <Matrix tx="-75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Base" color="#4FFF4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

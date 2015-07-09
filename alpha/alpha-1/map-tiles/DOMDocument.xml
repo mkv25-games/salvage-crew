@@ -4,6 +4,8 @@
           <DOMFolderItem name="- Tile Sheets" itemID="559ee9fa-00000211" isExpanded="true"/>
      </folders>
      <symbols>
+          <Include href="- Templates/Template - 1x1 Tile.xml" loadImmediate="false"/>
+          <Include href="- Templates/Template - 2x2 Tiles.xml" loadImmediate="false"/>
           <Include href="- Templates/Template - Room 2x4 Base.xml" loadImmediate="false"/>
           <Include href="- Templates/Template - Room 2x6 Base.xml" loadImmediate="false"/>
           <Include href="- Templates/Template - Room 4x4 Base.xml" loadImmediate="false"/>
@@ -13,11 +15,11 @@
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="Corridors" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Corridors" color="#9933CC" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="- Tile Sheets/Tile Sheet - Corridors" name="" selected="true" centerPoint3DX="450" centerPoint3DY="300">
+                                        <DOMSymbolInstance libraryItemName="- Tile Sheets/Tile Sheet - Corridors" name="" centerPoint3DX="450" centerPoint3DY="300">
                                              <transformationPoint>
                                                   <Point x="450" y="300"/>
                                              </transformationPoint>
@@ -26,7 +28,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Large Rooms" color="#4FFF4F" autoNamed="false">
+                    <DOMLayer name="Large Rooms" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>

@@ -1,0 +1,83 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Templates/Template - 1x1 Tile" itemID="559ef91e-000002ce" sourceLibraryItemHRef="Symbol 1" lastModified="1436482429">
+  <timeline>
+    <DOMTimeline name="Template - 1x1 Tile">
+      <layers>
+        <DOMLayer name="Center" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="78" objectHeight="78" x="-140" y="-140" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="88" ty="88"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-101" y="-101.1"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#989393" alpha="0.2"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor color="#B1AEAE"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Border" color="#9933CC" locked="true" outline="true" useOutlineView="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="5" ty="5"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix tx="5" ty="5"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#999999"/>
+                        </FillStyle>
+                        <FillStyle index="2">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="2" edges="!130 130S1|1170 130!1170 130|1170 1170!1170 1170|130 1170!130 1170|130 130"/>
+                        <Edge fillStyle0="1" fillStyle1="2" edges="!110 110S3|1190 110!1190 110|1190 1190!1190 1190|110 1190!110 1190|110 110"/>
+                        <Edge fillStyle1="1" edges="!80 80S2|1220 80!1220 80|1220 1220!1220 1220|80 1220!80 1220|80 80"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box Tint" color="#000000" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="75" objectHeight="75" x="-140" y="-140" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="140" ty="140"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF" alpha="0.0470588235294118"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
