@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Tile Sheets/Tile Sheet - Corridors" itemID="559eec55-00000234" sourceLibraryItemHRef="Symbol 1" lastModified="1436478682" lastUniqueIdentifier="18">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Tile Sheets/Tile Sheet - Corridors" itemID="559eec55-00000234" sourceLibraryItemHRef="Symbol 1" lastModified="1436478907" lastUniqueIdentifier="18">
   <timeline>
     <DOMTimeline name="Tile Sheet - Corridors">
       <layers>
@@ -70,17 +70,17 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 2x6 Base" name="" centerPoint3DX="375.15" centerPoint3DY="150.25">
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 2x6 Base" name="" centerPoint3DX="375.15" centerPoint3DY="225.25">
                   <matrix>
-                    <Matrix tx="375" ty="150"/>
+                    <Matrix tx="375" ty="225"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 2x6 Base" name="" centerPoint3DX="525.15" centerPoint3DY="150.25">
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 2x6 Base" name="" centerPoint3DX="525.15" centerPoint3DY="225.25">
                   <matrix>
-                    <Matrix tx="525" ty="150"/>
+                    <Matrix tx="525" ty="225"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
