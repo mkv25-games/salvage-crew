@@ -1,8 +1,32 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Tile Sheets/Tile Sheet - Corridors" itemID="559eec55-00000234" sourceLibraryItemHRef="Symbol 1" lastModified="1436484084" lastUniqueIdentifier="115">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Tile Sheets/Tile Sheet - Corridors" itemID="559eec55-00000234" sourceLibraryItemHRef="Symbol 1" lastModified="1436485170" lastUniqueIdentifier="129">
   <timeline>
     <DOMTimeline name="Tile Sheet - Corridors">
       <layers>
-        <DOMLayer name="Bulkheads" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Room Symbol" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="- Room Symbols/Room Symbol - Landing Pod" name="" centerPoint3DX="675" centerPoint3DY="525">
+                  <matrix>
+                    <Matrix tx="600" ty="450"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Room Symbols/Room Symbol - Landing Pod" name="" centerPoint3DX="825" centerPoint3DY="525">
+                  <matrix>
+                    <Matrix tx="750" ty="450"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Bulkheads" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -358,17 +382,89 @@
                     <Point x="75" y="7.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="675.75" centerPoint3DY="592.1">
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="607.3" centerPoint3DY="75.45">
                   <matrix>
-                    <Matrix a="-1" d="-1" tx="750" ty="600"/>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="600" ty="150"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="75" y="7.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="825.75" centerPoint3DY="592.1">
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="592.55" centerPoint3DY="74.65">
                   <matrix>
-                    <Matrix a="-1" d="-1" tx="900" ty="600"/>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="600"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="592.55" centerPoint3DY="374.65">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="600" ty="300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="607.3" centerPoint3DY="375.45">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="600" ty="450"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="742.55" centerPoint3DY="374.65">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="750" ty="300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="757.3" centerPoint3DY="375.45">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="750" ty="450"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="742.55" centerPoint3DY="74.65">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="750"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="757.3" centerPoint3DY="75.45">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="750" ty="150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="892.55" centerPoint3DY="224.65">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="900" ty="150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="892.55" centerPoint3DY="374.65">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="900" ty="300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="892.55" centerPoint3DY="74.65">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="900"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="75" y="7.5"/>

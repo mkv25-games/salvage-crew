@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Templates/Template - 2x2 Tiles" itemID="559ef913-000002ca" sourceLibraryItemHRef="Symbol 1" lastModified="1436482148" lastUniqueIdentifier="7">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Templates/Template - 2x2 Tiles" itemID="559ef913-000002ca" sourceLibraryItemHRef="Symbol 1" lastModified="1436484564" lastUniqueIdentifier="7">
   <timeline>
     <DOMTimeline name="Template - 2x2 Tiles">
       <layers>
@@ -6,7 +6,10 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="- Templates/Template - 1x1 Tile" name="" centerPoint3DX="32.5" centerPoint3DY="32.5">
+                <DOMSymbolInstance libraryItemName="- Templates/Template - 1x1 Tile" name="" centerPoint3DX="32.55" centerPoint3DY="42.45">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" ty="75"/>
+                  </matrix>
                   <transformationPoint>
                     <Point x="37.5" y="37.5"/>
                   </transformationPoint>
@@ -19,17 +22,17 @@
                     <Point x="37.5" y="37.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="- Templates/Template - 1x1 Tile" name="" centerPoint3DX="32.5" centerPoint3DY="107.5">
+                <DOMSymbolInstance libraryItemName="- Templates/Template - 1x1 Tile" name="" centerPoint3DX="42.25" centerPoint3DY="117.15">
                   <matrix>
-                    <Matrix ty="75"/>
+                    <Matrix a="-1" d="-1" tx="75" ty="150"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="37.5" y="37.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="- Templates/Template - 1x1 Tile" name="" centerPoint3DX="107.5" centerPoint3DY="107.5">
+                <DOMSymbolInstance libraryItemName="- Templates/Template - 1x1 Tile" name="" centerPoint3DX="117.5" centerPoint3DY="107.6">
                   <matrix>
-                    <Matrix tx="75" ty="75"/>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="150" ty="75"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="37.5" y="37.5"/>

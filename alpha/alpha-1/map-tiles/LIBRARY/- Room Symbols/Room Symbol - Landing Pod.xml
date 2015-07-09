@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Room Symbols/Room Symbol - Landing Pod" itemID="559f0587-0000049f" sourceLibraryItemHRef="Symbol 1" lastModified="1436485189" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="Room Symbol - Landing Pod">
+      <layers>
+        <DOMLayer name="Tiles" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CC0033" alpha="0.988235294117647"/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#FFFFFF" alpha="0.988235294117647"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="2" edges="!1500 848|2152 1500!2152 1500|1500 2152!1500 2152|848 1500!848 1500|1500 848"/>
+                    <Edge fillStyle0="1" fillStyle1="2" edges="!1500 806|2194 1500!2194 1500|1500 2194!1500 2194|806 1500!806 1500|1500 806"/>
+                    <Edge fillStyle0="2" fillStyle1="1" edges="!1500 764|2236 1500!2236 1500|1500 2236!1500 2236|764 1500!764 1500|1500 764"/>
+                    <Edge fillStyle0="1" fillStyle1="2" edges="!1500 722|2278 1500!2278 1500|1500 2278!1500 2278|722 1500!722 1500|1500 722"/>
+                    <Edge fillStyle1="1" edges="!1500 680|2320 1500!2320 1500|1500 2320!1500 2320|680 1500!680 1500|1500 680"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box" color="#9933CC" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="150" objectHeight="150" x="0" y="0" lockFlag="true">
+                  <fill>
+                    <SolidColor alpha="0.00784313725490196"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
