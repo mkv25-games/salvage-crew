@@ -1,0 +1,49 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Templates/Template - Room 2x6 Base" itemID="559eec9c-0000024e" sourceLibraryItemHRef="- Templates/Template - Room 2x4 Base copy" lastModified="1436478671">
+  <timeline>
+    <DOMTimeline name="Template - Room 2x6 Base">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="150" objectHeight="450" x="12.75" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="-87.75" ty="-168"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="87.7" y="242.8"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#333333"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="146" objectHeight="446" x="12.75" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="-85.75" ty="-166"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="85.6" y="240.7"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#999999"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="130" objectHeight="430" x="12.75" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="-77.75" ty="-158"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="77.7" y="232.85"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

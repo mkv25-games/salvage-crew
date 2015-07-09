@@ -5,13 +5,28 @@
      </folders>
      <symbols>
           <Include href="- Templates/Template - Room 2x4 Base.xml" loadImmediate="false"/>
+          <Include href="- Templates/Template - Room 2x6 Base.xml" loadImmediate="false"/>
           <Include href="- Templates/Template - Room 4x4 Base.xml" loadImmediate="false"/>
+          <Include href="- Tile Sheets/Tile Sheet - Corridors.xml" loadImmediate="false"/>
           <Include href="- Tile Sheets/Tile Sheet - Large Rooms.xml" loadImmediate="false"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+                    <DOMLayer name="Corridors" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="- Tile Sheets/Tile Sheet - Corridors" name="" selected="true" centerPoint3DX="450" centerPoint3DY="300">
+                                             <transformationPoint>
+                                                  <Point x="450" y="300"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Large Rooms" color="#4FFF4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
