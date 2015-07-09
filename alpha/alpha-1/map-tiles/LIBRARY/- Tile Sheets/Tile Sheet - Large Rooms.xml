@@ -1,0 +1,80 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Tile Sheets/Tile Sheet - Large Rooms" itemID="559eea01-00000212" sourceLibraryItemHRef="Symbol 1" lastModified="1436477953" lastUniqueIdentifier="8">
+  <timeline>
+    <DOMTimeline name="Tile Sheet - Large Rooms">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 4x4 Base" name="" selected="true" centerPoint3DX="150" centerPoint3DY="300">
+                  <matrix>
+                    <Matrix tx="150" ty="300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 2x4 Base" name="" selected="true" centerPoint3DX="149.85" centerPoint3DY="524.85">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="150" ty="525"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 2x4 Base" name="" selected="true" centerPoint3DX="150" centerPoint3DY="74.8">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="150" ty="75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 4x4 Base" name="" selected="true" centerPoint3DX="450" centerPoint3DY="450">
+                  <matrix>
+                    <Matrix tx="450" ty="450"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 4x4 Base" name="" selected="true" centerPoint3DX="750" centerPoint3DY="300">
+                  <matrix>
+                    <Matrix tx="750" ty="300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 2x4 Base" name="" selected="true" centerPoint3DX="749.85" centerPoint3DY="524.85">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="750" ty="525"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 2x4 Base" name="" selected="true" centerPoint3DX="750" centerPoint3DY="74.8">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="750" ty="75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 4x4 Base" name="" selected="true" centerPoint3DX="450" centerPoint3DY="150">
+                  <matrix>
+                    <Matrix tx="450" ty="150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
