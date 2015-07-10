@@ -1,7 +1,8 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#CCCCCC" width="900" height="600" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 489" majorVersion="11" buildNumber="489" gridVisible="true" viewAngle3D="80.8511702896415" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#CCCCCC" width="900" height="600" frameRate="23" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 489" majorVersion="11" buildNumber="489" gridVisible="true" viewAngle3D="80.8511702896415" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="- Connections" itemID="559f1837-00000662" isExpanded="true"/>
           <DOMFolderItem name="- Room Symbols" itemID="559f058f-000004a3" isExpanded="true"/>
+          <DOMFolderItem name="- Rooms and Corridors" itemID="55a039d6-000002d1" isExpanded="true"/>
           <DOMFolderItem name="- Templates" itemID="559eea0e-00000216" isExpanded="true"/>
           <DOMFolderItem name="- Tile Sheets" itemID="559ee9fa-00000211" isExpanded="true"/>
      </folders>
@@ -20,6 +21,25 @@
           <Include href="- Room Symbols/Room Symbol - Landing Pod.xml" loadImmediate="false"/>
           <Include href="- Room Symbols/Room Symbol - Medi Bay.xml" loadImmediate="false"/>
           <Include href="- Room Symbols/Room Symbol - Pillar.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Corridor - C1 2x1.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Corridor - C2 2x1.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Corridor - C3 2x1.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Corridor - C4 2x1.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Corridor - C5 2x1.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Corridor - C6 2x1.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Corridor - C7 2x1.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Corridor - C8 2x1.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Corridor - C9 2x1.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Corridor - C10 2x1.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Corridor - C11 2x1.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Corridor - C12 2x1.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Corridor - C13 1x3.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Corridor - C14 1x3.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Room - Docking Pod 2x1.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Room - R1 Large 2x2.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Room - R2 Large 2x2.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Room - R3 Large 2x2.xml" loadImmediate="false"/>
+          <Include href="- Rooms and Corridors/Room - R4 Large 2x2.xml" loadImmediate="false"/>
           <Include href="- Templates/Template - 1x1 Tile.xml" loadImmediate="false"/>
           <Include href="- Templates/Template - 2x2 Tiles.xml" loadImmediate="false"/>
           <Include href="- Templates/Template - Half Bulkead.xml" loadImmediate="false"/>
@@ -32,11 +52,11 @@
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="Corridors" color="#9933CC" autoNamed="false" visible="false">
+                    <DOMLayer name="Corridors" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="- Tile Sheets/Tile Sheet - Corridors" name="" centerPoint3DX="450" centerPoint3DY="300">
+                                        <DOMSymbolInstance libraryItemName="- Tile Sheets/Tile Sheet - Corridors" name="" selected="true" centerPoint3DX="450" centerPoint3DY="300">
                                              <transformationPoint>
                                                   <Point x="450" y="300"/>
                                              </transformationPoint>
@@ -45,11 +65,11 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Large Rooms" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Large Rooms" color="#4FFF4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="- Tile Sheets/Tile Sheet - Large Rooms" name="" selected="true" centerPoint3DX="450" centerPoint3DY="300">
+                                        <DOMSymbolInstance libraryItemName="- Tile Sheets/Tile Sheet - Large Rooms" name="" centerPoint3DX="450" centerPoint3DY="300">
                                              <transformationPoint>
                                                   <Point x="450" y="300"/>
                                              </transformationPoint>
