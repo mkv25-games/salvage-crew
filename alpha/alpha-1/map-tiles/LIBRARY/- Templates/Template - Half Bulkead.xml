@@ -1,8 +1,24 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Templates/Template - Half Bulkead" itemID="559efd3c-00000342" sourceLibraryItemHRef="- Templates/Template - Bulkhead Base copy" lastModified="1436483144">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Templates/Template - Half Bulkead" itemID="559efd3c-00000342" sourceLibraryItemHRef="- Templates/Template - Bulkhead Base copy" lastModified="1436488596">
   <timeline>
     <DOMTimeline name="Template - Half Bulkead">
       <layers>
-        <DOMLayer name="Door" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Connection" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="- Connections/Connection - Port" name="" centerPoint3DX="75.1" centerPoint3DY="6">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Door" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

@@ -1,0 +1,28 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Connections/Connection - 1x1" itemID="559f1a25-00000694" sourceLibraryItemHRef="Symbol 1" lastModified="1436490277">
+  <timeline>
+    <DOMTimeline name="Connection - 1x1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#444444"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!-116 375[#FFFF76.B4 #17B.D6 -171 353!-171 353|-171 352.5!-171 352.5[#FFFE80.51 #B7.A3 -601 189!-601 189|-601 269!-601 269[#FFFE67.AD #10A.5C -221 415.5!-221 415.5[#FFFF64.CC #1D4.17 -105 459.5!-105 459.5[-47.953125 #1C8.2D -1.5 370.5
+!-1.5 370.5[#2D.05 #11C.D5 41 0!41 0|-38 0!-38 0[#FFFFDC.3E #FE.9C -66 314.5!-66 314.5[#FFFF9F.FD #176.83 -116 375"/>
+                    <Edge cubics="!-1 0(;14,474 -186,551 -601,230q-1 0Q22 711q-601 230);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

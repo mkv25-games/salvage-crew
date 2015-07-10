@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Connections/Connection - Port" itemID="559f1a20-00000693" sourceLibraryItemHRef="Symbol 1" lastModified="1436490272">
+  <timeline>
+    <DOMTimeline name="Connection - Port">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="12" objectHeight="6" x="65.25" y="0" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" ty="-71.25"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#333333"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="8" objectHeight="4" x="65.25" y="0" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" ty="-69.25"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="4" objectHeight="9" x="65.25" y="0" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="-6" ty="-67.25"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#333333"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
