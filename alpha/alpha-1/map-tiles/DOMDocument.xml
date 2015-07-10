@@ -36,7 +36,7 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="- Tile Sheets/Tile Sheet - Corridors" name="" selected="true" centerPoint3DX="450" centerPoint3DY="300">
+                                        <DOMSymbolInstance libraryItemName="- Tile Sheets/Tile Sheet - Corridors" name="" centerPoint3DX="450" centerPoint3DY="300">
                                              <transformationPoint>
                                                   <Point x="450" y="300"/>
                                              </transformationPoint>

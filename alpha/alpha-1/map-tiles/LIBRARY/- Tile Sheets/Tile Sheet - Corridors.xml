@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Tile Sheets/Tile Sheet - Corridors" itemID="559eec55-00000234" sourceLibraryItemHRef="Symbol 1" lastModified="1436492063" lastUniqueIdentifier="216">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Tile Sheets/Tile Sheet - Corridors" itemID="559eec55-00000234" sourceLibraryItemHRef="Symbol 1" lastModified="1436493204" lastUniqueIdentifier="216">
   <timeline>
     <DOMTimeline name="Tile Sheet - Corridors">
       <layers>
-        <DOMLayer name="Bulkheads" color="#9933CC" autoNamed="false">
+        <DOMLayer name="Bulkheads" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -834,7 +834,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Room Symbols" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Room Symbols" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -1031,7 +1031,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Rooms" color="#4FFF4F" locked="true" autoNamed="false">
+        <DOMLayer name="Rooms" color="#4FFF4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -1059,7 +1059,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 2x4 Base" name="" selected="true" centerPoint3DX="150" centerPoint3DY="74.8">
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 2x4 Base" name="" centerPoint3DX="150" centerPoint3DY="74.8">
                   <matrix>
                     <Matrix a="0" b="-1" c="1" d="0" tx="150" ty="75"/>
                   </matrix>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Tile Sheets/Tile Sheet - Large Rooms" itemID="559eea01-00000212" sourceLibraryItemHRef="Symbol 1" lastModified="1436492624" lastUniqueIdentifier="156">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Tile Sheets/Tile Sheet - Large Rooms" itemID="559eea01-00000212" sourceLibraryItemHRef="Symbol 1" lastModified="1436562975" lastUniqueIdentifier="156">
   <timeline>
     <DOMTimeline name="Tile Sheet - Large Rooms">
       <layers>
@@ -271,7 +271,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Connections" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Connections" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -300,15 +300,15 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="3" edges="!16989 1500|16500 1500!16500 1500|17020 2020!17020 2020|17020 3980!17020 3980|16500 4500!16500 4500|17009 4490!16479 980|16500 1500!16500 1500|16500 1980!15989 4480|16500 4500!16500 4500|16500 4040!16540 4875|16500 4500!16009 1500|16500
+                    <Edge strokeStyle="3" edges="!16989 1500|16500 1500!16500 1500|17020 2020!17020 2020|17020 3980!17020 3980|16500 4500!16500 4500|16969 4500!16500 925|16500 1500!16500 1500|16500 1980!16009 4500|16500 4500!16500 4500|16500 4040!16500 4995|16500 4500!16009 1500|16500
  1500"/>
                     <Edge strokeStyle="1" edges="
-!13999 9379|17019 9379!13999 8620|17019 8620"/>
+!13999 8620|17019 8620!13999 9379|17019 9379"/>
                     <Edge strokeStyle="3" edges="
-!9989 1490|10500 1500!10500 1500|10499 1000!10529 1950|10500 1500!10500 1500|9969 2031!9969 2031|8031 2031!8031 2031|7500 1500!7500 1500|7479 1950!10999 1500|10500 1500!7949 1490|7500 1500!7499 1020|7500 1500!7029 1470|7500 1500!7509
- 4030|7500 4500!7500 4500|7959 4500!10479 4990|10500 4500!10500 4500|9969 5031!9969 5031|8031 5031!8031 5031|7500 4500!7500 4500|7509 5020!7019 4490|7500 4500!10500 4500|10039 4500!10500 4500|10500 4060!10969 4500|10500 4500!4500 1500
-|4262.5 1737.5!4262.5 1737.5|4500 1960!4030 1520|4262.5 1737.5!1500 1125|1500 1500!1500 1500|1730 1730!1730 1730|1960 1500!1730 1730|1920 1920!1920 1920|2750 2750!2750 2750|3000 3000!3000 3000|3220 2780!3220 2780|2990 2530!980 1500|1500
- 1500!4030 4470|4252.5 4252.5!4252.5 4252.5|3215 3215!3215 3215|3000 3480!3000 3000|3215 3215!3215 3215|3480 2980!2540 2970|2750 2750!1520 1920|1920 1920!4252.5 4252.5|4490 4020!4252.5 4252.5|4500 4500!3220 2780|4262.5 1737.5"/>
+!10069 1500|10500 1500!10500 1500|10499 1000!10500 1970|10500 1500!10500 1500|9969 2031!9969 2031|8031 2031!8031 2031|7500 1500!7500 1500|7500 1970!10999 1500|10500 1500!7949 1500|7500 1500!7499 1020|7500 1500!6969 1500|7500 1500!7500
+ 3990|7500 4500!7500 4500|7959 4500!7019 4490|7500 4500!10500 4970|10500 4500!10500 4500|9969 5031!9969 5031|8031 5031!8031 5031|7500 4500!7500 4500|7500 5000!10039 4500|10500 4500!10500 4500|10500 4060!10969 4500|10500 4500!4500 1500
+|4262.5 1737.5!4262.5 1737.5|4500 1960!4030 1520|4262.5 1737.5!1960 1500|1730 1730!1730 1730|1920 1920!1920 1920|2750 2750!2750 2750|3000 3000!3000 3000|3220 2780!3220 2780|2990 2530!980 1500|1500 1500!1500 1500|1500 1125!3000 3000|3215
+ 3215!3215 3215|3480 2980!4030 4470|4252.5 4252.5!4252.5 4252.5|3215 3215!3215 3215|3000 3480!2540 2970|2750 2750!1520 1920|1920 1920!1500 1500|1730 1730!4490 4020|4252.5 4252.5!4252.5 4252.5|4500 4500!3220 2780|4262.5 1737.5"/>
                     <Edge strokeStyle="2" edges="
 !981 9369[#8A6.2E #24FE.33 3228 8598!3228 8598[#113C.E8 #1D9A.7 5700 7500"/>
                   </edges>
@@ -669,18 +669,10 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Room Symbols" color="#FF800A" autoNamed="false">
+        <DOMLayer name="Room Symbols" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="- Room Symbols/Room Symbol - Event" name="" centerPoint3DX="675" centerPoint3DY="150">
-                  <matrix>
-                    <Matrix tx="600" ty="75"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="75" y="75"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="- Room Symbols/Room Symbol - Crate" name="" centerPoint3DX="74.8" centerPoint3DY="525">
                   <matrix>
                     <Matrix ty="450"/>
@@ -889,30 +881,6 @@
                 <DOMSymbolInstance libraryItemName="- Room Symbols/Room Symbol - Console" name="" centerPoint3DX="450.3" centerPoint3DY="75.2">
                   <matrix>
                     <Matrix tx="375"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="75" y="75"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="- Room Symbols/Room Symbol - Event" name="" centerPoint3DX="225" centerPoint3DY="150">
-                  <matrix>
-                    <Matrix tx="150" ty="75"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="75" y="75"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="- Room Symbols/Room Symbol - Event" name="" centerPoint3DX="75" centerPoint3DY="410">
-                  <matrix>
-                    <Matrix ty="335"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="75" y="75"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="- Room Symbols/Room Symbol - Event" name="" centerPoint3DX="750" centerPoint3DY="450">
-                  <matrix>
-                    <Matrix tx="675" ty="375"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="75" y="75"/>
