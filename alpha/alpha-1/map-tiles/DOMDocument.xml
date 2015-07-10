@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#CCCCCC" width="900" height="600" frameRate="23" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 489" majorVersion="11" buildNumber="489" gridVisible="true" viewAngle3D="80.8511702896415" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#CCCCCC" width="900" height="600" frameRate="23" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 489" majorVersion="11" buildNumber="489" gridVisible="true" viewAngle3D="80.8511702896415" vanishingPoint3DX="450" vanishingPoint3DY="300" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="- Connections" itemID="559f1837-00000662"/>
           <DOMFolderItem name="- Maps" itemID="55a03d4a-000005c4" isExpanded="true"/>
@@ -16,6 +16,7 @@
           <Include href="- Connections/Connection - Dead Point.xml" loadImmediate="false"/>
           <Include href="- Connections/Connection - Port.xml" loadImmediate="false"/>
           <Include href="- Maps/Map - M01 - Asteroid Base.xml" loadImmediate="false"/>
+          <Include href="- Maps/Map - M02 - Pirate Wreck.xml" loadImmediate="false"/>
           <Include href="- Room Symbols/Room Symbol - Console.xml" loadImmediate="false"/>
           <Include href="- Room Symbols/Room Symbol - Crate.xml" loadImmediate="false"/>
           <Include href="- Room Symbols/Room Symbol - Crate Corridor.xml" loadImmediate="false"/>

@@ -1,0 +1,189 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Maps/Map - M02 - Pirate Wreck" itemID="55a0450e-00000672" sourceLibraryItemHRef="Symbol 1" lastModified="1436567990" lastUniqueIdentifier="9">
+  <timeline>
+    <DOMTimeline name="Map - M02 - Pirate Wreck">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C5 2x1" name="" centerPoint3DX="150" centerPoint3DY="375">
+                  <matrix>
+                    <Matrix ty="300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C6 2x1" name="" centerPoint3DX="-300" centerPoint3DY="-375">
+                  <matrix>
+                    <Matrix tx="-450" ty="-450"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C7 2x1" name="" centerPoint3DX="600" centerPoint3DY="-75">
+                  <matrix>
+                    <Matrix tx="450" ty="-150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C9 2x1" name="" centerPoint3DX="300" centerPoint3DY="-75">
+                  <matrix>
+                    <Matrix a="-1" d="-1" tx="450"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C10 2x1" name="" centerPoint3DY="-375">
+                  <matrix>
+                    <Matrix tx="-150" ty="-450"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C11 2x1" name="" centerPoint3DX="-525.15" centerPoint3DY="0.1">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="-450" ty="-150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C12 2x1" name="" centerPoint3DX="-450" centerPoint3DY="525">
+                  <matrix>
+                    <Matrix tx="-600" ty="450"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C13 1x3" name="" centerPoint3DX="375" centerPoint3DY="225.35">
+                  <matrix>
+                    <Matrix a="-1" d="-1" tx="450" ty="450"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="225"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C14 1x3" name="" centerPoint3DX="-75" centerPoint3DY="225">
+                  <matrix>
+                    <Matrix tx="-150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="225"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Room - R1 Large 2x2" name="" centerPoint3DX="1051.15" centerPoint3DY="152.2">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="1200"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="150"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Room - R2 Large 2x2" name="" centerPoint3DX="450.05" centerPoint3DY="600.6">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="300" ty="750"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="150"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C2 2x1" name="" centerPoint3DX="750" centerPoint3DY="525">
+                  <matrix>
+                    <Matrix tx="600" ty="450"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C3 2x1" name="" centerPoint3DX="-524.8" centerPoint3DY="300">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="-450" ty="150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C4 2x1" name="" centerPoint3DX="-300" centerPoint3DY="75">
+                  <matrix>
+                    <Matrix tx="-450"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Room - R3 Large 2x2" name="" centerPoint3DX="300.05" centerPoint3DY="-299.9">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="150" ty="-150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="150"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Room - R4 Large 2x2" name="" centerPoint3DY="-150.05">
+                  <matrix>
+                    <Matrix a="-1" d="-1" tx="150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="150"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Room - Docking Pod 2x1" name="" centerPoint3DX="150" centerPoint3DY="75">
+                  <transformationPoint>
+                    <Point x="150" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C13 1x3" name="" centerPoint3DX="676" centerPoint3DY="224.65">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="900" ty="150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="225"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Room - R1 Large 2x2" name="" centerPoint3DX="-599.6" centerPoint3DY="-300.2">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="-450" ty="-450"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="150"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Room - R4 Large 2x2" name="" centerPoint3DX="-152.35" centerPoint3DY="597.45">
+                  <matrix>
+                    <Matrix tx="-300" ty="450"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="150"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C9 2x1" name="" centerPoint3DX="974.95" centerPoint3DY="450.1">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="1050" ty="300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Rooms and Corridors/Corridor - C10 2x1" name="" centerPoint3DX="825.25" centerPoint3DY="-1">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="900" ty="-150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
