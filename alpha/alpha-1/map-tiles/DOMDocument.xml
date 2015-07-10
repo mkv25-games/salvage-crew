@@ -1,9 +1,10 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#CCCCCC" width="900" height="600" frameRate="23" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 489" majorVersion="11" buildNumber="489" gridVisible="true" viewAngle3D="80.8511702896415" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
-          <DOMFolderItem name="- Connections" itemID="559f1837-00000662" isExpanded="true"/>
-          <DOMFolderItem name="- Room Symbols" itemID="559f058f-000004a3" isExpanded="true"/>
-          <DOMFolderItem name="- Rooms and Corridors" itemID="55a039d6-000002d1" isExpanded="true"/>
-          <DOMFolderItem name="- Templates" itemID="559eea0e-00000216" isExpanded="true"/>
+          <DOMFolderItem name="- Connections" itemID="559f1837-00000662"/>
+          <DOMFolderItem name="- Maps" itemID="55a03d4a-000005c4" isExpanded="true"/>
+          <DOMFolderItem name="- Room Symbols" itemID="559f058f-000004a3"/>
+          <DOMFolderItem name="- Rooms and Corridors" itemID="55a039d6-000002d1"/>
+          <DOMFolderItem name="- Templates" itemID="559eea0e-00000216"/>
           <DOMFolderItem name="- Tile Sheets" itemID="559ee9fa-00000211" isExpanded="true"/>
      </folders>
      <symbols>
@@ -14,6 +15,7 @@
           <Include href="- Connections/Connection - 2x1 Corner.xml" loadImmediate="false"/>
           <Include href="- Connections/Connection - Dead Point.xml" loadImmediate="false"/>
           <Include href="- Connections/Connection - Port.xml" loadImmediate="false"/>
+          <Include href="- Maps/Map - M01 - Asteroid Base.xml" loadImmediate="false"/>
           <Include href="- Room Symbols/Room Symbol - Console.xml" loadImmediate="false"/>
           <Include href="- Room Symbols/Room Symbol - Crate.xml" loadImmediate="false"/>
           <Include href="- Room Symbols/Room Symbol - Crate Corridor.xml" loadImmediate="false"/>
@@ -56,7 +58,7 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="- Tile Sheets/Tile Sheet - Corridors" name="" selected="true" centerPoint3DX="450" centerPoint3DY="300">
+                                        <DOMSymbolInstance libraryItemName="- Tile Sheets/Tile Sheet - Corridors" name="" centerPoint3DX="450" centerPoint3DY="300">
                                              <transformationPoint>
                                                   <Point x="450" y="300"/>
                                              </transformationPoint>
