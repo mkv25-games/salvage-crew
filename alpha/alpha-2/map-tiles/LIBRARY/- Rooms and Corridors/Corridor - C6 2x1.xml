@@ -1,0 +1,138 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Rooms and Corridors/Corridor - C6 2x1" itemID="55a03cab-000004d7" sourceLibraryItemHRef="- Tile Sheets/Corridor - C5 copy" lastModified="1447094392" lastUniqueIdentifier="218">
+  <timeline>
+    <DOMTimeline name="Corridor - C6 2x1">
+      <layers>
+        <DOMLayer name="Label" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="61" height="21.95" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="12" ty="114.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>C06-2x1</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="18" bitmapSize="360" face="Impact" fillColor="#A7B7AC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Bulkheads" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="292.55" centerPoint3DY="74.65">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="7.3" centerPoint3DY="75.45">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" ty="150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Connections/Connection - Dead Point" name="" centerPoint3DX="15" centerPoint3DY="75">
+                  <matrix>
+                    <Matrix tx="15" ty="75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="224.65" centerPoint3DY="7.45">
+                  <matrix>
+                    <Matrix tx="150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="75.7" centerPoint3DY="142.6">
+                  <matrix>
+                    <Matrix a="-1" d="-1" tx="150" ty="150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Connections" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="- Connections/Connection - 2x1" name="" centerPoint3DX="243.75" centerPoint3DY="47">
+                  <matrix>
+                    <Matrix tx="195" ty="19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="97.5" y="56"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Connections/Connection - Dead Point" name="" centerPoint3DX="105" centerPoint3DY="19">
+                  <matrix>
+                    <Matrix tx="105" ty="19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Room Symbols" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="- Room Symbols/Room Symbol - Console" name="" centerPoint3DX="75.3" centerPoint3DY="75.2">
+                  <transformationPoint>
+                    <Point x="75" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Room Symbols/Room Symbol - Pillar" name="" centerPoint3DX="225" centerPoint3DY="75">
+                  <matrix>
+                    <Matrix tx="150"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Rooms" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Room 2x4 Base" name="" centerPoint3DX="150" centerPoint3DY="74.8">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="150" ty="75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

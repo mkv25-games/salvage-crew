@@ -1,0 +1,231 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Room Symbols/Room Symbol - Console" itemID="559f0ec2-0000059b" sourceLibraryItemHRef="- Room Symbols/Room Symbol - Landing Pod copy" lastModified="1447091436" lastUniqueIdentifier="16">
+  <timeline>
+    <DOMTimeline name="Room Symbol - Console">
+      <layers>
+        <DOMLayer name="Tiles" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="118" objectHeight="59" x="44.95" y="19" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0.440826416015625" d="0.440826416015625" tx="29.2" ty="1.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="104.25" y="48.5"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="192.35" objectHeight="64.15" x="44.95" y="19" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0.228790283203125" d="0.389556884765625" tx="42.7" ty="-3.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="141.15" y="51.1"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#999999"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="228.1" objectHeight="87" x="44.95" y="19" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0.1756591796875" d="0.160964965820313" tx="47.1" ty="9.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="160.25" y="62.45"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="21.85" objectHeight="12.85" x="44.95" y="19" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0.228790283203125" d="0.389556884765625" tx="42.7" ty="22.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="55.95" y="25.55"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#999999"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="26.2" objectHeight="12.85" x="44.95" y="19" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0.228790283203125" d="0.389556884765625" tx="48.7" ty="22.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="58.15" y="25.55"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#999999"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="21.85" objectHeight="12.85" x="44.95" y="19" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0.228790283203125" d="0.389556884765625" tx="55.7" ty="22.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="55.95" y="25.55"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#999999"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="26.2" objectHeight="12.85" x="44.95" y="19" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0.228790283203125" d="0.389556884765625" tx="61.7" ty="22.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="58.1" y="25.55"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#999999"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="21.85" objectHeight="12.85" x="44.95" y="19" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0.228790283203125" d="0.389556884765625" tx="68.7" ty="22.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="55.9" y="25.55"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#999999"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="26.2" objectHeight="12.85" x="44.95" y="19" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0.228790283203125" d="0.389556884765625" tx="74.7" ty="22.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="58.15" y="25.55"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#999999"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="21.85" objectHeight="12.85" x="44.95" y="19" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0.228790283203125" d="0.389556884765625" tx="81.7" ty="22.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="55.95" y="25.55"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#999999"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMStaticText width="17" height="31.7" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0.156112670898438" d="0.156112670898438" tx="56.05" ty="13.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.9" y="18.6"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>&gt;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="28" bitmapSize="560" face="CourierNewPSMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Connectors" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="- Connections/Connection - Port" name="" centerPoint3DX="111.35" centerPoint3DY="18.75">
+                  <matrix>
+                    <Matrix a="-1" d="-1" tx="105" ty="19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Connections/Connection - Port" name="" centerPoint3DX="39.05" centerPoint3DY="18.95">
+                  <matrix>
+                    <Matrix tx="45" ty="19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Connections/Connection - Port" name="" centerPoint3DX="98.6" centerPoint3DY="19.2">
+                  <matrix>
+                    <Matrix tx="105" ty="19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Connections/Connection - Port" name="" centerPoint3DX="51.35" centerPoint3DY="18.75">
+                  <matrix>
+                    <Matrix a="-1" d="-1" tx="45" ty="19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Base" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="59" objectHeight="66.6" x="44.95" y="19" lockFlag="true">
+                  <matrix>
+                    <Matrix a="1.52532958984375" d="0.389556884765625" tx="-38.55" ty="-5.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="74.5" y="52.5"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#6B839A"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="36.7" objectHeight="59" x="44.95" y="19" lockFlag="true">
+                  <matrix>
+                    <Matrix a="1.52532958984375" d="0.389556884765625" tx="-21.55" ty="7.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="63.4" y="48.55"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#807F7F"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box" color="#9933CC" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="150" objectHeight="150" x="0" y="0" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0.600006103515625" d="0.253326416015625" tx="30"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="75"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor alpha="0.00784313725490196"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

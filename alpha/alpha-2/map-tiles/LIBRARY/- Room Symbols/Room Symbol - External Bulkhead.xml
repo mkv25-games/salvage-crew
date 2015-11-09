@@ -1,0 +1,38 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Room Symbols/Room Symbol - External Bulkhead" itemID="5640fb72-0000053a" sourceLibraryItemHRef="Symbol 1" lastModified="1447099463" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="Room Symbol - External Bulkhead">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DY="7.5">
+                  <matrix>
+                    <Matrix tx="-75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.7" tintColor="#990000"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="- Templates/Template - Half Bulkead" name="" centerPoint3DX="-0.05" centerPoint3DY="-7.45">
+                  <matrix>
+                    <Matrix a="-1" d="-1" tx="75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75" y="7.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.7" tintColor="#990000"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

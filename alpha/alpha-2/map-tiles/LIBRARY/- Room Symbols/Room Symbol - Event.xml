@@ -1,0 +1,69 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="- Room Symbols/Room Symbol - Event" itemID="559f21c6-000007df" sourceLibraryItemHRef="Symbol 1" lastModified="1436492240" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="Room Symbol - Event">
+      <layers>
+        <DOMLayer name="Tiles" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText left="1.85" width="15.1" height="43.9" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="65.6" ty="53.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>E</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="36" bitmapSize="720" face="Impact" fillColor="#990000"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix ty="10"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix ty="10"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF" alpha="0.988235294117647"/>
+                        </FillStyle>
+                        <FillStyle index="2">
+                          <SolidColor color="#CC0033" alpha="0.988235294117647"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!848 1300|1500 648!1500 648|2152 1300!2152 1300|1500 1952!1500 1952|848 1300"/>
+                        <Edge fillStyle0="2" fillStyle1="1" edges="!1500 606|2194 1300!2194 1300|1500 1994!1500 1994|806 1300!806 1300|1500 606"/>
+                        <Edge fillStyle0="1" fillStyle1="2" edges="!1500 564|2236 1300!2236 1300|1500 2036!1500 2036|764 1300!764 1300|1500 564"/>
+                        <Edge fillStyle0="2" fillStyle1="1" edges="!1500 522|2278 1300!2278 1300|1500 2078!1500 2078|722 1300!722 1300|1500 522"/>
+                        <Edge fillStyle1="2" edges="!1500 480|2320 1300!2320 1300|1500 2120!1500 2120|680 1300!680 1300|1500 480"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box" color="#9933CC" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="150" objectHeight="150" x="0" y="0" lockFlag="true">
+                  <fill>
+                    <SolidColor alpha="0.00784313725490196"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
