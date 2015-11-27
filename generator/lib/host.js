@@ -10,6 +10,8 @@ function host(options) {
         res.send('Hello World!');
     });
 
+    app.use('/templates', express.static(process.cwd() + '/templates'));
+
     return new Promise(function(accept, reject) {
         var server = app.listen(port, function(err) {
             if (err) {

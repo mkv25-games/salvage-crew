@@ -4,7 +4,7 @@ function render(sourceUrl, file, options) {
     return new Promise(function(accept, reject) {
         console.log(`Rendering ${sourceUrl} to ${file}`);
 
-        webshot(sourceUrl, file, function(err) {
+        webshot(sourceUrl, file, options, function(err) {
             if (err) {
                 reject(err);
             } else {
