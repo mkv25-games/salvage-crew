@@ -46,7 +46,7 @@
         "movement": 3,
         "attack": 1,
         "resistance": 0,
-        "tag1": "weevil",
-        "tag2": "critter"
+        "primaryTag": "critter",
+        "secondaryTag": "weevil"
     }
 }]
