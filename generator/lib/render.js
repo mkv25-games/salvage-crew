@@ -15,11 +15,13 @@ function render(file, templateUrl, template, data) {
             },
             customHeaders: {
                 'x-template-data': JSON.stringify(data)
-            }
+            },
+            errorIfStatusIsNot200: true
         };
 
         webshot(templateUrl, file, webshotOptions, function(err) {
             if (err) {
+                console.log('Webshot Error', err)
                 reject(err);
             } else {
                 accept({

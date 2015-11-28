@@ -28,4 +28,25 @@
         "title": "Double Contact",
         "instructions": "As you approach the location of the blip, it splits in two.\n\nDraw two monster cards and add both. Ignore the result of any further contact cards."
     }
+}, {
+    "asset": {
+        "path": "images/cards/contact/mini-weevil.png"
+    },
+    "template": {
+        "path": "/cards/creature-contact",
+        "size": {
+            "width": 320,
+            "height": 480
+        }
+    },
+    "data": {
+        "title": "Mini Weevil",
+        "instructions": "Priority [1]: Move towards nearest player, and then melee attack the nearest target",
+        "health": 1,
+        "movement": 3,
+        "attack": 1,
+        "resistance": 0,
+        "tag1": "weevil",
+        "tag2": "critter"
+    }
 }]

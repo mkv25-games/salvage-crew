@@ -8,21 +8,33 @@ function host(options) {
 
     var port = options.port || 12020;
 
-    app.get('/cards/event-contact', function(req, res) {
-        console.log('Original URL', req.originalUrl);
-        var templatePath = 'templates/' + req.originalUrl + '/index.hbs';
-        read(templatePath).then(function(templateString) {
-            var template = handlebars.compile(templateString.toString());
-            var params = JSON.parse(req.headers['x-template-data']);
-            var body = template(params);
-            res.send(body)
-            console.log('Rendered body', body);
-        }).catch(function(ex) {
-            console.error(ex);
-        });
+    app.use('/templates', express.static(process.cwd() + '/templates'));
+
+    app.get('/*', function(req, res) {
+        var templatePath = 'templates' + req.originalUrl + '/index.hbs';
+        var templateData = extractDataFrom(req);
+
+        read(templatePath)
+            .then(stringify)
+            .then(handlebars.compile)
+            .then(function(template) {
+                var body = template(templateData);
+                res.send(body);
+                console.log('Served', templatePath, 'with data', templateData);
+            }).catch(function(ex) {
+                console.error('Template unavailable', templatePath, ex);
+                res.status(500).send('Template unavailable: ' + templatePath);
+            });
     });
 
-    app.use('/templates', express.static(process.cwd() + '/templates'));
+    function stringify(value) {
+        return value.toString();
+    }
+
+    function extractDataFrom(request) {
+        var stringData = request.headers['x-template-data'];
+        return (stringData) ? JSON.parse(stringData) : {};
+    }
 
     return new Promise(function(accept, reject) {
         var server = app.listen(port, function(err) {
