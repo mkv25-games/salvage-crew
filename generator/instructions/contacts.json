@@ -1,9 +1,8 @@
 [{
-    "asset": {
-        "path": "images/cards/contact/false-contact.png"
-    },
-    "template": {
-        "path": "/cards/event-contact",
+    "asset": "images/cards/contact/false-contact.png",
+    "template": "/cards/event-contact",
+    "renderer": {
+        "type": "webshot",
         "size": {
             "width": 320,
             "height": 480
@@ -14,11 +13,10 @@
         "instructions": "As you approach the location of the blip, your scanner stops making noise. Must have been a false positive."
     }
 }, {
-    "asset": {
-        "path": "images/cards/contact/double-contact.png"
-    },
-    "template": {
-        "path": "/cards/event-contact",
+    "asset": "images/cards/contact/double-contact.png",
+    "template": "/cards/event-contact",
+    "renderer": {
+        "type": "webshot",
         "size": {
             "width": 320,
             "height": 480
@@ -29,11 +27,10 @@
         "instructions": "As you approach the location of the blip, it splits in two.\n\nDraw two monster cards and add both. Ignore the result of any further contact cards."
     }
 }, {
-    "asset": {
-        "path": "images/cards/contact/mini-weevil.png"
-    },
-    "template": {
-        "path": "/cards/creature-contact",
+    "asset": "images/cards/contact/mini-weevil.png",
+    "template": "/cards/creature-contact",
+    "renderer": {
+        "type": "webshot",
         "size": {
             "width": 320,
             "height": 480

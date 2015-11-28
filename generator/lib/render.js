@@ -1,40 +1,17 @@
-var webshot = require('webshot');
+var renderers = {
+    webshot: require('./renderer/webshot')
+};
 
 function render(instruction) {
-    return new Promise(function(accept, reject) {
+    var render = renderers[instruction.renderer.type];
 
-        var file = 'build/' + instruction.asset.path;
-        var serverUrl = global.renderServerUrl;
-        var templateUrl = serverUrl + instruction.template.path;
-        var template = instruction.template;
-        var data = instruction.data;
+    if (render) {
+        return render(instruction);
+    }
 
-        console.log(`Rendering ${templateUrl} to ${file}`);
-
-        var webshotOptions = {
-            screenSize: {
-                width: template.size.width || 320,
-                height: template.size.height || 480
-            },
-            shotSize: {
-                width: template.size.width || 320,
-                height: template.size.height || 480
-            },
-            customHeaders: {
-                'x-template-data': JSON.stringify(data)
-            },
-            errorIfStatusIsNot200: true,
-            renderDelay: 100
-        };
-
-        webshot(templateUrl, file, webshotOptions, function(err) {
-            if (err) {
-                console.log('Webshot Error', err)
-                reject(err);
-            } else {
-                accept(instruction);
-            }
-        });
+    return Promise.reject({
+        error: 'No renderer found',
+        instruction: instruction
     });
 }
 
