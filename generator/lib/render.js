@@ -23,7 +23,8 @@ function render(instruction) {
             customHeaders: {
                 'x-template-data': JSON.stringify(data)
             },
-            errorIfStatusIsNot200: true
+            errorIfStatusIsNot200: true,
+            renderDelay: 100
         };
 
         webshot(templateUrl, file, webshotOptions, function(err) {
