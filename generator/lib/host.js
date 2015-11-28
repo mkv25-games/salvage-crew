@@ -46,6 +46,7 @@ function host(options) {
 
                 var serverUrl = `http://localhost:${port}`;
                 console.log(`Hosted app listening at ${serverUrl}`);
+                global.renderServerUrl = serverUrl;
                 accept(serverUrl);
             }
         });

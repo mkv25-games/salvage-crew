@@ -1,7 +1,14 @@
 var webshot = require('webshot');
 
-function render(file, templateUrl, template, data) {
+function render(instruction) {
     return new Promise(function(accept, reject) {
+
+        var file = 'build/' + instruction.asset.path;
+        var serverUrl = global.renderServerUrl;
+        var templateUrl = serverUrl + instruction.template.path;
+        var template = instruction.template;
+        var data = instruction.data;
+
         console.log(`Rendering ${templateUrl} to ${file}`);
 
         var webshotOptions = {
@@ -24,10 +31,7 @@ function render(file, templateUrl, template, data) {
                 console.log('Webshot Error', err)
                 reject(err);
             } else {
-                accept({
-                    file: file,
-                    templateUrl: templateUrl
-                });
+                accept(instruction);
             }
         });
     });

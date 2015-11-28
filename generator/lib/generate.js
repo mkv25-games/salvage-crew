@@ -1,27 +1,36 @@
-var render = require('./render')
+var find = require('./find');
+var render = require('./render');
 
-function generate(serverUrl) {
-    var workList = {};
+function generate() {
+    var instructionsPath = __dirname + '/../instructions/*.json'
+    find(instructionsPath)
+        .then(loadFiles)
+        .catch(function(ex) {
+            console.error('An exception occurred', ex);
+        });
+}
 
-    var instructions = require(__dirname + '/../instructions/contacts.json');
-
-    var promises = [];
-    instructions.forEach(function(instruction) {
-        var future = renderInstruction(workList, instruction, serverUrl);
-        promises.push(future)
+function loadFiles(files) {
+    var promises = files.map(function(file) {
+        return loadInstructions(file);
     });
+
     return Promise.all(promises);
 }
 
-function renderInstruction(workList, instruction, serverUrl) {
+function loadInstructions(file) {
+    var instructions = require(file);
 
-    var assetPath = 'build/' + instruction.asset.path;
-    var templateUrl = serverUrl + instruction.template.path;
+    var promises = instructions.map(function(instruction) {
+        return renderInstruction(instruction);
+    });
 
-    return render(assetPath, templateUrl, instruction.template, instruction.data).then(function(result) {
-        workList[result.file] = result.templateUrl;
-    }).then(function() {
-        return Promise.accept(workList);
+    return Promise.all(promises);
+}
+
+function renderInstruction(instruction) {
+    return render(instruction).then(function(result) {
+        return instruction;
     });
 }
 
