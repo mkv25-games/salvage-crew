@@ -2,21 +2,20 @@ var clean = require('./lib/clean');
 var host = require('./lib/host');
 var generate = require('./lib/generate');
 
-// Clean up
-
-// Start server
-
-// Generate screenshot
-
-
-// Start
 clean()
     .then(host)
-    .then(generate).then(function() {
-        console.log('Completed work OK');
-        //process.exit(0);
-    }).catch(function(ex) {
-        console.log(ex);
-        console.log('Failed to complete work');
-        //process.exit(1);
-    });
+    .then(generate)
+    .then(reportSuccess)
+    .catch(reportFailiure);
+
+function reportSuccess() {
+    console.log('Completed work OK');
+    //process.exit(0);
+}
+
+function reportFailiure(ex) {
+    console.log(ex);
+    console.log('Stacktrace', ex.stack);
+    console.log('Failed to complete work');
+    //process.exit(1);
+}

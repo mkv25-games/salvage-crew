@@ -1,6 +1,6 @@
 var webshot = require('webshot');
 
-function render(instruction) {
+function render(instruction, dataUrl) {
 
     return new Promise(function(accept, reject) {
 
@@ -10,7 +10,7 @@ function render(instruction) {
         var renderer = instruction.renderer;
         var data = instruction.data;
 
-        console.log(`Rendering ${templateUrl} to ${file}`);
+        console.log(`Rendering ${templateUrl} to ${file} using ${dataUrl}`);
 
         var webshotOptions = {
             screenSize: {
@@ -22,7 +22,7 @@ function render(instruction) {
                 height: renderer.size.height || 480
             },
             customHeaders: {
-                'x-template-data': JSON.stringify(data)
+                'x-template-data-url': dataUrl
             },
             errorIfStatusIsNot200: true,
             renderDelay: 100
