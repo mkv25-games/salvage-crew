@@ -1,36 +1,27 @@
 var render = require('./render')
 
 function generate(serverUrl) {
-    var work = {};
+    var workList = {};
 
-    var templateName = 'helloworld';
-    var template = {
-        name: templateName,
-        path: '/templates/helloworld/index.html',
-        size: {
-            width: 320,
-            height: 480
-        }
-    }
-    var file = 'build/' + template.name + '.png';
-    var sourceUrl = serverUrl + template.path;
+    var instructions = require(__dirname + '/../instructions/contacts.json');
 
+    var promises = [];
+    instructions.forEach(function(instruction) {
+        var future = renderInstruction(workList, instruction, serverUrl);
+        promises.push(future)
+    });
+    return Promise.all(promises);
+}
 
-    var options = {
-        screenSize: {
-            width: template.size.width || 320,
-            height: template.size.height || 480
-        },
-        shotSize: {
-            width: template.size.width || 320,
-            height: template.size.height || 480
-        }
-    };
+function renderInstruction(workList, instruction, serverUrl) {
 
-    return render(sourceUrl, file, options).then(function(result) {
-        work[result.file] = result.sourceUrl;
+    var assetPath = 'build/' + instruction.asset.path;
+    var templateUrl = serverUrl + instruction.template.path;
+
+    return render(assetPath, templateUrl, instruction.template, instruction.data).then(function(result) {
+        workList[result.file] = result.templateUrl;
     }).then(function() {
-        return Promise.accept(work);
+        return Promise.accept(workList);
     });
 }
 

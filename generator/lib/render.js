@@ -1,16 +1,30 @@
 var webshot = require('webshot');
 
-function render(sourceUrl, file, options) {
+function render(file, templateUrl, template, data) {
     return new Promise(function(accept, reject) {
-        console.log(`Rendering ${sourceUrl} to ${file}`);
+        console.log(`Rendering ${templateUrl} to ${file}`);
 
-        webshot(sourceUrl, file, options, function(err) {
+        var webshotOptions = {
+            screenSize: {
+                width: template.size.width || 320,
+                height: template.size.height || 480
+            },
+            shotSize: {
+                width: template.size.width || 320,
+                height: template.size.height || 480
+            },
+            customHeaders: {
+                'x-template-data': JSON.stringify(data)
+            }
+        };
+
+        webshot(templateUrl, file, webshotOptions, function(err) {
             if (err) {
                 reject(err);
             } else {
                 accept({
                     file: file,
-                    sourceUrl: sourceUrl
+                    templateUrl: templateUrl
                 });
             }
         });

@@ -1,0 +1,31 @@
+[{
+    "asset": {
+        "path": "images/cards/contact/false-contact.png"
+    },
+    "template": {
+        "path": "/cards/event-contact",
+        "size": {
+            "width": 320,
+            "height": 480
+        }
+    },
+    "data": {
+        "title": "False Contact",
+        "instructions": "As you approach the location of the blip, your scanner stops making noise. Must have been a false positive."
+    }
+}, {
+    "asset": {
+        "path": "images/cards/contact/double-contact.png"
+    },
+    "template": {
+        "path": "/cards/event-contact",
+        "size": {
+            "width": 320,
+            "height": 480
+        }
+    },
+    "data": {
+        "title": "Double Contact",
+        "instructions": "As you approach the location of the blip, it splits in two.\n\nDraw two monster cards and add both. Ignore the result of any further contact cards."
+    }
+}]
