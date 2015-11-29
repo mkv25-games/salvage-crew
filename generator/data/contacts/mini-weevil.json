@@ -1,0 +1,10 @@
+{
+    "title": "Mini Weevil",
+    "instructions": "Priority [1]: Move towards nearest player, and then melee attack the nearest target",
+    "health": 1,
+    "movement": 3,
+    "attack": 1,
+    "resistance": 0,
+    "primaryTag": "critter",
+    "secondaryTag": "weevil"
+}

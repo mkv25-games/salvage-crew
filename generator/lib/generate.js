@@ -1,3 +1,4 @@
+var jsonRefs = require('json-refs');
 var find = require('./find');
 var render = require('./render');
 
@@ -20,11 +21,16 @@ function loadFiles(files) {
 
 function loadInstructions(file) {
     var instructions = require(file);
+    return jsonRefs.resolveRefs(instructions).then(function(result) {
+        console.log(result.metadata);
+        processInstructions(result.resolved);
+    });
+}
 
+function processInstructions(instructions) {
     var promises = instructions.map(function(instruction) {
         return renderInstruction(instruction);
     });
-
     return Promise.all(promises);
 }
 
