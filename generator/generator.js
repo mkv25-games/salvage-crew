@@ -10,12 +10,12 @@ clean()
 
 function reportSuccess() {
     console.log('Completed work OK');
-    //process.exit(0);
+    console.log('Report available at ' + global.renderServerUrl);
 }
 
 function reportFailiure(ex) {
     console.log(ex);
     console.log('Stacktrace', ex.stack);
     console.log('Failed to complete work');
-    //process.exit(1);
+    process.exit(1);
 }

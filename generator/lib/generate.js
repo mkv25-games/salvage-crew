@@ -3,12 +3,9 @@ var find = require('./find');
 var render = require('./render');
 
 function generate() {
-    var instructionsPath = __dirname + '/../instructions/*.json'
-    find(instructionsPath)
-        .then(loadFiles)
-        .catch(function(ex) {
-            console.error('An exception occurred', ex);
-        });
+    var instructionsPath = __dirname + '/../instructions/*.json';
+    return find(instructionsPath)
+        .then(loadFiles);
 }
 
 function loadFiles(files) {
@@ -23,7 +20,7 @@ function loadInstructions(file) {
     var instructions = require(file);
     return jsonRefs.resolveRefs(instructions).then(function(result) {
         console.log(result.metadata);
-        processInstructions(result.resolved);
+        return processInstructions(result.resolved);
     });
 }
 
