@@ -1,8 +1,8 @@
 var fs = require('fs-extra');
 
-function cleanup() {
+function cleanup(path) {
     return new Promise(function(accept, reject) {
-        fs.remove('build/images', function(err) {
+        fs.remove(path, function(err) {
             if (err) {
                 reject(err);
             } else {

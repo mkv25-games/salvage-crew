@@ -2,7 +2,7 @@ var clean = require('./lib/clean');
 var host = require('./lib/host');
 var generate = require('./lib/generate');
 
-clean()
+clean('build/images')
     .then(host)
     .then(generate)
     .then(reportSuccess)
