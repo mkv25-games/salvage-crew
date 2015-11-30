@@ -1,4 +1,4 @@
-var clean = require('./lib/clean');
+var clean = require('./lib/path/clean');
 var host = require('./lib/host');
 var generate = require('./lib/generate');
 

@@ -1,5 +1,5 @@
 var jsonRefs = require('json-refs');
-var find = require('./find');
+var find = require('./path/find');
 var renderInstruction = require('./render');
 
 function generate() {

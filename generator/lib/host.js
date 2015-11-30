@@ -1,5 +1,5 @@
 var express = require('express');
-var read = require('./read');
+var read = require('./path/read');
 var handlebars = require('handlebars');
 var requestCache = require('./template/cache');
 var key = require('./template/key');
