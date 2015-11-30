@@ -1,6 +1,6 @@
 var jsonRefs = require('json-refs');
 var find = require('./find');
-var render = require('./render');
+var renderInstruction = require('./render');
 
 function generate() {
     var instructionsPath = __dirname + '/../instructions/*.json';
@@ -25,16 +25,8 @@ function loadInstructions(file) {
 }
 
 function processInstructions(instructions) {
-    var promises = instructions.map(function(instruction) {
-        return renderInstruction(instruction);
-    });
+    var promises = instructions.map(renderInstruction);
     return Promise.all(promises);
-}
-
-function renderInstruction(instruction) {
-    return render(instruction).then(function(result) {
-        return instruction;
-    });
 }
 
 
