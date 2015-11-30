@@ -1,15 +1,6 @@
-var fs = require('fs');
+const fs = require('fs');
+const pcall = require('./pcall');
 
-function read(path) {
-    return new Promise(function(accept, reject) {
-        fs.readFile(path, function(err, data) {
-            if (err) {
-                reject(err);
-            } else {
-                accept(data);
-            }
-        });
-    });
-}
-
-module.exports = read;
+module.exports = function(path) {
+    return pcall(fs.readFile, path);
+};

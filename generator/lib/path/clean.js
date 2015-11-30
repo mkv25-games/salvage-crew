@@ -1,15 +1,6 @@
-var fs = require('fs-extra');
+const fs = require('fs-extra');
+const pcall = require('./pcall');
 
-function cleanup(path) {
-    return new Promise(function(accept, reject) {
-        fs.remove(path, function(err) {
-            if (err) {
-                reject(err);
-            } else {
-                accept();
-            }
-        });
-    });
-}
-
-module.exports = cleanup;
+module.exports = function(path) {
+    return pcall(fs.remove, path);
+};
