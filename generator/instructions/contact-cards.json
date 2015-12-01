@@ -1,6 +1,6 @@
 [{
     "asset": "images/cards/contact/false-contact.png",
-    "template": "/cards/event-contact",
+    "template": "/cards/event-contact/index.hbs",
     "renderer": {
         "$ref": "data/renderer/standard-card.json"
     },
@@ -9,7 +9,7 @@
     }
 }, {
     "asset": "images/cards/contact/double-contact.png",
-    "template": "/cards/event-contact",
+    "template": "/cards/event-contact/index.hbs",
     "renderer": {
         "$ref": "data/renderer/standard-card.json"
     },
@@ -18,7 +18,7 @@
     }
 }, {
     "asset": "images/cards/contact/mini-weevil.png",
-    "template": "/cards/creature-contact",
+    "template": "/cards/creature-contact/index.hbs",
     "renderer": {
         "$ref": "data/renderer/standard-card.json"
     },
