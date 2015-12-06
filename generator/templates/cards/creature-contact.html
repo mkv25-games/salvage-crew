@@ -99,7 +99,7 @@
             background: rgba(0, 0, 0, 0.7);
             color: white;
         }
-        
+
         label.instructions > p {
             margin: 0 0 20px 0;
         }
@@ -136,6 +136,10 @@
         label.secondaryTag {
             text-transform: uppercase;
             font-weight: 600;
+        }
+        box.boss .bossInverted {
+            color: white;
+            background: black;
         }
     </style>
 </head>
@@ -184,10 +188,10 @@
                 </tr>
                 <tr class="bottom">
                     <td colspan="2" class="tag">
-                        <label class="primaryTag">{{primaryTag}}</label>
-                    </td>
-                    <td colspan="2" class="tag">
                         <label class="secondaryTag">{{secondaryTag}}</label>
+                    </td>
+                    <td colspan="2" class="tag bossInverted">
+                        <label class="primaryTag">{{primaryTag}}</label>
                     </td>
                 </tr>
             </table>
