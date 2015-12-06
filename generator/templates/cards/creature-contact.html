@@ -22,33 +22,68 @@
         }
 
         box {
+            position: relative;
             display: block;
             width: 100%;
             height: 100%;
             outline: 2px solid black;
+            outline-offset: -2px;
             background: rgba(255, 255, 255, 0.4);
         }
 
         label {
             display: block;
             font-family: 'Droid Sans', sans-serif;
-            font-size: 60px;
+            font-size: 54px;
             text-align: center;
         }
+        /* Creature specific */
+
+        label.title {
+            box-sizing: border-box;
+            text-transform: uppercase;
+            text-align: center;
+            outline: 2px solid black;
+            outline-offset: -2px;
+            height: 74px;
+            overflow: hidden;
+        }
+
+        label.instructions {
+            box-sizing: border-box;
+            text-align: center;
+            margin: -2px 0 0 0;
+            outline: 2px solid black;
+            outline-offset: -2px;
+            height: 440px;
+            overflow: hidden;
+        }
+
+        label.health {}
+
+        label.movement {}
+
+        label.attack {}
+
+        label.resistance {}
+
+        label.primaryTag {}
+
+        label.secondaryTag {}
     </style>
 </head>
 
 <body>
     <renderframe>
-        <box>
-            <label>{{title}}</label>
-            <label>{{instructions}}</label>
-            <label>{{health}}</label>
-            <label>{{movement}}</label>
-            <label>{{attack}}</label>
-            <label>{{resistance}}</label>
-            <label>{{primaryTag}}</label>
-            <label>{{secondaryTag}}</label>
+        <box class="{{#if boss}}boss{{/if}}">
+            <label class="title">{{title}}</label>
+            <label class="instructions">{{instructions}}</label>
+            <label class="health">{{health}}</label>
+            <label class="movement">{{movement}}</label>
+            <label class="attack">{{attack}}</label>
+            <label class="resistance">{{resistance}}</label>
+            <label class="primaryTag">{{primaryTag}}</label>
+            <label class="secondaryTag">{{secondaryTag}}</label>
         </box>
     </renderframe>
 </body>
