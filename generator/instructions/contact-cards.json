@@ -1,6 +1,6 @@
 [{
     "asset": "images/cards/contact/false-contact.png",
-    "template": "/cards/event-contact/index.hbs",
+    "template": "/cards/event-contact.html",
     "renderer": {
         "$ref": "data/renderer/standard-card.json"
     },
@@ -9,7 +9,7 @@
     }
 }, {
     "asset": "images/cards/contact/double-contact.png",
-    "template": "/cards/event-contact/index.hbs",
+    "template": "/cards/event-contact.html",
     "renderer": {
         "$ref": "data/renderer/standard-card.json"
     },
@@ -18,7 +18,7 @@
     }
 }, {
     "asset": "images/cards/contact/giant-ooze.png",
-    "template": "/cards/creature-contact/index.hbs",
+    "template": "/cards/creature-contact.html",
     "renderer": {
         "$ref": "data/renderer/standard-card.json"
     },
@@ -27,7 +27,7 @@
     }
 }, {
     "asset": "images/cards/contact/large-weevil.png",
-    "template": "/cards/creature-contact/index.hbs",
+    "template": "/cards/creature-contact.html",
     "renderer": {
         "$ref": "data/renderer/standard-card.json"
     },
@@ -36,7 +36,7 @@
     }
 }, {
     "asset": "images/cards/contact/mini-weevil.png",
-    "template": "/cards/creature-contact/index.hbs",
+    "template": "/cards/creature-contact.html",
     "renderer": {
         "$ref": "data/renderer/standard-card.json"
     },
@@ -45,7 +45,7 @@
     }
 }, {
     "asset": "images/cards/contact/rogue-droid.png",
-    "template": "/cards/creature-contact/index.hbs",
+    "template": "/cards/creature-contact.html",
     "renderer": {
         "$ref": "data/renderer/standard-card.json"
     },
@@ -54,7 +54,7 @@
     }
 }, {
     "asset": "images/cards/contact/sentry-bot.png",
-    "template": "/cards/creature-contact/index.hbs",
+    "template": "/cards/creature-contact.html",
     "renderer": {
         "$ref": "data/renderer/standard-card.json"
     },
@@ -63,7 +63,7 @@
     }
 }, {
     "asset": "images/cards/contact/space-ooze.png",
-    "template": "/cards/creature-contact/index.hbs",
+    "template": "/cards/creature-contact.html",
     "renderer": {
         "$ref": "data/renderer/standard-card.json"
     },
@@ -72,7 +72,7 @@
     }
 }, {
     "asset": "images/cards/contact/war-droid.png",
-    "template": "/cards/creature-contact/index.hbs",
+    "template": "/cards/creature-contact.html",
     "renderer": {
         "$ref": "data/renderer/standard-card.json"
     },
