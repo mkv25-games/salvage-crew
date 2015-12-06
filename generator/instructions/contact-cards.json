@@ -17,6 +17,24 @@
         "$ref": "data/contacts/double-contact.json"
     }
 }, {
+    "asset": "images/cards/contact/giant-ooze.png",
+    "template": "/cards/creature-contact/index.hbs",
+    "renderer": {
+        "$ref": "data/renderer/standard-card.json"
+    },
+    "data": {
+        "$ref": "data/contacts/giant-ooze.json"
+    }
+}, {
+    "asset": "images/cards/contact/large-weevil.png",
+    "template": "/cards/creature-contact/index.hbs",
+    "renderer": {
+        "$ref": "data/renderer/standard-card.json"
+    },
+    "data": {
+        "$ref": "data/contacts/large-weevil.json"
+    }
+}, {
     "asset": "images/cards/contact/mini-weevil.png",
     "template": "/cards/creature-contact/index.hbs",
     "renderer": {
@@ -24,5 +42,41 @@
     },
     "data": {
         "$ref": "data/contacts/mini-weevil.json"
+    }
+}, {
+    "asset": "images/cards/contact/rogue-droid.png",
+    "template": "/cards/creature-contact/index.hbs",
+    "renderer": {
+        "$ref": "data/renderer/standard-card.json"
+    },
+    "data": {
+        "$ref": "data/contacts/rogue-droid.json"
+    }
+}, {
+    "asset": "images/cards/contact/sentry-bot.png",
+    "template": "/cards/creature-contact/index.hbs",
+    "renderer": {
+        "$ref": "data/renderer/standard-card.json"
+    },
+    "data": {
+        "$ref": "data/contacts/sentry-bot.json"
+    }
+}, {
+    "asset": "images/cards/contact/space-ooze.png",
+    "template": "/cards/creature-contact/index.hbs",
+    "renderer": {
+        "$ref": "data/renderer/standard-card.json"
+    },
+    "data": {
+        "$ref": "data/contacts/space-ooze.json"
+    }
+}, {
+    "asset": "images/cards/contact/war-droid.png",
+    "template": "/cards/creature-contact/index.hbs",
+    "renderer": {
+        "$ref": "data/renderer/standard-card.json"
+    },
+    "data": {
+        "$ref": "data/contacts/war-droid.json"
     }
 }]
