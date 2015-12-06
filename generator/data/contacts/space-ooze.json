@@ -6,5 +6,9 @@
     "resistance": 2,
     "attack": 1,
     "primaryTag": "ooze",
-    "secondaryTag": "?"
+    "secondaryTag": "?",
+    "theme": {
+        "primaryCardColour": "#D9EAD3",
+        "secondaryCardColour": "#93C47D"
+    }
 }

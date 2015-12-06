@@ -1,12 +1,13 @@
 {
-    "title": "Mini Weevil",
-    "instructions": "Priority [1]: Move towards nearest player, and then melee attack the nearest target",
-    "health": 1,
+    "title": "Queen Weevil",
+    "instructions": "Priority [2]: Move away from the nearest player, then all other weevils take their priority action.",
+    "health": 5,
     "movement": 3,
     "resistance": 0,
-    "attack": 1,
+    "attack": 2,
     "primaryTag": "critter",
     "secondaryTag": "weevil",
+    "boss": true,
     "theme": {
         "primaryCardColour": "#F9CB9C",
         "secondaryCardColour": "#F6B26B"

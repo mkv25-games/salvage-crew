@@ -1,5 +1,5 @@
 {
-    "title": "Space Ooze",
+    "title": "Giant Ooze",
     "instructions": ["Priority [3]: Move towards nearest player, and then ranged attack", "When this monster dies place two Space Ooze blips in this room."],
     "health": 9,
     "movement": 3,
@@ -7,5 +7,9 @@
     "attack": 1,
     "primaryTag": "ooze",
     "secondaryTag": "?",
-    "boss": true
+    "boss": true,
+    "theme": {
+        "primaryCardColour": "#B6D7A8",
+        "secondaryCardColour": "#93C47D"
+    }
 }

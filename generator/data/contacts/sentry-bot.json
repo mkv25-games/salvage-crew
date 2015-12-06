@@ -6,5 +6,9 @@
     "resistance": 2,
     "attack": 1,
     "primaryTag": "robot",
-    "secondaryTag": "?"
+    "secondaryTag": "?",
+    "theme": {
+        "primaryCardColour": "#FFF2CC",
+        "secondaryCardColour": "#999999"
+    }
 }

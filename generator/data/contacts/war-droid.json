@@ -1,5 +1,5 @@
 {
-    "title": "Space Ooze",
+    "title": "War Droid",
     "instructions": ["Priority [3]: Move towards nearest player, and then ranged attack"],
     "health": 9,
     "movement": 3,
@@ -7,5 +7,9 @@
     "attack": 3,
     "primaryTag": "robot",
     "secondaryTag": "?",
-    "boss": true
+    "boss": true,
+    "theme": {
+        "primaryCardColour": "#FFE599",
+        "secondaryCardColour": "#999999"
+    }
 }

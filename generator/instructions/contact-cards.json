@@ -44,6 +44,15 @@
         "$ref": "data/contacts/mini-weevil.json"
     }
 }, {
+    "asset": "images/cards/contact/queen-weevil.png",
+    "template": "/cards/creature-contact.html",
+    "renderer": {
+        "$ref": "data/renderer/standard-card.json"
+    },
+    "data": {
+        "$ref": "data/contacts/queen-weevil.json"
+    }
+}, {
     "asset": "images/cards/contact/rogue-droid.png",
     "template": "/cards/creature-contact.html",
     "renderer": {
