@@ -31,36 +31,12 @@
             background: rgba(255, 255, 255, 0.4);
         }
 
-        div.top {
-            box-sizing: border-box;
-            height: 74px;
-            outline: 2px solid black;
-            outline-offset: -2px;
-            padding: 2px 0;
-        }
-
-        div.middle {
-            outline: 2px solid black;
-            outline-offset: -2px;
-            height: 674px;
-        }
-
-        div.bottom {
-            display: block;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-        }
-
         label {
             display: block;
             font-family: 'Droid Sans', sans-serif;
             font-size: 40px;
             text-align: center;
             box-sizing: border-box;
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
         }
 
         label.title {
@@ -105,42 +81,101 @@
         label.primaryTag {}
 
         label.secondaryTag {}
+
+        table.grid {
+            height: 100%;
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 2px;
+            background: black;
+        }
+
+        table.grid tr.top {
+            height: 64px;
+        }
+
+        table.grid tr.bottom {
+            height: 64px;
+        }
+
+        table.grid tr > td {
+            background: white;
+            width: 25%;
+            text-align: center;
+        }
+
+        table.grid tr > td > label {
+            overflow: hidden;
+        }
+
+        table.grid tr > td.key > label {
+            width: 144px;
+            display: inline-block;
+        }
+
+        table.grid tr > td.value label {
+            width: 144px;
+            display: inline-block;
+        }
+
+        table.grid tr > td.tag label {
+            width: 288px;
+            display: inline-block;
+        }
     </style>
 </head>
 
 <body>
     <renderframe>
         <box class="{{#if boss}}boss{{/if}}">
-            <div class="top">
-                <label class="title">{{title}}</label>
-            </div>
-            <div class="middle">
-                <label class="instructions">{{instructions}}</label>
-            </div>
-            <div class="bottom">
-                <div class="pair">
-                    <label class="health">HP</label>
-                    <label class="health">{{health}}</label>
-                </div>
-                <div class="pair">
-                    <label class="movement">MOV</label>
-                    <label class="movement">{{movement}}</label>
-                </div>
-                <div class="pair">
-                    <label class="attack">ATK</label>
-                    <label class="attack">{{attack}}</label>
-                </div>
-                <div class="pair">
-                    <label class="resistance">RES</label>
-                    <label class="resistance">{{resistance}}</label>
-                </div>
-                <div>
-                    <label class="primaryTag">{{primaryTag}}</label>
-                </div>
-                <div>
-                    <label class="secondaryTag">{{secondaryTag}}</label>
-                </div>
-            </div>
+            <table class="grid">
+                <tr class="top">
+                    <td colspan="4">
+                        <label class="title">{{title}}</label>
+                    </td>
+                </tr>
+                <tr class="middle">
+                    <td colspan="4">
+                        <label class="instructions">{{instructions}}</label>
+                    </td>
+                </tr>
+                <tr class="bottom">
+                    <td class="key">
+                        <label>HP</label>
+                    </td>
+                    <td class="value">
+                        <label class="health">{{health}}</label>
+                    </td>
+                    <td class="key">
+                        <label>MOV</label>
+                    </td>
+                    <td class="value">
+                        <label class="movement">{{movement}}</label>
+                    </td>
+                </tr>
+                <tr class="bottom">
+                    <td class="key">
+                        <label>ATK</label>
+                    </td>
+                    <td class="value">
+                        <label class="attack">{{attack}}</label>
+                    </td>
+                    <td class="key">
+                        <label>RES</label>
+                    </td>
+                    <td class="value">
+                        <label class="resistance">{{resistance}}</label>
+                    </td>
+                </tr>
+                <tr class="bottom">
+                    <td colspan="2" class="tag">
+                        <label class="primaryTag">{{primaryTag}}</label>
+                    </td>
+                    <td colspan="2" class="tag">
+                        <label class="secondaryTag">{{secondaryTag}}</label>
+                    </td>
+                </tr>
+            </table>
         </box>
     </renderframe>
 </body>
