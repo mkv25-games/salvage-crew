@@ -1,0 +1,10 @@
+{
+    "title": "Rogue Droid",
+    "instructions": "Priority [3]: Move towards nearest player, and then melee attack",
+    "health": 3,
+    "movement": 3,
+    "resistance": 2,
+    "attack": 1,
+    "primaryTag": "robot",
+    "secondaryTag": "?"
+}

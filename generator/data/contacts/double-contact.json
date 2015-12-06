@@ -1,4 +1,4 @@
 {
     "title": "Double Contact",
-    "instructions": "As you approach the location of the blip, it splits in two.\n\nDraw two monster cards and add both. Ignore the result of any further contact cards."
+    "instructions": ["As you approach the location of the blip, it splits in two.\n\nDraw two monster cards and add both. Ignore the result of any further contact cards."]
 }

@@ -1,0 +1,11 @@
+{
+    "title": "Space Ooze",
+    "instructions": ["Priority [3]: Move towards nearest player, and then ranged attack"],
+    "health": 9,
+    "movement": 3,
+    "resistance": 2,
+    "attack": 3,
+    "primaryTag": "robot",
+    "secondaryTag": "?",
+    "boss": true
+}
