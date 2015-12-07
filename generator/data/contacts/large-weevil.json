@@ -1,6 +1,6 @@
 {
     "title": "Large Weevil",
-    "instructions": "Priority [1]: Move towards nearest player, and then melee attack the nearest target",
+    "instructions": ["Priority [1]: Move towards nearest player, and then melee attack the nearest target"],
     "health": 3,
     "movement": 3,
     "resistance": 0,

@@ -1,6 +1,6 @@
 {
     "title": "Queen Weevil",
-    "instructions": "Priority [2]: Move away from the nearest player, then all other weevils take their priority action.",
+    "instructions": ["Priority [2]: Move away from the nearest player, then all other weevils take their priority action."],
     "health": 5,
     "movement": 3,
     "resistance": 0,
