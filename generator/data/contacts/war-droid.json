@@ -8,6 +8,7 @@
     "primaryTag": "robot",
     "secondaryTag": "?",
     "boss": true,
+    "background": "/data/images/war-droid.png",
     "theme": {
         "primaryCardColour": "#FFE599",
         "secondaryCardColour": "#999999"

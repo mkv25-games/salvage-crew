@@ -2,144 +2,18 @@
 
 <head>
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/templates/cards/cards.css" type="text/css">
     <style>
-        html,
-        body,
-        * {
-            margin: 0;
-            padding: 0;
-            font-size: 40px;
-        }
-
         renderframe {
-            position: relative;
-            display: block;
-            width: 640px;
-            height: 960px;
-            box-sizing: border-box;
-            padding: 20px;
-            margin: auto;
             background: {{theme.secondaryCardColour}};
         }
 
-        box {
-            position: relative;
-            display: block;
-            width: 100%;
-            height: 100%;
-            outline: 10px solid rgba(0, 0, 0, 0.3);
-        }
-
         table.grid {
-            height: 100%;
-            width: 100%;
-            border-collapse: separate;
-            border-spacing: 4px;
             background: {{theme.primaryCardColour}};
         }
 
-        table.grid tr.top {
-            height: 1%;
-        }
-
-        table.grid tr.bottom {
-            height: 64px;
-        }
-
-        table.grid tr > td {
-            width: 25%;
-            text-align: center;
-            outline: 4px solid black;
-        }
-
-        table.grid tr > td > label {
-            overflow: hidden;
-        }
-
-        table.grid tr > td.key > label {
-            width: 144px;
-            display: inline-block;
-        }
-
-        table.grid tr > td.value {
-            background: rgba(255, 255, 255, 0.7);
-        }
-
-        table.grid tr > td.value label {
-            width: 144px;
-            display: inline-block;
-        }
-
-        table.grid tr > td.tag label {
-            width: 288px;
-            display: inline-block;
-        }
-
-        label {
-            display: block;
-            font-family: 'Droid Sans', sans-serif;
-            text-align: center;
-            box-sizing: border-box;
-        }
-
-        label.title {
-            text-transform: uppercase;
-            text-align: center;
-            overflow: hidden;
-            font-size: 140%;
-            padding: 8px 0 12px 0;
-            font-weight: 600;
-        }
-
-        label.instructions {
-            position: relative;
-            text-align: center;
-            overflow: hidden;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.7);
-            color: white;
-        }
-
-        label.instructions > p {
-            margin: 0 0 20px 0;
-        }
-
-        div.bottom > div {
-            display: inline-block;
-            width: 50%;
-            outline: 2px solid black;
-            outline-offset: -1px;
-            float: left;
-            height: 64px;
-        }
-
-        div.pair > label {
-            display: inline-block;
-            overflow: hidden;
-            text-align: center;
-            width: 49%;
-        }
-
-        label.health {}
-
-        label.movement {}
-
-        label.attack {}
-
-        label.resistance {}
-
-        label.primaryTag {
-            text-transform: uppercase;
-            font-weight: 600;
-        }
-
-        label.secondaryTag {
-            text-transform: uppercase;
-            font-weight: 600;
-        }
-        box.boss .bossInverted {
-            color: white;
-            background: black;
+        table.grid tr.middle {
+            background-image: url('{{background}}');
         }
     </style>
 </head>

@@ -2,49 +2,50 @@
 
 <head>
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/templates/cards/cards.css" type="text/css">
     <style>
-        html,
-        body,
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
         renderframe {
-            position: relative;
-            display: block;
-            width: 640px;
-            height: 960px;
-            box-sizing: border-box;
-            padding: 10px;
-            margin: auto;
-            background: #E84;
+            background: {{theme.secondaryCardColour}};
         }
 
-        box {
-            display: block;
-            width: 100%;
-            height: 100%;
-            outline: 2px solid black;
-            background: rgba(255, 255, 255, 0.4);
+        table.grid {
+            background-image: url('{{background}}');
+            background-position: center center;
         }
 
-        label {
-            display: block;
-            font-family: 'Droid Sans', sans-serif;
-            font-size: 60px;
-            text-align: center;
+        table.grid tr.top {
+            background: {{theme.primaryCardColour}};
+        }
+
+        table.grid tr.middle {
+        }
+
+        label.title {
+            color: white;
         }
     </style>
 </head>
 
 <body>
-    <renderframe>
-        <box>
-            <label>{{title}}</label>
-            <label>{{instructions}}</label>
-        </box>
-    </renderframe>
+<renderframe>
+    <box>
+        <table class="grid">
+            <tr class="top">
+                <td>
+                    <label class="title">{{title}}</label>
+                </td>
+            </tr>
+            <tr class="middle">
+                <td>&nbsp;</td>
+            </tr>
+            <tr class="bottom">
+                <td>
+                    <label class="instructions">{{#each instructions}}<p>{{this}}</p>{{/each}}</label>
+                </td>
+            </tr>
+        </table>
+    </box>
+</renderframe>
 </body>
 
 </html>

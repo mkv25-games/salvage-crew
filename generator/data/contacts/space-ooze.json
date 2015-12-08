@@ -7,6 +7,7 @@
     "attack": 1,
     "primaryTag": "ooze",
     "secondaryTag": "?",
+    "background": "/data/images/space-ooze.jpg",
     "theme": {
         "primaryCardColour": "#D9EAD3",
         "secondaryCardColour": "#93C47D"

@@ -1,4 +1,9 @@
 {
   "title": "False Contact",
-  "instructions": ["As you approach the location of the blip, your scanner stops making noise. Must have been a false positive."]
+  "instructions": ["As you approach the location of the blip, your scanner stops making noise. Must have been a false positive."],
+  "background": "/data/images/false-contact.png",
+  "theme": {
+      "primaryCardColour": "#002C67",
+      "secondaryCardColour": "#333333"
+  }
 }

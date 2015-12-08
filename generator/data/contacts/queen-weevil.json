@@ -8,6 +8,7 @@
     "primaryTag": "critter",
     "secondaryTag": "weevil",
     "boss": true,
+    "background": "/data/images/queen-weevil.png",
     "theme": {
         "primaryCardColour": "#F9CB9C",
         "secondaryCardColour": "#F6B26B"

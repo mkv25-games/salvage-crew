@@ -8,6 +8,7 @@
     "primaryTag": "ooze",
     "secondaryTag": "?",
     "boss": true,
+    "background": "/data/images/giant-ooze.jpg",
     "theme": {
         "primaryCardColour": "#B6D7A8",
         "secondaryCardColour": "#93C47D"
