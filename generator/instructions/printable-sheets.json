@@ -1,0 +1,32 @@
+[{
+    "asset": "images/sheets/printable-cardsheet-monsters-01.png",
+    "template": "/sheets/card-sheet.html",
+    "renderer": {
+        "$ref": "data/renderer/cardsheet-7x3.json"
+    },
+    "data": {
+        "cards": [
+            "/output/images/cards/contact/rogue-droid.png",
+            "/output/images/cards/contact/rogue-droid.png",
+            "/output/images/cards/contact/rogue-droid.png",
+            "/output/images/cards/contact/rogue-droid.png",
+            "/output/images/cards/contact/space-ooze.png",
+            "/output/images/cards/contact/space-ooze.png",
+            "/output/images/cards/contact/giant-ooze.png",
+            "/output/images/cards/contact/war-droid.png",
+            "/output/images/cards/contact/sentry-bot.png",
+            "/output/images/cards/contact/sentry-bot.png",
+            "/output/images/cards/contact/sentry-bot.png",
+            "/output/images/cards/contact/space-ooze.png",
+            "/output/images/cards/contact/space-ooze.png",
+            "/output/images/cards/contact/space-ooze.png",
+            "/output/images/cards/contact/mini-weevil.png",
+            "/output/images/cards/contact/mini-weevil.png",
+            "/output/images/cards/contact/mini-weevil.png",
+            "/output/images/cards/contact/mini-weevil.png",
+            "/output/images/cards/contact/large-weevil.png",
+            "/output/images/cards/contact/large-weevil.png",
+            "/output/images/cards/contact/queen-weevil.png"
+        ]
+    }
+}]

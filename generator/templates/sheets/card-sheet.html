@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <style>
+        .cardsheet {
+            width: 4480px;
+            height: 2880px;
+            outline: 2px solid black;
+        }
+        .card {
+            width: 640px;
+            height: 960px;
+            display: inline-block;
+            outline: 2px solid white;
+        }
+    </style>
+</head>
+
+<body>
+<renderframe>
+    <div class="cardsheet">{{#each cards}}<div class="card" style="background-image: url('{{this}}')"></div>{{/each}}</div>
+</renderframe>
+</body>
+
+</html>
