@@ -29,4 +29,35 @@
             "/output/images/cards/contact/queen-weevil.png"
         ]
     }
+}, {
+    "asset": "images/sheets/printable-cardsheet-monsters-02.png",
+    "template": "/sheets/card-sheet.html",
+    "renderer": {
+        "$ref": "data/renderer/cardsheet-7x3.json"
+    },
+    "data": {
+        "cards": [
+            "/output/images/cards/contact/false-contact.png",
+            "/output/images/cards/contact/false-contact.png",
+            "/output/images/cards/contact/false-contact.png",
+            "/output/images/cards/contact/false-contact.png",
+            "/output/images/cards/contact/double-contact.png",
+            "/output/images/cards/contact/double-contact.png",
+            "/output/images/cards/contact/double-contact.png",
+            "/output/images/cards/contact/space-ooze.png",
+            "/output/images/cards/contact/space-ooze.png",
+            "/output/images/cards/contact/space-ooze.png",
+            "/output/images/cards/contact/space-ooze.png",
+            "/output/images/cards/contact/space-ooze.png",
+            "/output/images/cards/contact/space-ooze.png",
+            "/output/images/cards/contact/space-ooze.png",
+            "/output/images/cards/contact/mini-weevil.png",
+            "/output/images/cards/contact/mini-weevil.png",
+            "/output/images/cards/contact/mini-weevil.png",
+            "/output/images/cards/contact/mini-weevil.png",
+            "/output/images/cards/contact/mini-weevil.png",
+            "/output/images/cards/contact/large-weevil.png",
+            "/output/images/cards/contact/large-weevil.png"
+        ]
+    }
 }]
