@@ -1,0 +1,11 @@
+{
+  "type": "Skill",
+  "title": "Scavenge",
+  "instructions": ["Priority [3]:", "Remove a salvage token from your room; draw an item card."],
+  "endofround": ["End of round:", "Return card to hand"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#fff2cc",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}

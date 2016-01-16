@@ -1,0 +1,11 @@
+{
+  "type": "Skill",
+  "title": "Activate",
+  "instructions": ["Priority [1]:", "Toggle Door", "or Activate Terminal"],
+  "endofround": ["End of round:", "Return card to hand"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#fff2cc",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}
