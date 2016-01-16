@@ -1,0 +1,11 @@
+{
+  "type": "Basic Weapon",
+  "title": "Energy Pistol",
+  "instructions": ["Priority [1]:", "Deal 2 Damage to a target"],
+  "endofround": ["End of round:", "Return card to hand"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d0e0e3",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}

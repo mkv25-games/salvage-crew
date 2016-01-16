@@ -1,0 +1,11 @@
+{
+  "type": "Skill",
+  "title": "Dodge",
+  "instructions": ["Priority [0]:", "Move one space", "+2 Defence for the rest of the turn"],
+  "endofround": ["End of round: Return card to hand and lose one oxygen"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#fff2cc",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}

@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/templates/cards/cards.css" type="text/css">
+    <style>
+        renderframe {
+            background: {{theme.secondaryCardColour}};
+        }
+
+        table.grid {
+            background-image: url('{{background}}');
+            background-position: center center;
+        }
+
+        table.grid tr.top {
+            background: {{theme.secondaryCardColour}};
+        }
+
+        table.grid tr.middle {
+            background: {{theme.primaryCardColour}};
+        }
+
+        label.instructions {
+            background: {{theme.primaryCardColour}};
+            color: black;
+        }
+
+        label.instructions > p, label.endofround > p {
+            font-size: 110%;
+        }
+    </style>
+</head>
+
+<body>
+<renderframe>
+    <box>
+        <table class="grid">
+            <tr class="top">
+                <td>
+                    <label class="cardtype">{{type}}</label>
+                    <label class="title">{{title}}</label>
+                </td>
+            </tr>
+            <tr class="middle">
+                <td><label class="instructions">{{#each instructions}}<p>{{this}}</p>{{/each}}</label></td>
+            </tr>
+            <tr class="bottom">
+                <td><label class="endofround">{{#each endofround}}<p>{{this}}</p>{{/each}}</label></td>
+            </tr>
+        </table>
+    </box>
+</renderframe>
+</body>
+
+</html>

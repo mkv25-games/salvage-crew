@@ -1,0 +1,19 @@
+[{
+    "asset": "images/cards/items/energy-pistol.png",
+    "template": "/cards/item.html",
+    "renderer": {
+        "$ref": "data/renderer/standard-card.json"
+    },
+    "data": {
+        "$ref": "data/items/energy-pistol.json"
+    }
+}, {
+    "asset": "images/cards/skills/dodge.png",
+    "template": "/cards/skill.html",
+    "renderer": {
+        "$ref": "data/renderer/standard-card.json"
+    },
+    "data": {
+        "$ref": "data/skills/dodge.json"
+    }
+}]
