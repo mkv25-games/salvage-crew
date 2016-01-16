@@ -3,6 +3,7 @@
   "title": "Energy Pistol",
   "instructions": ["Priority [1]:", "Deal 2 Damage to a target"],
   "endofround": ["End of round:", "Return card to hand"],
+  "description": [],
   "background": "",
   "theme": {
     "primaryCardColour": "#d0e0e3",

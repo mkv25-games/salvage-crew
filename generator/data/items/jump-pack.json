@@ -1,0 +1,12 @@
+{
+  "type": "Item",
+  "title": "Jump Pack",
+  "instructions": ["Priority [0]:", "Move up to eight spaces"],
+  "description": ["“Whooosh!”"],
+  "endofround": ["End of round:", "Discard this card"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9d2e9",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}

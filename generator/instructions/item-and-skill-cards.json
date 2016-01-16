@@ -1,46 +1,127 @@
 [{
-    "asset": "images/cards/items/energy-pistol.png",
-    "template": "/cards/item.html",
-    "renderer": {
-        "$ref": "data/renderer/standard-card.json"
-    },
-    "data": {
-        "$ref": "data/items/energy-pistol.json"
-    }
+  "asset": "images/cards/items/energy-pistol.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/energy-pistol.json"
+  }
 }, {
-    "asset": "images/cards/skills/activate.png",
-    "template": "/cards/skill.html",
-    "renderer": {
-        "$ref": "data/renderer/standard-card.json"
-    },
-    "data": {
-        "$ref": "data/skills/activate.json"
-    }
+  "asset": "images/cards/items/energy-rifle.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/energy-rifle.json"
+  }
 }, {
-    "asset": "images/cards/skills/dodge.png",
-    "template": "/cards/skill.html",
-    "renderer": {
-        "$ref": "data/renderer/standard-card.json"
-    },
-    "data": {
-        "$ref": "data/skills/dodge.json"
-    }
+  "asset": "images/cards/items/hack-cart.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/hack-cart.json"
+  }
 }, {
-    "asset": "images/cards/skills/move.png",
-    "template": "/cards/skill.html",
-    "renderer": {
-        "$ref": "data/renderer/standard-card.json"
-    },
-    "data": {
-        "$ref": "data/skills/move.json"
-    }
+  "asset": "images/cards/items/jump-pack.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/jump-pack.json"
+  }
 }, {
-    "asset": "images/cards/skills/scavenge.png",
-    "template": "/cards/skill.html",
-    "renderer": {
-        "$ref": "data/renderer/standard-card.json"
-    },
-    "data": {
-        "$ref": "data/skills/scavenge.json"
-    }
+  "asset": "images/cards/items/medikit.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/medikit.json"
+  }
+}, {
+  "asset": "images/cards/items/oxygen-tank.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/oxygen-tank.json"
+  }
+}, {
+  "asset": "images/cards/items/refix-kit.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/refix-kit.json"
+  }
+}, {
+  "asset": "images/cards/items/stims.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/stims.json"
+  }
+}, {
+  "asset": "images/cards/items/uplink.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/uplink.json"
+  }
+}, {
+  "asset": "images/cards/items/welding-tool.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/welding-tool.json"
+  }
+}, {
+  "asset": "images/cards/skills/activate.png",
+  "template": "/cards/skill.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/skills/activate.json"
+  }
+}, {
+  "asset": "images/cards/skills/dodge.png",
+  "template": "/cards/skill.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/skills/dodge.json"
+  }
+}, {
+  "asset": "images/cards/skills/move.png",
+  "template": "/cards/skill.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/skills/move.json"
+  }
+}, {
+  "asset": "images/cards/skills/scavenge.png",
+  "template": "/cards/skill.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/skills/scavenge.json"
+  }
 }]

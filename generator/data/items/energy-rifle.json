@@ -1,0 +1,12 @@
+{
+  "type": "Item",
+  "title": "Energy Rifle",
+  "instructions": ["Priority [2]:", "Deal 4 Damage to a target"],
+  "endofround": ["End of round:", "If you didn’t play this card this turn, return card to your hand"],
+  "description": [],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d0e0e3",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}

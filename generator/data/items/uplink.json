@@ -1,0 +1,12 @@
+{
+  "type": "Item",
+  "title": "Uplink",
+  "instructions": ["Priority [3]:", "Play any action, weapon or item and treat its priority as [3]"],
+  "description": [],
+  "endofround": ["End of round:", "Discard this card"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9d2e9",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}

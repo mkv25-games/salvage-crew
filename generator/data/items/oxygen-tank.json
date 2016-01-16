@@ -1,0 +1,12 @@
+{
+  "type": "Item",
+  "title": "Oxygen Tank",
+  "instructions": ["Priority [3]:", "Give +3 oxygen to a target in the current room"],
+  "description": [],
+  "endofround": ["End of round:", "Discard this card"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9d2e9",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}

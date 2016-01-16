@@ -1,0 +1,12 @@
+{
+  "type": "Item",
+  "title": "Welding Tool",
+  "instructions": ["Priority [2]:", "Seal or Unseal a Bulkhead, or remove a Hull Breach"],
+  "description": [],
+  "endofround": ["End of round:", "Discard this card"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9d2e9",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}
