@@ -1,0 +1,12 @@
+{
+  "type": "Item",
+  "title": "Rocket Grenade",
+  "instructions": ["Priority [3]:", "Deal 4 damage to a target and all adjacent targets", "", "Breach targetted room"],
+  "description": [],
+  "endofround": ["End of round:", "Discard this card"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d0e0e3",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}

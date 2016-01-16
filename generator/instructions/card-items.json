@@ -88,4 +88,31 @@
   "data": {
     "$ref": "data/items/welding-tool.json"
   }
+}, {
+  "asset": "images/cards/items/minigun.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/minigun.json"
+  }
+}, {
+  "asset": "images/cards/items/rocket-grenade.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/rocket-grenade.json"
+  }
+}, {
+  "asset": "images/cards/items/energy-saber.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/energy-saber.json"
+  }
 }]

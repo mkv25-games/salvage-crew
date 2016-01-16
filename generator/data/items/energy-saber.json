@@ -1,0 +1,12 @@
+{
+  "type": "Basic Weapon",
+  "title": "Energy Saber",
+  "instructions": ["Priority [1]:", "Deal 3 damage to an adjacent target"],
+  "description": ["“Bzzzzzzzz-t”, “Swoooosh”"],
+  "endofround": ["End of round:", "Discard this card"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d0e0e3",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}
