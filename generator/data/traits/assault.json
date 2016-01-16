@@ -1,0 +1,11 @@
+{
+  "type": "Trait",
+  "title": "Assault",
+  "instructions": ["Priority [1]:", "Move up to four spaces towards an enemy, then play any basic weapon, and reduce the weapon’s damage by one"],
+  "endofround": ["End of round:", "Return card to hand"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9ead3",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "Trait",
+  "title": "Marksman",
+  "instructions": ["Priority [4]:", "Play any weapon, adding +1 to its damage. and treat its priority as [4]"],
+  "description": ["“Target locked.”"],
+  "endofround": ["End of round:", "Return card to hand"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9ead3",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}

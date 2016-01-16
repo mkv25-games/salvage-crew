@@ -88,40 +88,4 @@
   "data": {
     "$ref": "data/items/welding-tool.json"
   }
-}, {
-  "asset": "images/cards/skills/activate.png",
-  "template": "/cards/skill.html",
-  "renderer": {
-    "$ref": "data/renderer/standard-card.json"
-  },
-  "data": {
-    "$ref": "data/skills/activate.json"
-  }
-}, {
-  "asset": "images/cards/skills/dodge.png",
-  "template": "/cards/skill.html",
-  "renderer": {
-    "$ref": "data/renderer/standard-card.json"
-  },
-  "data": {
-    "$ref": "data/skills/dodge.json"
-  }
-}, {
-  "asset": "images/cards/skills/move.png",
-  "template": "/cards/skill.html",
-  "renderer": {
-    "$ref": "data/renderer/standard-card.json"
-  },
-  "data": {
-    "$ref": "data/skills/move.json"
-  }
-}, {
-  "asset": "images/cards/skills/scavenge.png",
-  "template": "/cards/skill.html",
-  "renderer": {
-    "$ref": "data/renderer/standard-card.json"
-  },
-  "data": {
-    "$ref": "data/skills/scavenge.json"
-  }
 }]

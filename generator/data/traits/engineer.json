@@ -1,0 +1,11 @@
+{
+  "type": "Trait",
+  "title": "Engineer",
+  "instructions": ["Priority [1]:", "Seal or Unseal a Bulkhead, or remove a Hull Breach"],
+  "endofround": ["End of round:", "You may spend two oxygen to return this card to your hand"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9ead3",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}

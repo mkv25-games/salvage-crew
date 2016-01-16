@@ -1,0 +1,73 @@
+[{
+  "asset": "images/cards/traits/marksman.png",
+  "template": "/cards/trait.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/traits/marksman.json"
+  }
+},{
+  "asset": "images/cards/traits/marine.png",
+  "template": "/cards/trait.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/traits/marine.json"
+  }
+},{
+  "asset": "images/cards/traits/strategist.png",
+  "template": "/cards/trait.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/traits/strategist.json"
+  }
+},{
+  "asset": "images/cards/traits/special-forces.png",
+  "template": "/cards/trait.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/traits/special-forces.json"
+  }
+},{
+  "asset": "images/cards/traits/medic.png",
+  "template": "/cards/trait.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/traits/medic.json"
+  }
+},{
+  "asset": "images/cards/traits/assault.png",
+  "template": "/cards/trait.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/traits/assault.json"
+  }
+},{
+  "asset": "images/cards/traits/hacker.png",
+  "template": "/cards/trait.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/traits/hacker.json"
+  }
+},{
+  "asset": "images/cards/traits/engineer.png",
+  "template": "/cards/trait.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/traits/engineer.json"
+  }
+}]

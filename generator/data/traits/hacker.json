@@ -1,0 +1,11 @@
+{
+  "type": "Trait",
+  "title": "Hacker",
+  "instructions": ["Priority [1]:", "Move up to two spaces, then Activate Terminal", "Priority [2]:", "Move up to two spaces"],
+  "endofround": ["End of round:", "Return card to hand"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9ead3",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}

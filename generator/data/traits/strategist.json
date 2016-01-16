@@ -1,0 +1,11 @@
+{
+  "type": "Trait",
+  "title": "Strategist",
+  "instructions": ["Priority [0]:", "Switch this card with any item or weapon card."],
+  "endofround": ["End of round:", "If you didn’t play this card this turn, return it to your hand"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9ead3",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}

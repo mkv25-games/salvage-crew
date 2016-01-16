@@ -1,0 +1,12 @@
+{
+  "type": "Trait",
+  "title": "Medic",
+  "instructions": ["Priority [4]:", "Heal +2 health for a single target in the same room"],
+  "description": [],
+  "endofround": ["End of round:", "You may spend two oxygen to return this card to your hand"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9ead3",
+    "secondaryCardColour": "#d9d9d9"
+  }
+}
