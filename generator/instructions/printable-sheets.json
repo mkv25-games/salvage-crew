@@ -1,63 +1,94 @@
 [{
-    "asset": "images/sheets/printable-cardsheet-monsters-01.png",
-    "template": "/sheets/card-sheet.html",
-    "renderer": {
-        "$ref": "data/renderer/cardsheet-7x3.json"
-    },
-    "data": {
-        "cards": [
-            "/output/images/cards/contact/rogue-droid.png",
-            "/output/images/cards/contact/rogue-droid.png",
-            "/output/images/cards/contact/rogue-droid.png",
-            "/output/images/cards/contact/rogue-droid.png",
-            "/output/images/cards/contact/space-ooze.png",
-            "/output/images/cards/contact/space-ooze.png",
-            "/output/images/cards/contact/giant-ooze.png",
-            "/output/images/cards/contact/war-droid.png",
-            "/output/images/cards/contact/sentry-bot.png",
-            "/output/images/cards/contact/sentry-bot.png",
-            "/output/images/cards/contact/sentry-bot.png",
-            "/output/images/cards/contact/space-ooze.png",
-            "/output/images/cards/contact/space-ooze.png",
-            "/output/images/cards/contact/space-ooze.png",
-            "/output/images/cards/contact/mini-weevil.png",
-            "/output/images/cards/contact/mini-weevil.png",
-            "/output/images/cards/contact/mini-weevil.png",
-            "/output/images/cards/contact/mini-weevil.png",
-            "/output/images/cards/contact/large-weevil.png",
-            "/output/images/cards/contact/large-weevil.png",
-            "/output/images/cards/contact/queen-weevil.png"
-        ]
-    }
+  "asset": "images/sheets/printable-cardsheet-monsters-01.png",
+  "template": "/sheets/card-sheet.html",
+  "renderer": {
+    "$ref": "data/renderer/cardsheet-7x3.json"
+  },
+  "data": {
+    "cards": [
+      "/output/images/cards/contact/rogue-droid.png",
+      "/output/images/cards/contact/rogue-droid.png",
+      "/output/images/cards/contact/rogue-droid.png",
+      "/output/images/cards/contact/rogue-droid.png",
+      "/output/images/cards/contact/space-ooze.png",
+      "/output/images/cards/contact/space-ooze.png",
+      "/output/images/cards/contact/giant-ooze.png",
+      "/output/images/cards/contact/war-droid.png",
+      "/output/images/cards/contact/sentry-bot.png",
+      "/output/images/cards/contact/sentry-bot.png",
+      "/output/images/cards/contact/sentry-bot.png",
+      "/output/images/cards/contact/space-ooze.png",
+      "/output/images/cards/contact/space-ooze.png",
+      "/output/images/cards/contact/space-ooze.png",
+      "/output/images/cards/contact/mini-weevil.png",
+      "/output/images/cards/contact/mini-weevil.png",
+      "/output/images/cards/contact/mini-weevil.png",
+      "/output/images/cards/contact/mini-weevil.png",
+      "/output/images/cards/contact/large-weevil.png",
+      "/output/images/cards/contact/large-weevil.png",
+      "/output/images/cards/contact/queen-weevil.png"
+    ]
+  }
 }, {
-    "asset": "images/sheets/printable-cardsheet-monsters-02.png",
-    "template": "/sheets/card-sheet.html",
-    "renderer": {
-        "$ref": "data/renderer/cardsheet-7x3.json"
-    },
-    "data": {
-        "cards": [
-            "/output/images/cards/contact/false-contact.png",
-            "/output/images/cards/contact/false-contact.png",
-            "/output/images/cards/contact/false-contact.png",
-            "/output/images/cards/contact/false-contact.png",
-            "/output/images/cards/contact/double-contact.png",
-            "/output/images/cards/contact/double-contact.png",
-            "/output/images/cards/contact/double-contact.png",
-            "/output/images/cards/contact/space-ooze.png",
-            "/output/images/cards/contact/space-ooze.png",
-            "/output/images/cards/contact/space-ooze.png",
-            "/output/images/cards/contact/space-ooze.png",
-            "/output/images/cards/contact/space-ooze.png",
-            "/output/images/cards/contact/space-ooze.png",
-            "/output/images/cards/contact/space-ooze.png",
-            "/output/images/cards/contact/mini-weevil.png",
-            "/output/images/cards/contact/mini-weevil.png",
-            "/output/images/cards/contact/mini-weevil.png",
-            "/output/images/cards/contact/mini-weevil.png",
-            "/output/images/cards/contact/mini-weevil.png",
-            "/output/images/cards/contact/large-weevil.png",
-            "/output/images/cards/contact/large-weevil.png"
-        ]
-    }
+  "asset": "images/sheets/printable-cardsheet-monsters-02.png",
+  "template": "/sheets/card-sheet.html",
+  "renderer": {
+    "$ref": "data/renderer/cardsheet-7x3.json"
+  },
+  "data": {
+    "cards": [
+      "/output/images/cards/contact/false-contact.png",
+      "/output/images/cards/contact/false-contact.png",
+      "/output/images/cards/contact/false-contact.png",
+      "/output/images/cards/contact/false-contact.png",
+      "/output/images/cards/contact/double-contact.png",
+      "/output/images/cards/contact/double-contact.png",
+      "/output/images/cards/contact/double-contact.png",
+      "/output/images/cards/contact/space-ooze.png",
+      "/output/images/cards/contact/space-ooze.png",
+      "/output/images/cards/contact/space-ooze.png",
+      "/output/images/cards/contact/space-ooze.png",
+      "/output/images/cards/contact/space-ooze.png",
+      "/output/images/cards/contact/space-ooze.png",
+      "/output/images/cards/contact/space-ooze.png",
+      "/output/images/cards/contact/mini-weevil.png",
+      "/output/images/cards/contact/mini-weevil.png",
+      "/output/images/cards/contact/mini-weevil.png",
+      "/output/images/cards/contact/mini-weevil.png",
+      "/output/images/cards/contact/mini-weevil.png",
+      "/output/images/cards/contact/large-weevil.png",
+      "/output/images/cards/contact/large-weevil.png"
+    ]
+  }
+}, {
+  "asset": "images/sheets/printable-cardsheet-skills-and-items.png",
+  "template": "/sheets/card-sheet.html",
+  "renderer": {
+    "$ref": "data/renderer/cardsheet-7x3.json"
+  },
+  "data": {
+    "cards": [
+      "/output/images/cards/skills/dodge.png",
+      "/output/images/cards/skills/move.png",
+      "/output/images/cards/skills/activate.png",
+      "/output/images/cards/skills/scavenge.png",
+      "/output/images/cards/items/energy-pistol.png",
+      "/output/images/cards/items/energy-rifle.png",
+      "/output/images/cards/items/welding-tool.png",
+      "/output/images/cards/skills/dodge.png",
+      "/output/images/cards/skills/move.png",
+      "/output/images/cards/skills/activate.png",
+      "/output/images/cards/skills/scavenge.png",
+      "/output/images/cards/items/energy-pistol.png",
+      "/output/images/cards/items/energy-rifle.png",
+      "/output/images/cards/items/welding-tool.png",
+      "/output/images/cards/items/jump-pack.png",
+      "/output/images/cards/items/hack-cart.png",
+      "/output/images/cards/items/refix-kit.png",
+      "/output/images/cards/items/stims.png",
+      "/output/images/cards/items/uplink.png",
+      "/output/images/cards/items/oxygen-tank.png",
+      "/output/images/cards/items/medikit.png"
+    ]
+  }
 }]

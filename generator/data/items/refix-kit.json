@@ -1,6 +1,6 @@
 {
   "type": "Item",
-  "title": "Hack Cart",
+  "title": "Refix Kit",
   "instructions": ["Priority [3]:", "Draw an item from the item discard pile"],
   "description": ["“It worked once, it can work again.”"],
   "endofround": ["End of round:", "Discard this card"],
