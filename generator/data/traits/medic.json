@@ -8,5 +8,7 @@
   "theme": {
     "primaryCardColour": "#d9ead3",
     "secondaryCardColour": "#d9d9d9"
-  }
+  },
+  "asset-type": "trait",
+  "asset-id": "medic"
 }

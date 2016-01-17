@@ -32,6 +32,25 @@
       }, {
         "$ref": "data/skills/scavenge.json"
       }]
+    },{
+      "title": "Trait Cards",
+      "cards": [{
+        "$ref": "data/traits/assault.json"
+      }, {
+        "$ref": "data/traits/engineer.json"
+      }, {
+        "$ref": "data/traits/hacker.json"
+      }, {
+        "$ref": "data/traits/marine.json"
+      }, {
+        "$ref": "data/traits/marksman.json"
+      }, {
+        "$ref": "data/traits/medic.json"
+      }, {
+        "$ref": "data/traits/special-forces.json"
+      }, {
+        "$ref": "data/traits/strategist.json"
+      }]
     }, {
       "title": "Item Cards",
       "cards": [{
