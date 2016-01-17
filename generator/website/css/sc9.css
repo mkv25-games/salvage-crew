@@ -1,0 +1,16 @@
+body {
+  font-family: "Droid Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.header {
+  text-align: center;
+}
+
+.navigation > heading {
+    display: block;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 0.5em;
+}

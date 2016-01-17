@@ -11,5 +11,7 @@
   ],
   "author": "John Beech",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "skeleton-css": "^2.0.4"
+  }
 }

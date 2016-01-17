@@ -1,43 +1,76 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/templates/cards/cards.css" type="text/css">
+  <meta charset="utf-8">
+  <title>{{title}}</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Droid+Sans:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/sc9.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
   <style>
-    span.palette.box {
-      width: 40px;
-      height: 40px;
+    .palette.box {
+      color: white;
+      padding: 15px;
+      text-align: center;
     }
 
-    span.card.image > img {
-      width: 240px;
+    .card.image > img {
+      width: 100%;
       height: auto;
     }
   </style>
 </head>
 
 <body>
-  <h1>{{title}}</h1>
-  {{#each sections}}
-    <h2>{{title}}</h2>
-    {{#each cards}}
-      <h3>{{title}}</h3>
-      <p>{{instructions}}</p>
-      <p>{{description}}</p>
-      <p>Health: {{health}}</p>
-      <p>Movement: {{movement}}</p>
-      <p>Resistance: {{resistance}}</p>
-      <p>Attack: {{attack}}</p>
-      <p>Tag 1: {{primaryTag}}</p>
-      <p>Tag 2: {{secondaryTag}}</p>
-      <span class="palette box" style="background-color: {{theme.primaryCardColour}};">{{theme.primaryCardColour}}</span>
-      <span class="palette box" style="background-color: {{theme.secondaryCardColour}};">{{theme.secondaryCardColour}}</span>
-      <span class="card image">
-        <img src="/images/cards/{{asset-type}}/{{asset-id}}.png">
-      </span>
+
+  <section class="navigation container header">
+    <heading>{{navigation.title}}</heading>
+    {{#each navigation.primary}}
+      <a class="button button-primary" href="{{href}}">{{text}}</a>
     {{/each}}
-  {{/each}}
+  </section>
+
+  <div class="container" style="margin-top: 5%">
+    <h1>{{title}}</h1>
+    {{#each sections}}
+      <h2>{{title}}</h2>
+      {{#each cards}}
+      <section class="card">
+        <h3>{{title}}</h3>
+        <div class="row">
+          <div class="eight columns">
+            {{#if instructions}}<p>{{instructions}}</p>{{/if}}
+            {{#if description}}<p>{{description}}</p>{{/if}}
+            {{#if health}}<p>Health: {{health}}</p>{{/if}}
+            {{#if movement}}<p>Movement: {{movement}}</p>{{/if}}
+            {{#if resistance}}<p>Resistance: {{resistance}}</p>{{/if}}
+            {{#if attack}}<p>Attack: {{attack}}</p>{{/if}}
+            {{#if primaryTag}}<p>Tag 1: {{primaryTag}}</p>{{/if}}
+            {{#if secondaryTag}}<p>Tag 2: {{secondaryTag}}</p>{{/if}}
+          </div>
+          <div class="four columns">
+            <span class="card image">
+              <img src="/images/cards/{{asset-type}}/{{asset-id}}.png">
+            </span>
+            <div class="row">
+              <div class="one-half column palette box" style="background-color: {{theme.primaryCardColour}};">{{theme.primaryCardColour}}</div>
+              <div class="one-half column palette box" style="background-color: {{theme.secondaryCardColour}};">{{theme.secondaryCardColour}}</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {{/each}}
+    {{/each}}
+  </div>
 
 </body>
 

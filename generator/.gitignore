@@ -1,2 +1,4 @@
 node_modules
 build
+website/images
+website/*.html

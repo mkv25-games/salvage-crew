@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{title}}</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Droid+Sans:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/sc9.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+
+  <div class="container" style="margin-top: 5%">
+    <section class="header">
+      <h1>{{title}}</h1>
+      <p>{{description}}</p>
+
+      <div class="navigation container">
+        {{#each navigation.primary}}
+          <a class="button button-primary" href="{{href}}">{{text}}</a>
+        {{/each}}
+      </div>
+    </section>
+  </div>
+
+</body>
+
+</html>
