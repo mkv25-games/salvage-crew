@@ -60,6 +60,10 @@
       }, {
         "$ref": "data/items/energy-saber.json"
       }, {
+        "$ref": "data/items/energy-shield.json"
+      }, {
+        "$ref": "data/items/explosives.json"
+      }, {
         "$ref": "data/items/hack-cart.json"
       }, {
         "$ref": "data/items/jump-pack.json"
@@ -68,9 +72,13 @@
       }, {
         "$ref": "data/items/minigun.json"
       }, {
+        "$ref": "data/items/napalm.json"
+      }, {
         "$ref": "data/items/oxygen-tank.json"
       }, {
         "$ref": "data/items/refix-kit.json"
+      }, {
+        "$ref": "data/items/reflect-shield.json"
       }, {
         "$ref": "data/items/rocket-grenade.json"
       }, {

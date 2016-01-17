@@ -1,0 +1,14 @@
+{
+  "type": "Item",
+  "title": "Reflect Shield",
+  "instructions": ["Priority [0]:", "Absorb up to 2 weapon damage this turn", "Priority [3]:", "Deal any absorbed damage to a single target"],
+  "description": [],
+  "endofround": ["End of round:", "Discard this card"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9d2e9",
+    "secondaryCardColour": "#d9d9d9"
+  },
+  "asset-type": "item",
+  "asset-id": "reflect-shield"
+}

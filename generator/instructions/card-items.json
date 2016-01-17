@@ -115,4 +115,40 @@
   "data": {
     "$ref": "data/items/energy-saber.json"
   }
+}, {
+  "asset": "images/cards/item/energy-shield.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/energy-shield.json"
+  }
+}, {
+  "asset": "images/cards/item/explosives.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/explosives.json"
+  }
+}, {
+  "asset": "images/cards/item/napalm.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/napalm.json"
+  }
+}, {
+  "asset": "images/cards/item/reflect-shield.png",
+  "template": "/cards/item.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/items/reflect-shield.json"
+  }
 }]

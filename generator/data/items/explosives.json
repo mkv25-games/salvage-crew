@@ -1,0 +1,14 @@
+{
+  "type": "Item",
+  "title": "Explosives",
+  "instructions": ["Priority [3]:", "Deal 3 damage to all creatures in an adjacent room, then cause a Hull Breach in the target room"],
+  "description": [],
+  "endofround": ["End of round:", "Discard this card"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9d2e9",
+    "secondaryCardColour": "#d9d9d9"
+  },
+  "asset-type": "item",
+  "asset-id": "napalm"
+}
