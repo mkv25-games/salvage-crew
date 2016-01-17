@@ -44,30 +44,69 @@
     {{#each sections}}
       <h2>{{title}}</h2>
       {{#each cards}}
-      <section class="card">
-        <h3>{{title}}</h3>
-        <div class="row">
-          <div class="eight columns">
-            {{#if instructions}}<p>{{instructions}}</p>{{/if}}
-            {{#if description}}<p>{{description}}</p>{{/if}}
-            {{#if health}}<p>Health: {{health}}</p>{{/if}}
-            {{#if movement}}<p>Movement: {{movement}}</p>{{/if}}
-            {{#if resistance}}<p>Resistance: {{resistance}}</p>{{/if}}
-            {{#if attack}}<p>Attack: {{attack}}</p>{{/if}}
-            {{#if primaryTag}}<p>Tag 1: {{primaryTag}}</p>{{/if}}
-            {{#if secondaryTag}}<p>Tag 2: {{secondaryTag}}</p>{{/if}}
-          </div>
-          <div class="four columns">
-            <span class="card image">
-              <img src="/images/cards/{{asset-type}}/{{asset-id}}.png">
-            </span>
-            <div class="row">
-              <div class="one-half column palette box" style="background-color: {{theme.primaryCardColour}};">{{theme.primaryCardColour}}</div>
-              <div class="one-half column palette box" style="background-color: {{theme.secondaryCardColour}};">{{theme.secondaryCardColour}}</div>
+        <section class="card">
+          <h3>{{title}}</h3>
+          <div class="row">
+            <div class="eight columns">
+
+              <table width="100%">
+                {{#if instructions}}
+                  <tr><td colspan="2">{{instructions}}</td></tr>
+                {{/if}}
+                {{#if description}}
+                  <tr><td colspan="2">{{description}}</td></tr>
+                {{/if}}
+                <tbody>
+                  {{#if health}}
+                    <tr>
+                      <td>Health:</td>
+                      <td>{{health}}</td>
+                    </tr>
+                  {{/if}}
+                  {{#if movement}}
+                    <tr>
+                      <td>Movement:</td>
+                      <td>{{movement}}</td>
+                    </tr>
+                  {{/if}}
+                  {{#if resistance}}
+                    <tr>
+                      <td>Resistance:</td>
+                      <td>{{resistance}}</td>
+                    </tr>
+                  {{/if}}
+                  {{#if attack}}
+                    <tr>
+                      <td>Attack:</td>
+                      <td>{{attack}}</td>
+                    </tr>
+                  {{/if}}
+                  {{#if primaryTag}}
+                    <tr>
+                      <td>Tag 1:</td>
+                      <td>{{primaryTag}}</td>
+                    </tr>
+                  {{/if}}
+                  {{#if secondaryTag}}
+                    <tr>
+                      <td>Tag 2:</td>
+                      <td>{{secondaryTag}}</td>
+                    </tr>
+                  {{/if}}
+                </tbody>
+              </table>
+            </div>
+            <div class="four columns">
+              <span class="card image">
+                <img src="/images/cards/{{asset-type}}/{{asset-id}}.png">
+              </span>
+              <div class="row">
+                <div class="one-half column palette box" style="background-color: {{theme.primaryCardColour}};">{{theme.primaryCardColour}}</div>
+                <div class="one-half column palette box" style="background-color: {{theme.secondaryCardColour}};">{{theme.secondaryCardColour}}</div>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
       {{/each}}
     {{/each}}
   </div>
