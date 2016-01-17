@@ -33,6 +33,35 @@
         "$ref": "data/skills/scavenge.json"
       }]
     }, {
+      "title": "Item Cards",
+      "cards": [{
+        "$ref": "data/items/energy-pistol.json"
+      }, {
+        "$ref": "data/items/energy-rifle.json"
+      }, {
+        "$ref": "data/items/energy-saber.json"
+      }, {
+        "$ref": "data/items/hack-cart.json"
+      }, {
+        "$ref": "data/items/jump-pack.json"
+      }, {
+        "$ref": "data/items/medikit.json"
+      }, {
+        "$ref": "data/items/minigun.json"
+      }, {
+        "$ref": "data/items/oxygen-tank.json"
+      }, {
+        "$ref": "data/items/refix-kit.json"
+      }, {
+        "$ref": "data/items/rocket-grenade.json"
+      }, {
+        "$ref": "data/items/stims.json"
+      }, {
+        "$ref": "data/items/uplink.json"
+      }, {
+        "$ref": "data/items/welding-tool.json"
+      }]
+    }, {
       "title": "Contact Cards",
       "cards": [{
         "$ref": "data/contacts/double-contact.json"

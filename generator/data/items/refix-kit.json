@@ -8,5 +8,7 @@
   "theme": {
     "primaryCardColour": "#d9d2e9",
     "secondaryCardColour": "#d9d9d9"
-  }
+  },
+  "asset-type": "item",
+  "asset-id": "refix-kit"
 }

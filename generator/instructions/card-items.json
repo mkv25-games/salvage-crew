@@ -1,5 +1,5 @@
 [{
-  "asset": "images/cards/items/energy-pistol.png",
+  "asset": "images/cards/item/energy-pistol.png",
   "template": "/cards/item.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -8,7 +8,7 @@
     "$ref": "data/items/energy-pistol.json"
   }
 }, {
-  "asset": "images/cards/items/energy-rifle.png",
+  "asset": "images/cards/item/energy-rifle.png",
   "template": "/cards/item.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -17,7 +17,7 @@
     "$ref": "data/items/energy-rifle.json"
   }
 }, {
-  "asset": "images/cards/items/hack-cart.png",
+  "asset": "images/cards/item/hack-cart.png",
   "template": "/cards/item.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -26,7 +26,7 @@
     "$ref": "data/items/hack-cart.json"
   }
 }, {
-  "asset": "images/cards/items/jump-pack.png",
+  "asset": "images/cards/item/jump-pack.png",
   "template": "/cards/item.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -35,7 +35,7 @@
     "$ref": "data/items/jump-pack.json"
   }
 }, {
-  "asset": "images/cards/items/medikit.png",
+  "asset": "images/cards/item/medikit.png",
   "template": "/cards/item.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -44,7 +44,7 @@
     "$ref": "data/items/medikit.json"
   }
 }, {
-  "asset": "images/cards/items/oxygen-tank.png",
+  "asset": "images/cards/item/oxygen-tank.png",
   "template": "/cards/item.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -53,7 +53,7 @@
     "$ref": "data/items/oxygen-tank.json"
   }
 }, {
-  "asset": "images/cards/items/refix-kit.png",
+  "asset": "images/cards/item/refix-kit.png",
   "template": "/cards/item.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -62,7 +62,7 @@
     "$ref": "data/items/refix-kit.json"
   }
 }, {
-  "asset": "images/cards/items/stims.png",
+  "asset": "images/cards/item/stims.png",
   "template": "/cards/item.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -71,7 +71,7 @@
     "$ref": "data/items/stims.json"
   }
 }, {
-  "asset": "images/cards/items/uplink.png",
+  "asset": "images/cards/item/uplink.png",
   "template": "/cards/item.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -80,7 +80,7 @@
     "$ref": "data/items/uplink.json"
   }
 }, {
-  "asset": "images/cards/items/welding-tool.png",
+  "asset": "images/cards/item/welding-tool.png",
   "template": "/cards/item.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -89,7 +89,7 @@
     "$ref": "data/items/welding-tool.json"
   }
 }, {
-  "asset": "images/cards/items/minigun.png",
+  "asset": "images/cards/item/minigun.png",
   "template": "/cards/item.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -98,7 +98,7 @@
     "$ref": "data/items/minigun.json"
   }
 }, {
-  "asset": "images/cards/items/rocket-grenade.png",
+  "asset": "images/cards/item/rocket-grenade.png",
   "template": "/cards/item.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -107,7 +107,7 @@
     "$ref": "data/items/rocket-grenade.json"
   }
 }, {
-  "asset": "images/cards/items/energy-saber.png",
+  "asset": "images/cards/item/energy-saber.png",
   "template": "/cards/item.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
