@@ -11,5 +11,7 @@
     "theme": {
         "primaryCardColour": "#F9CB9C",
         "secondaryCardColour": "#F6B26B"
-    }
+    },
+    "asset-type": "contact",
+    "asset-id": "large-weevil"
 }

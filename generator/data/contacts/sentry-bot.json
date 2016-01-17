@@ -11,5 +11,7 @@
     "theme": {
         "primaryCardColour": "#FFF2CC",
         "secondaryCardColour": "#999999"
-    }
+    },
+    "asset-type": "contact",
+    "asset-id": "sentry-bot"
 }

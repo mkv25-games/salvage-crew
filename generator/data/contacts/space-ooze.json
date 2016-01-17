@@ -11,5 +11,7 @@
     "theme": {
         "primaryCardColour": "#D9EAD3",
         "secondaryCardColour": "#93C47D"
-    }
+    },
+    "asset-type": "contact",
+    "asset-id": "space-ooze"
 }

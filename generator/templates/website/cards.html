@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/templates/cards/cards.css" type="text/css">
+
+  <style>
+    span.palette.box {
+      width: 40px;
+      height: 40px;
+    }
+
+    span.card.image > img {
+      width: 240px;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>{{title}}</h1>
+  {{#each sections}}
+    <h2>{{title}}</h2>
+    {{#each cards}}
+      <h3>{{title}}</h3>
+      <p>{{instructions}}</p>
+      <p>{{description}}</p>
+      <p>Health: {{health}}</p>
+      <p>Movement: {{movement}}</p>
+      <p>Resistance: {{resistance}}</p>
+      <p>Attack: {{attack}}</p>
+      <p>Tag 1: {{primaryTag}}</p>
+      <p>Tag 2: {{secondaryTag}}</p>
+      <span class="palette box" style="background-color: {{theme.primaryCardColour}};">{{theme.primaryCardColour}}</span>
+      <span class="palette box" style="background-color: {{theme.secondaryCardColour}};">{{theme.secondaryCardColour}}</span>
+      <span class="card image">
+        <img src="/images/cards/{{asset-type}}/{{asset-id}}.png">
+      </span>
+    {{/each}}
+  {{/each}}
+
+</body>
+
+</html>

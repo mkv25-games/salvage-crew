@@ -12,5 +12,7 @@
     "theme": {
         "primaryCardColour": "#B6D7A8",
         "secondaryCardColour": "#93C47D"
-    }
+    },
+    "asset-type": "contact",
+    "asset-id": "giant-ooze"
 }

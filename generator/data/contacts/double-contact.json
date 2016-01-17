@@ -1,9 +1,11 @@
 {
     "title": "Double Contact",
-    "instructions": ["As you approach the location of the blip, it splits in two.\n\nDraw two monster cards and add both. Ignore the result of any further contact cards."],
+    "instructions": ["As you approach the location of the blip, it splits in two.", "", "Draw two monster cards and add both. Ignore the result of any further contact cards."],
     "background": "/data/images/double-contact.png",
     "theme": {
         "primaryCardColour": "#890600",
         "secondaryCardColour": "#333333"
-    }
+    },
+    "asset-type": "contact",
+    "asset-id": "double-contact"
 }

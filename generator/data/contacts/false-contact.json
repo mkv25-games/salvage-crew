@@ -5,5 +5,7 @@
   "theme": {
       "primaryCardColour": "#002C67",
       "secondaryCardColour": "#333333"
-  }
+  },
+  "asset-type": "contact",
+  "asset-id": "false-contact"
 }

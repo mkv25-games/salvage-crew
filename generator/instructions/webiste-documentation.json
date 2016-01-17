@@ -1,0 +1,34 @@
+[{
+  "asset": "website/cards.html",
+  "template": "/website/cards.html",
+  "renderer": {
+    "$ref": "data/renderer/text.json"
+  },
+  "data": {
+    "title": "Cards",
+    "sections": [{
+      "title": "Contact Cards",
+      "cards": [{
+        "$ref": "data/contacts/double-contact.json"
+      }, {
+        "$ref": "data/contacts/false-contact.json"
+      }, {
+        "$ref": "data/contacts/giant-ooze.json"
+      }, {
+        "$ref": "data/contacts/large-weevil.json"
+      }, {
+        "$ref": "data/contacts/mini-weevil.json"
+      }, {
+        "$ref": "data/contacts/queen-weevil.json"
+      }, {
+        "$ref": "data/contacts/rogue-droid.json"
+      }, {
+        "$ref": "data/contacts/sentry-bot.json"
+      }, {
+        "$ref": "data/contacts/space-ooze.json"
+      }, {
+        "$ref": "data/contacts/war-droid.json"
+      }]
+    }]
+  }
+}]
