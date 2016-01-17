@@ -1,10 +1,13 @@
 [{
-  "asset": "images/sheets/printable-cardsheet-monsters-01.png",
+  "asset": "images/sheets/contacts-sheet-01.png",
   "template": "/sheets/card-sheet.html",
   "renderer": {
     "$ref": "data/renderer/cardsheet-7x3.json"
   },
   "data": {
+    "name": "Contacts Sheet 01",
+    "print-count": 1,
+    "asset-id": "contacts-sheet-01",
     "cards": [
       "/output/images/cards/contact/rogue-droid.png",
       "/output/images/cards/contact/rogue-droid.png",
@@ -30,12 +33,15 @@
     ]
   }
 }, {
-  "asset": "images/sheets/printable-cardsheet-monsters-02.png",
+  "asset": "images/sheets/contacts-sheet-02.png",
   "template": "/sheets/card-sheet.html",
   "renderer": {
     "$ref": "data/renderer/cardsheet-7x3.json"
   },
   "data": {
+    "name": "Contacts Sheet 02",
+    "print-count": 1,
+    "asset-id": "contacts-sheet-02",
     "cards": [
       "/output/images/cards/contact/false-contact.png",
       "/output/images/cards/contact/false-contact.png",
@@ -61,12 +67,15 @@
     ]
   }
 }, {
-  "asset": "images/sheets/printable-cardsheet-skills-and-items.png",
+  "asset": "images/sheets/skill-and-item-sheet-01.png",
   "template": "/sheets/card-sheet.html",
   "renderer": {
     "$ref": "data/renderer/cardsheet-7x3.json"
   },
   "data": {
+    "name": "Skill and Item Sheet 01",
+    "print-count": 2,
+    "asset-id": "skill-and-item-sheet-01",
     "cards": [
       "/output/images/cards/skill/dodge.png",
       "/output/images/cards/skill/move.png",
@@ -89,6 +98,40 @@
       "/output/images/cards/item/uplink.png",
       "/output/images/cards/item/oxygen-tank.png",
       "/output/images/cards/item/medikit.png"
+    ]
+  }
+}, {
+  "asset": "images/sheets/skill-and-item-sheet-02.png",
+  "template": "/sheets/card-sheet.html",
+  "renderer": {
+    "$ref": "data/renderer/cardsheet-7x3.json"
+  },
+  "data": {
+    "name": "Skill and Item Sheet 02",
+    "print-count": 1,
+    "asset-id": "skill-and-item-sheet-02",
+    "cards": [
+      "/output/images/cards/trait/marksman.png",
+      "/output/images/cards/trait/marine.png",
+      "/output/images/cards/trait/strategist.png",
+      "/output/images/cards/trait/special-forces.png",
+      "/output/images/cards/item/minigun.png",
+      "/output/images/cards/item/rocket-grenade.png",
+      "/output/images/cards/item/energy-shield.png",
+      "/output/images/cards/trait/medic.png",
+      "/output/images/cards/trait/assault.png",
+      "/output/images/cards/trait/hacker.png",
+      "/output/images/cards/trait/engineer.png",
+      "/output/images/cards/item/energy-saber.png",
+      "/output/images/cards/item/energy-saber.png",
+      "/output/images/cards/item/energy-shield.png",
+      "/output/images/cards/item/napalm.png",
+      "/output/images/cards/item/napalm.png",
+      "/output/images/cards/item/explosives.png",
+      "/output/images/cards/item/explosives.png",
+      "/output/images/cards/item/reflect-shield.png",
+      "/output/images/cards/item/refix-kit.png",
+      "/output/images/cards/item/oxygen-tank.png"
     ]
   }
 }]

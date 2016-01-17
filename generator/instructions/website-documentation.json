@@ -32,7 +32,7 @@
       }, {
         "$ref": "data/skills/scavenge.json"
       }]
-    },{
+    }, {
       "title": "Trait Cards",
       "cards": [{
         "$ref": "data/traits/assault.json"
@@ -104,5 +104,20 @@
         "$ref": "data/contacts/war-droid.json"
       }]
     }]
+  }
+}, {
+  "asset": "printables.html",
+  "template": "/website/printables.html",
+  "renderer": {
+    "$ref": "data/renderer/text.json"
+  },
+  "data": {
+    "title": "Printables",
+    "navigation": {
+      "$ref": "data/website/navigation.json"
+    },
+    "sheets": {
+      "$ref": "instructions/printable-sheets.json"
+    }
   }
 }]
