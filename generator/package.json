@@ -4,7 +4,11 @@
   "description": "A multi-format document generator, taking source data and templates and outputting into various formats.",
   "main": "generate.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:assets": "hag generate -o website",
+    "generate:website": "hag generate *website*.json -o website",
+    "upload:text": "cd website && node ../scripts/upload-text.js && cd ..",
+    "upload:all": "cd website && node ../scripts/upload-all.js && cd .."
   },
   "keywords": [
     "Generator"
@@ -12,6 +16,11 @@
   "author": "John Beech",
   "license": "ISC",
   "dependencies": {
+    "ftp-client": "^0.2.2",
     "skeleton-css": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mkv25-games/salvage-crew.git"
   }
 }

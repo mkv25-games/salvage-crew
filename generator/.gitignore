@@ -2,3 +2,4 @@ node_modules
 build
 website/images
 website/*.html
+auth.secret.json

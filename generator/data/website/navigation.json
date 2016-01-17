@@ -2,12 +2,12 @@
   "title": "Salvage Crew 9",
   "primary": [{
     "text": "Index",
-    "href": "/index.html"
+    "href": "index.html"
   }, {
     "text": "Cards",
-    "href": "/cards.html"
+    "href": "cards.html"
   }, {
     "text": "Printables",
-    "href": "/printables.html"
+    "href": "printables.html"
   }]
 }
