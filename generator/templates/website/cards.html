@@ -27,6 +27,10 @@
       width: 100%;
       height: auto;
     }
+
+    td > p {
+      margin: 0 0 0.2em 0;
+    }
   </style>
 </head>
 
@@ -50,11 +54,38 @@
             <div class="eight columns">
 
               <table width="100%">
+                {{#if type}}
+                  <tr>
+                    <td>Type:</td>
+                    <td>{{type}}</td>
+                  </tr>
+                {{/if}}
                 {{#if instructions}}
-                  <tr><td colspan="2">{{instructions}}</td></tr>
+                  <tr>
+                    <td colspan="2">
+                      {{#each instructions}}
+                        <p>{{this}}</p>
+                      {{/each}}
+                    </td>
+                  </tr>
                 {{/if}}
                 {{#if description}}
-                  <tr><td colspan="2">{{description}}</td></tr>
+                  <tr>
+                    <td colspan="2">
+                      {{#each description}}
+                        <p>{{this}}</p>
+                      {{/each}}
+                    </td>
+                  </tr>
+                {{/if}}
+                {{#if endofround}}
+                  <tr>
+                    <td colspan="2">
+                      {{#each endofround}}
+                        <p>{{this}}</p>
+                      {{/each}}
+                    </td>
+                  </tr>
                 {{/if}}
                 <tbody>
                   {{#if health}}

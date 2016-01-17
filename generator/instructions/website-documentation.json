@@ -22,10 +22,18 @@
       "$ref": "data/website/navigation.json"
     },
     "sections": [{
+      "title": "Skill Cards",
+      "cards": [{
+        "$ref": "data/skills/activate.json"
+      }, {
+        "$ref": "data/skills/dodge.json"
+      }, {
+        "$ref": "data/skills/move.json"
+      }, {
+        "$ref": "data/skills/scavenge.json"
+      }]
+    }, {
       "title": "Contact Cards",
-      "navigation": {
-        "$ref": "data/website/navigation.json"
-      },
       "cards": [{
         "$ref": "data/contacts/double-contact.json"
       }, {

@@ -1,5 +1,5 @@
 [{
-  "asset": "images/cards/skills/activate.png",
+  "asset": "images/cards/skill/activate.png",
   "template": "/cards/skill.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -8,7 +8,7 @@
     "$ref": "data/skills/activate.json"
   }
 }, {
-  "asset": "images/cards/skills/dodge.png",
+  "asset": "images/cards/skill/dodge.png",
   "template": "/cards/skill.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -17,7 +17,7 @@
     "$ref": "data/skills/dodge.json"
   }
 }, {
-  "asset": "images/cards/skills/move.png",
+  "asset": "images/cards/skill/move.png",
   "template": "/cards/skill.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
@@ -26,7 +26,7 @@
     "$ref": "data/skills/move.json"
   }
 }, {
-  "asset": "images/cards/skills/scavenge.png",
+  "asset": "images/cards/skill/scavenge.png",
   "template": "/cards/skill.html",
   "renderer": {
     "$ref": "data/renderer/standard-card.json"
