@@ -1,5 +1,5 @@
 [{
-  "asset": "images/map/tiles/C05-2x1.png",
+  "asset": "images/map/tile/C05-2x1.png",
   "template": "/tiles/sizeable-tile-frame.html",
   "renderer": {
     "$ref": "data/renderer/map-tile-2x1.json"
@@ -11,10 +11,12 @@
       "height": "300px",
       "x": "0px",
       "y": "0px"
-    }
+    },
+    "asset-id": "C05-2x1",
+    "asset-type": ["map", "tile"]
   }
 }, {
-  "asset": "images/map/tiles/C06-2x1.png",
+  "asset": "images/map/tile/C06-2x1.png",
   "template": "/tiles/sizeable-tile-frame.html",
   "renderer": {
     "$ref": "data/renderer/map-tile-2x1.json"
@@ -26,10 +28,12 @@
       "height": "300px",
       "x": "0px",
       "y": "300px"
-    }
+    },
+    "asset-id": "C06-2x1",
+    "asset-type": ["map", "tile"]
   }
 }, {
-  "asset": "images/map/tiles/C07-2x1.png",
+  "asset": "images/map/tile/C07-2x1.png",
   "template": "/tiles/sizeable-tile-frame.html",
   "renderer": {
     "$ref": "data/renderer/map-tile-2x1.json"
@@ -41,10 +45,12 @@
       "height": "300px",
       "x": "0px",
       "y": "600px"
-    }
+    },
+    "asset-id": "C07-2x1",
+    "asset-type": ["map", "tile"]
   }
 }, {
-  "asset": "images/map/tiles/C08-2x1.png",
+  "asset": "images/map/tile/C08-2x1.png",
   "template": "/tiles/sizeable-tile-frame.html",
   "renderer": {
     "$ref": "data/renderer/map-tile-2x1.json"
@@ -56,6 +62,8 @@
       "height": "300px",
       "x": "0px",
       "y": "900px"
-    }
+    },
+    "asset-id": "C08-2x1",
+    "asset-type": ["map", "tile"]
   }
 }]

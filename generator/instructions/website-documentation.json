@@ -114,6 +114,21 @@
     }]
   }
 }, {
+  "asset": "map-tiles.html",
+  "template": "/website/map-tiles.html",
+  "renderer": {
+    "$ref": "data/renderer/text.json"
+  },
+  "data": {
+    "title": "Map Tiles",
+    "navigation": {
+      "$ref": "data/website/navigation.json"
+    },
+    "tiles": {
+      "$ref": "instructions/map-tiles.json"
+    }
+  }
+}, {
   "asset": "printables.html",
   "template": "/website/printables.html",
   "renderer": {
