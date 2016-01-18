@@ -1,0 +1,61 @@
+[{
+  "asset": "images/map/tiles/C05-2x1.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-2x1.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-corridors.png",
+    "dimension": {
+      "width": "600px",
+      "height": "300px",
+      "x": "0px",
+      "y": "0px"
+    }
+  }
+}, {
+  "asset": "images/map/tiles/C06-2x1.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-2x1.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-corridors.png",
+    "dimension": {
+      "width": "600px",
+      "height": "300px",
+      "x": "0px",
+      "y": "300px"
+    }
+  }
+}, {
+  "asset": "images/map/tiles/C07-2x1.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-2x1.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-corridors.png",
+    "dimension": {
+      "width": "600px",
+      "height": "300px",
+      "x": "0px",
+      "y": "600px"
+    }
+  }
+}, {
+  "asset": "images/map/tiles/C08-2x1.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-2x1.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-corridors.png",
+    "dimension": {
+      "width": "600px",
+      "height": "300px",
+      "x": "0px",
+      "y": "900px"
+    }
+  }
+}]

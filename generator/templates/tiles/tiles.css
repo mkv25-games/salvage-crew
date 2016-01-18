@@ -1,0 +1,10 @@
+html, body, * {
+  margin: 0;
+  padding: 0;
+}
+renderframe {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+}
