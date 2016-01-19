@@ -1,4 +1,140 @@
 [{
+  "asset": "images/map/tile/R1-2x2.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-2x2.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-large-rooms.png",
+    "dimension": {
+      "width": "600px",
+      "height": "600px",
+      "x": "0px",
+      "y": "0px"
+    },
+    "asset-id": "R1-2x2",
+    "asset-type": ["map", "tile"]
+  }
+},{
+  "asset": "images/map/tile/R2-2x2.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-2x2.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-large-rooms.png",
+    "dimension": {
+      "width": "600px",
+      "height": "600px",
+      "x": "0px",
+      "y": "600px"
+    },
+    "asset-id": "R2-2x2",
+    "asset-type": ["map", "tile"]
+  }
+},{
+  "asset": "images/map/tile/R3-2x2.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-2x2.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-large-rooms.png",
+    "dimension": {
+      "width": "600px",
+      "height": "600px",
+      "x": "1200px",
+      "y": "0px"
+    },
+    "asset-id": "R3-2x2",
+    "asset-type": ["map", "tile"]
+  }
+},{
+  "asset": "images/map/tile/R4-2x2.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-2x2.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-large-rooms.png",
+    "dimension": {
+      "width": "600px",
+      "height": "600px",
+      "x": "1200px",
+      "y": "600px"
+    },
+    "asset-id": "R4-2x2",
+    "asset-type": ["map", "tile"]
+  }
+},{
+  "asset": "images/map/tile/C01-2x1.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-2x1.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-large-rooms.png",
+    "dimension": {
+      "width": "600px",
+      "height": "300px",
+      "x": "600px",
+      "y": "0px"
+    },
+    "asset-id": "C01-2x1",
+    "asset-type": ["map", "tile"]
+  }
+}, {
+  "asset": "images/map/tile/C02-2x1.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-2x1.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-large-rooms.png",
+    "dimension": {
+      "width": "600px",
+      "height": "300px",
+      "x": "600px",
+      "y": "300px"
+    },
+    "asset-id": "C02-2x1",
+    "asset-type": ["map", "tile"]
+  }
+}, {
+  "asset": "images/map/tile/C03-2x1.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-2x1.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-large-rooms.png",
+    "dimension": {
+      "width": "600px",
+      "height": "300px",
+      "x": "600px",
+      "y": "600px"
+    },
+    "asset-id": "C03-2x1",
+    "asset-type": ["map", "tile"]
+  }
+}, {
+  "asset": "images/map/tile/C04-2x1.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-2x1.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-large-rooms.png",
+    "dimension": {
+      "width": "600px",
+      "height": "300px",
+      "x": "600px",
+      "y": "900px"
+    },
+    "asset-id": "C04-2x1",
+    "asset-type": ["map", "tile"]
+  }
+}, {
   "asset": "images/map/tile/C05-2x1.png",
   "template": "/tiles/sizeable-tile-frame.html",
   "renderer": {

@@ -45,6 +45,11 @@
         <h3>{{data.asset-id}}</h3>
         <div class="row">
           <div class="six columns">
+            <span class="map tile image">
+              <img src="images/{{#each data.asset-type}}{{this}}/{{/each}}{{data.asset-id}}.png">
+            </span>
+          </div>
+          <div class="six columns">
             <table width="100%">
               {{#if data.asset-type}}
                 <tr>
@@ -67,11 +72,6 @@
               {{/if}}
               </tbody>
             </table>
-          </div>
-          <div class="six columns">
-            <span class="map tile image">
-              <img src="images/{{#each data.asset-type}}{{this}}/{{/each}}{{data.asset-id}}.png">
-            </span>
           </div>
         </div>
       </section>
