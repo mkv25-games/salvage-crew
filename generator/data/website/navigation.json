@@ -4,8 +4,17 @@
     "text": "Index",
     "href": "index.html"
   }, {
-    "text": "Cards",
-    "href": "cards.html"
+    "text": "Contacts",
+    "href": "contact-cards.html"
+  }, {
+    "text": "Items",
+    "href": "item-cards.html"
+  }, {
+    "text": "Skills",
+    "href": "skill-cards.html"
+  }, {
+    "text": "Traits",
+    "href": "trait-cards.html"
   }, {
     "text": "Map Tiles",
     "href": "map-tiles.html"

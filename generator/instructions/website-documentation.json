@@ -11,111 +11,138 @@
     }
   }
 }, {
-  "asset": "cards.html",
+  "asset": "skill-cards.html",
   "template": "/website/cards.html",
   "renderer": {
     "$ref": "data/renderer/text.json"
   },
   "data": {
-    "title": "Cards",
+    "title": "Skill Cards",
     "navigation": {
       "$ref": "data/website/navigation.json"
     },
-    "sections": [{
-      "title": "Skill Cards",
-      "cards": [{
-        "$ref": "data/skills/activate.json"
-      }, {
-        "$ref": "data/skills/dodge.json"
-      }, {
-        "$ref": "data/skills/move.json"
-      }, {
-        "$ref": "data/skills/scavenge.json"
-      }]
+    "cards": [{
+      "$ref": "data/skills/activate.json"
     }, {
-      "title": "Trait Cards",
-      "cards": [{
-        "$ref": "data/traits/assault.json"
-      }, {
-        "$ref": "data/traits/engineer.json"
-      }, {
-        "$ref": "data/traits/hacker.json"
-      }, {
-        "$ref": "data/traits/marine.json"
-      }, {
-        "$ref": "data/traits/marksman.json"
-      }, {
-        "$ref": "data/traits/medic.json"
-      }, {
-        "$ref": "data/traits/special-forces.json"
-      }, {
-        "$ref": "data/traits/strategist.json"
-      }]
+      "$ref": "data/skills/dodge.json"
     }, {
-      "title": "Item Cards",
-      "cards": [{
-        "$ref": "data/items/energy-pistol.json"
-      }, {
-        "$ref": "data/items/energy-rifle.json"
-      }, {
-        "$ref": "data/items/energy-saber.json"
-      }, {
-        "$ref": "data/items/energy-shield.json"
-      }, {
-        "$ref": "data/items/explosives.json"
-      }, {
-        "$ref": "data/items/hack-cart.json"
-      }, {
-        "$ref": "data/items/jump-pack.json"
-      }, {
-        "$ref": "data/items/medikit.json"
-      }, {
-        "$ref": "data/items/minigun.json"
-      }, {
-        "$ref": "data/items/napalm.json"
-      }, {
-        "$ref": "data/items/oxygen-tank.json"
-      }, {
-        "$ref": "data/items/refix-kit.json"
-      }, {
-        "$ref": "data/items/reflect-shield.json"
-      }, {
-        "$ref": "data/items/rocket-grenade.json"
-      }, {
-        "$ref": "data/items/stims.json"
-      }, {
-        "$ref": "data/items/uplink.json"
-      }, {
-        "$ref": "data/items/welding-tool.json"
-      }]
+      "$ref": "data/skills/move.json"
     }, {
-      "title": "Contact Cards",
-      "cards": [{
-        "$ref": "data/contacts/double-contact.json"
-      }, {
-        "$ref": "data/contacts/false-contact.json"
-      }, {
-        "$ref": "data/contacts/giant-ooze.json"
-      }, {
-        "$ref": "data/contacts/large-weevil.json"
-      }, {
-        "$ref": "data/contacts/mini-weevil.json"
-      }, {
-        "$ref": "data/contacts/queen-weevil.json"
-      }, {
-        "$ref": "data/contacts/rogue-droid.json"
-      }, {
-        "$ref": "data/contacts/sentry-bot.json"
-      }, {
-        "$ref": "data/contacts/space-ooze.json"
-      }, {
-        "$ref": "data/contacts/war-droid.json"
-      }]
+      "$ref": "data/skills/scavenge.json"
+    }]
+  }
+}, {
+  "asset": "trait-cards.html",
+  "template": "/website/cards.html",
+  "renderer": {
+    "$ref": "data/renderer/text.json"
+  },
+  "data": {
+    "title": "Trait Cards",
+    "navigation": {
+      "$ref": "data/website/navigation.json"
+    },
+    "cards": [{
+      "$ref": "data/traits/assault.json"
+    }, {
+      "$ref": "data/traits/engineer.json"
+    }, {
+      "$ref": "data/traits/hacker.json"
+    }, {
+      "$ref": "data/traits/marine.json"
+    }, {
+      "$ref": "data/traits/marksman.json"
+    }, {
+      "$ref": "data/traits/medic.json"
+    }, {
+      "$ref": "data/traits/special-forces.json"
+    }, {
+      "$ref": "data/traits/strategist.json"
+    }]
+  }
+}, {
+  "asset": "item-cards.html",
+  "template": "/website/cards.html",
+  "renderer": {
+    "$ref": "data/renderer/text.json"
+  },
+  "data": {
+    "title": "Item Cards",
+    "navigation": {
+      "$ref": "data/website/navigation.json"
+    },
+    "cards": [{
+      "$ref": "data/items/energy-pistol.json"
+    }, {
+      "$ref": "data/items/energy-rifle.json"
+    }, {
+      "$ref": "data/items/energy-saber.json"
+    }, {
+      "$ref": "data/items/energy-shield.json"
+    }, {
+      "$ref": "data/items/explosives.json"
+    }, {
+      "$ref": "data/items/hack-cart.json"
+    }, {
+      "$ref": "data/items/jump-pack.json"
+    }, {
+      "$ref": "data/items/medikit.json"
+    }, {
+      "$ref": "data/items/minigun.json"
+    }, {
+      "$ref": "data/items/napalm.json"
+    }, {
+      "$ref": "data/items/oxygen-tank.json"
+    }, {
+      "$ref": "data/items/refix-kit.json"
+    }, {
+      "$ref": "data/items/reflect-shield.json"
+    }, {
+      "$ref": "data/items/rocket-grenade.json"
+    }, {
+      "$ref": "data/items/stims.json"
+    }, {
+      "$ref": "data/items/uplink.json"
+    }, {
+      "$ref": "data/items/welding-tool.json"
+    }]
+  }
+}, {
+  "asset": "contact-cards.html",
+  "template": "/website/cards.html",
+  "renderer": {
+    "$ref": "data/renderer/text.json"
+  },
+  "data": {
+    "title": "Contact Cards",
+    "navigation": {
+      "$ref": "data/website/navigation.json"
+    },
+    "cards": [{
+      "$ref": "data/contacts/double-contact.json"
+    }, {
+      "$ref": "data/contacts/false-contact.json"
+    }, {
+      "$ref": "data/contacts/giant-ooze.json"
+    }, {
+      "$ref": "data/contacts/large-weevil.json"
+    }, {
+      "$ref": "data/contacts/mini-weevil.json"
+    }, {
+      "$ref": "data/contacts/queen-weevil.json"
+    }, {
+      "$ref": "data/contacts/rogue-droid.json"
+    }, {
+      "$ref": "data/contacts/sentry-bot.json"
+    }, {
+      "$ref": "data/contacts/space-ooze.json"
+    }, {
+      "$ref": "data/contacts/war-droid.json"
     }]
   }
 }, {
   "asset": "map-tiles.html",
-  "template": "/website/map-tiles.html",
+  "template": "/website/cards.html",
   "renderer": {
     "$ref": "data/renderer/text.json"
   },
