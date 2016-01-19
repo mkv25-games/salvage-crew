@@ -61,6 +61,12 @@
                   </td>
                 </tr>
               {{/if}}
+              {{#if data.count}}
+                <tr>
+                  <td>Count:</td>
+                  <td>x{{data.count}}</td>
+                </tr>
+              {{/if}}
               {{#if data.description}}
                 <tr>
                   <td colspan="2">

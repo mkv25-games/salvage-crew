@@ -50,7 +50,8 @@
     },
     "asset-id": "R3-2x2",
     "asset-type": ["map", "tile"],
-    "description": ["Large room with a dual console, and a small wiring matrix embedded into the floor."]
+    "description": ["Large room with a dual console, and a small wiring matrix embedded into the floor."],
+    "count": 2
   }
 },{
   "asset": "images/map/tile/R4-2x2.png",
@@ -68,7 +69,8 @@
     },
     "asset-id": "R4-2x2",
     "asset-type": ["map", "tile"],
-    "description": ["Large room with two consoles, and a large metal plate across the middle of the room."]
+    "description": ["Large room with two consoles, and a large metal plate across the middle of the room."],
+    "count": 2
   }
 },{
   "asset": "images/map/tile/C01-2x1.png",
@@ -86,7 +88,8 @@
     },
     "asset-id": "C01-2x1",
     "asset-type": ["map", "tile"],
-    "description": []
+    "description": [],
+    "count": 2
   }
 }, {
   "asset": "images/map/tile/C02-2x1.png",
@@ -104,7 +107,8 @@
     },
     "asset-id": "C02-2x1",
     "asset-type": ["map", "tile"],
-    "description": []
+    "description": [],
+    "count": 2
   }
 }, {
   "asset": "images/map/tile/C03-2x1.png",
@@ -122,7 +126,8 @@
     },
     "asset-id": "C03-2x1",
     "asset-type": ["map", "tile"],
-    "description": []
+    "description": [],
+    "count": 2
   }
 }, {
   "asset": "images/map/tile/C04-2x1.png",
@@ -140,7 +145,8 @@
     },
     "asset-id": "C04-2x1",
     "asset-type": ["map", "tile"],
-    "description": []
+    "description": [],
+    "count": 2
   }
 }, {
   "asset": "images/map/tile/C05-2x1.png",
@@ -158,7 +164,8 @@
     },
     "asset-id": "C05-2x1",
     "asset-type": ["map", "tile"],
-    "description": []
+    "description": [],
+    "count": 2
   }
 }, {
   "asset": "images/map/tile/C06-2x1.png",
@@ -176,7 +183,8 @@
     },
     "asset-id": "C06-2x1",
     "asset-type": ["map", "tile"],
-    "description": []
+    "description": [],
+    "count": 2
   }
 }, {
   "asset": "images/map/tile/C07-2x1.png",
@@ -194,7 +202,8 @@
     },
     "asset-id": "C07-2x1",
     "asset-type": ["map", "tile"],
-    "description": []
+    "description": [],
+    "count": 2
   }
 }, {
   "asset": "images/map/tile/C08-2x1.png",
@@ -212,7 +221,8 @@
     },
     "asset-id": "C08-2x1",
     "asset-type": ["map", "tile"],
-    "description": []
+    "description": [],
+    "count": 2
   }
 }, {
   "asset": "images/map/tile/C09-2x1.png",
@@ -230,7 +240,8 @@
     },
     "asset-id": "C09-2x1",
     "asset-type": ["map", "tile"],
-    "description": []
+    "description": [],
+    "count": 2
   }
 }, {
   "asset": "images/map/tile/C10-2x1.png",
@@ -248,7 +259,8 @@
     },
     "asset-id": "C10-2x1",
     "asset-type": ["map", "tile"],
-    "description": []
+    "description": [],
+    "count": 2
   }
 }, {
   "asset": "images/map/tile/C11-2x1.png",
@@ -266,7 +278,8 @@
     },
     "asset-id": "C11-2x1",
     "asset-type": ["map", "tile"],
-    "description": []
+    "description": [],
+    "count": 2
   }
 }, {
   "asset": "images/map/tile/C12-2x1.png",
@@ -284,7 +297,8 @@
     },
     "asset-id": "C12-2x1",
     "asset-type": ["map", "tile"],
-    "description": []
+    "description": [],
+    "count": 2
   }
 }, {
   "asset": "images/map/tile/DP-2x1.png",
@@ -302,7 +316,8 @@
     },
     "asset-id": "DP-2x1",
     "asset-type": ["map", "tile"],
-    "description": ["Docking port; where small vessels and landing craft can attach to gain access."]
+    "description": ["Docking port; where small vessels and landing craft can attach to gain access."],
+    "count": 2
   }
 }, {
   "asset": "images/map/tile/C13-2x1.png",
@@ -320,7 +335,8 @@
     },
     "asset-id": "C13-2x1",
     "asset-type": ["map", "tile"],
-    "description": []
+    "description": [],
+    "count": 2
   }
 }, {
   "asset": "images/map/tile/C13-2x1.png",
@@ -338,6 +354,7 @@
     },
     "asset-id": "C13-2x1",
     "asset-type": ["map", "tile"],
-    "description": []
+    "description": [],
+    "count": 2
   }
 }]
