@@ -134,4 +134,58 @@
     "asset-id": "C12-2x1",
     "asset-type": ["map", "tile"]
   }
+}, {
+  "asset": "images/map/tile/DP-2x1.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-2x1.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-corridors.png",
+    "dimension": {
+      "width": "600px",
+      "height": "300px",
+      "x": "1200px",
+      "y": "900px"
+    },
+    "asset-id": "DP-2x1",
+    "asset-type": ["map", "tile"],
+    "description": ["Docking port; where small vessels and landing craft can attach to gain access."]
+  }
+}, {
+  "asset": "images/map/tile/C13-2x1.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-1x3.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-corridors.png",
+    "dimension": {
+      "width": "300px",
+      "height": "900px",
+      "x": "1200px",
+      "y": "0px"
+    },
+    "asset-id": "C13-2x1",
+    "asset-type": ["map", "tile"],
+    "description": []
+  }
+}, {
+  "asset": "images/map/tile/C13-2x1.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-1x3.json"
+  },
+  "data": {
+    "background": "/data/tiles/map-tiles-corridors.png",
+    "dimension": {
+      "width": "300px",
+      "height": "900px",
+      "x": "1500px",
+      "y": "0px"
+    },
+    "asset-id": "C13-2x1",
+    "asset-type": ["map", "tile"],
+    "description": []
+  }
 }]

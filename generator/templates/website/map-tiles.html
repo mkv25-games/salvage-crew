@@ -18,7 +18,8 @@
 
   <style>
     .map.tile.image > img {
-      width: 100%;
+      max-width: 100%;
+      max-height: 600px;
       height: auto;
     }
 
@@ -48,7 +49,20 @@
               {{#if data.asset-type}}
                 <tr>
                   <td>Type:</td>
-                  <td>{{data.asset-type}}</td>
+                  <td>
+                    {{#each data.asset-type}}
+                      <span class="{{this}}">{{this}}</span>
+                    {{/each}}
+                  </td>
+                </tr>
+              {{/if}}
+              {{#if data.description}}
+                <tr>
+                  <td colspan="2">
+                    {{#each data.description}}
+                      <p>{{this}}</p>
+                    {{/each}}
+                  </td>
                 </tr>
               {{/if}}
               </tbody>
@@ -60,6 +74,7 @@
             </span>
           </div>
         </div>
+      </section>
     {{/each}}
   </div>
 
