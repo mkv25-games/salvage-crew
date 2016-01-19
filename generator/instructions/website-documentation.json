@@ -17,7 +17,7 @@
     "$ref": "data/renderer/text.json"
   },
   "data": {
-    "title": "Skill Cards",
+    "title": "Skills",
     "navigation": {
       "$ref": "data/website/navigation.json"
     },
@@ -38,7 +38,7 @@
     "$ref": "data/renderer/text.json"
   },
   "data": {
-    "title": "Trait Cards",
+    "title": "Traits",
     "navigation": {
       "$ref": "data/website/navigation.json"
     },
@@ -67,7 +67,7 @@
     "$ref": "data/renderer/text.json"
   },
   "data": {
-    "title": "Item Cards",
+    "title": "Items",
     "navigation": {
       "$ref": "data/website/navigation.json"
     },
@@ -114,7 +114,7 @@
     "$ref": "data/renderer/text.json"
   },
   "data": {
-    "title": "Contact Cards",
+    "title": "Contacts",
     "navigation": {
       "$ref": "data/website/navigation.json"
     },
@@ -142,7 +142,7 @@
   }
 }, {
   "asset": "map-tiles.html",
-  "template": "/website/cards.html",
+  "template": "/website/map-tiles.html",
   "renderer": {
     "$ref": "data/renderer/text.json"
   },
