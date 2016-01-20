@@ -5,10 +5,20 @@ body {
   text-align: center;
 }
 
+.navigation.header {
+    background: #DDD;
+    width: 100%;
+    padding: 10px 0;
+}
+
 .navigation > heading {
     display: block;
     font-size: 120%;
     font-weight: bold;
+}
+
+.navigation .button {
+    margin-bottom: 0.5rem;
 }
 
 section {
