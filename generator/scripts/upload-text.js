@@ -12,7 +12,7 @@ var auth = require('../auth.secret.json'),
   client = new ftpClient(config, options);
 
 client.connect(function () {
-    client.upload(['./*.html', './*.css'], '/', {
+    client.upload(['./*.html', './css/*.css'], '/', {
         baseDir: '/',
         overwrite: 'older'
     }, function (result) {
