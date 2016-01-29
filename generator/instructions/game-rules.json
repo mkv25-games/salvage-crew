@@ -1,0 +1,93 @@
+[{
+  "asset": "data/game-rules.json",
+  "renderer": {
+    "$ref": "data/renderer/json.json"
+  },
+  "data": {
+    "contacts": {
+      "double-contact": {
+        "$ref": "data/contacts/double-contact.json"
+      },
+      "false-contact": {
+        "$ref": "data/contacts/false-contact.json"
+      },
+      "giant-ooze": {
+        "$ref": "data/contacts/giant-ooze.json"
+      },
+      "large-weevil": {
+        "$ref": "data/contacts/large-weevil.json"
+      },
+      "mini-weevil": {
+        "$ref": "data/contacts/mini-weevil.json"
+      },
+      "queen-weevil": {
+        "$ref": "data/contacts/queen-weevil.json"
+      },
+      "rogue-droid": {
+        "$ref": "data/contacts/rogue-droid.json"
+      },
+      "sentry-bot": {
+        "$ref": "data/contacts/sentry-bot.json"
+      },
+      "space-ooze": {
+        "$ref": "data/contacts/space-ooze.json"
+      },
+      "war-droid": {
+        "$ref": "data/contacts/war-droid.json"
+      }
+    },
+    "items": {
+      "energy-pistol": {
+        "$ref": "data/items/energy-pistol.json"
+      },
+      "energy-rifle": {
+        "$ref": "data/items/energy-rifle.json"
+      },
+      "energy-saber": {
+        "$ref": "data/items/energy-saber.json"
+      },
+      "energy-shield": {
+        "$ref": "data/items/energy-shield.json"
+      },
+      "explosives": {
+        "$ref": "data/items/explosives.json"
+      },
+      "hack-cart": {
+        "$ref": "data/items/hack-cart.json"
+      },
+      "jump-pack": {
+        "$ref": "data/items/jump-pack.json"
+      },
+      "medikit": {
+        "$ref": "data/items/medikit.json"
+      },
+      "minigun": {
+        "$ref": "data/items/minigun.json"
+      },
+      "napalm": {
+        "$ref": "data/items/napalm.json"
+      },
+      "oxygen-tank": {
+        "$ref": "data/items/oxygen-tank.json"
+      },
+      "refix-kit": {
+        "$ref": "data/items/refix-kit.json"
+      },
+      "reflect-shield": {
+        "$ref": "data/items/reflect-shield.json"
+      },
+      "rocket-grenade": {
+        "$ref": "data/items/rocket-grenade.json"
+      },
+      "stims": {
+        "$ref": "data/items/stims.json"
+      },
+      "uplink": {
+        "$ref": "data/items/uplink.json"
+      },
+      "welding-tool": {
+        "$ref": "data/items/welding-tool.json"
+      }
+    }
+  }
+}]

@@ -1,0 +1,544 @@
+{
+  "contacts": {
+    "double-contact": {
+      "title": "Double Contact",
+      "instructions": [
+        "As you approach the location of the blip, it splits in two.",
+        "",
+        "Draw two monster cards and add both. Ignore the result of any further contact cards."
+      ],
+      "background": "/data/images/double-contact.png",
+      "theme": {
+        "primaryCardColour": "#890600",
+        "secondaryCardColour": "#333333"
+      },
+      "asset-type": "contact",
+      "asset-id": "double-contact"
+    },
+    "false-contact": {
+      "title": "False Contact",
+      "instructions": [
+        "As you approach the location of the blip, your scanner stops making noise. Must have been a false positive."
+      ],
+      "background": "/data/images/false-contact.png",
+      "theme": {
+        "primaryCardColour": "#002C67",
+        "secondaryCardColour": "#333333"
+      },
+      "asset-type": "contact",
+      "asset-id": "false-contact"
+    },
+    "giant-ooze": {
+      "title": "Giant Ooze",
+      "instructions": [
+        "Priority [3]: Move towards nearest player, and then ranged attack",
+        "When this monster dies place two Space Ooze blips in this room."
+      ],
+      "health": 9,
+      "movement": 3,
+      "resistance": 2,
+      "attack": 1,
+      "primaryTag": "ooze",
+      "secondaryTag": "?",
+      "boss": true,
+      "background": "/data/images/giant-ooze.jpg",
+      "theme": {
+        "primaryCardColour": "#B6D7A8",
+        "secondaryCardColour": "#93C47D"
+      },
+      "asset-type": "contact",
+      "asset-id": "giant-ooze"
+    },
+    "large-weevil": {
+      "title": "Large Weevil",
+      "instructions": [
+        "Priority [1]: Move towards nearest player, and then melee attack the nearest target"
+      ],
+      "health": 3,
+      "movement": 3,
+      "resistance": 0,
+      "attack": 2,
+      "primaryTag": "critter",
+      "secondaryTag": "weevil",
+      "background": "/data/images/large-weevil.png",
+      "theme": {
+        "primaryCardColour": "#F9CB9C",
+        "secondaryCardColour": "#F6B26B"
+      },
+      "asset-type": "contact",
+      "asset-id": "large-weevil"
+    },
+    "mini-weevil": {
+      "title": "Mini Weevil",
+      "instructions": [
+        "Priority [1]: Move towards nearest player, and then melee attack the nearest target"
+      ],
+      "health": 1,
+      "movement": 3,
+      "resistance": 0,
+      "attack": 1,
+      "primaryTag": "critter",
+      "secondaryTag": "weevil",
+      "background": "/data/images/mini-weevil.png",
+      "theme": {
+        "primaryCardColour": "#F9CB9C",
+        "secondaryCardColour": "#F6B26B"
+      },
+      "asset-type": "contact",
+      "asset-id": "mini-weevil"
+    },
+    "queen-weevil": {
+      "title": "Queen Weevil",
+      "instructions": [
+        "Priority [2]: Move away from the nearest player, then all other weevils take their priority action."
+      ],
+      "health": 5,
+      "movement": 3,
+      "resistance": 0,
+      "attack": 2,
+      "primaryTag": "critter",
+      "secondaryTag": "weevil",
+      "boss": true,
+      "background": "/data/images/queen-weevil.png",
+      "theme": {
+        "primaryCardColour": "#F9CB9C",
+        "secondaryCardColour": "#F6B26B"
+      },
+      "asset-type": "contact",
+      "asset-id": "queen-weevil"
+    },
+    "rogue-droid": {
+      "title": "Rogue Droid",
+      "instructions": [
+        "Priority [3]: Move towards nearest player, and then melee attack"
+      ],
+      "health": 3,
+      "movement": 3,
+      "resistance": 2,
+      "attack": 1,
+      "primaryTag": "robot",
+      "secondaryTag": "?",
+      "background": "/data/images/rogue-droid.png",
+      "theme": {
+        "primaryCardColour": "#FFF2CC",
+        "secondaryCardColour": "#999999"
+      },
+      "asset-type": "contact",
+      "asset-id": "rogue-droid"
+    },
+    "sentry-bot": {
+      "title": "Sentry Bot",
+      "instructions": [
+        "Priority [3]: Move towards nearest player, and then ranged attack"
+      ],
+      "health": 2,
+      "movement": 2,
+      "resistance": 2,
+      "attack": 1,
+      "primaryTag": "robot",
+      "secondaryTag": "?",
+      "background": "/data/images/sentry-bot.png",
+      "theme": {
+        "primaryCardColour": "#FFF2CC",
+        "secondaryCardColour": "#999999"
+      },
+      "asset-type": "contact",
+      "asset-id": "sentry-bot"
+    },
+    "space-ooze": {
+      "title": "Space Ooze",
+      "instructions": [
+        "Priority [3]: Move towards nearest player, and then melee attack"
+      ],
+      "health": 1,
+      "movement": 3,
+      "resistance": 2,
+      "attack": 1,
+      "primaryTag": "ooze",
+      "secondaryTag": "?",
+      "background": "/data/images/space-ooze.jpg",
+      "theme": {
+        "primaryCardColour": "#D9EAD3",
+        "secondaryCardColour": "#93C47D"
+      },
+      "asset-type": "contact",
+      "asset-id": "space-ooze"
+    },
+    "war-droid": {
+      "title": "War Droid",
+      "instructions": [
+        "Priority [3]: Move towards nearest player, and then ranged attack"
+      ],
+      "health": 9,
+      "movement": 3,
+      "resistance": 2,
+      "attack": 3,
+      "primaryTag": "robot",
+      "secondaryTag": "?",
+      "boss": true,
+      "background": "/data/images/war-droid.png",
+      "theme": {
+        "primaryCardColour": "#FFE599",
+        "secondaryCardColour": "#999999"
+      },
+      "asset-type": "contact",
+      "asset-id": "war-droid"
+    }
+  },
+  "items": {
+    "energy-pistol": {
+      "type": "Basic Weapon",
+      "title": "Energy Pistol",
+      "instructions": [
+        "Priority [1]:",
+        "Deal 2 Damage to a target"
+      ],
+      "endofround": [
+        "End of round:",
+        "Return card to hand"
+      ],
+      "description": [],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d0e0e3",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "energy-pistol"
+    },
+    "energy-rifle": {
+      "type": "Item",
+      "title": "Energy Rifle",
+      "instructions": [
+        "Priority [2]:",
+        "Deal 4 Damage to a target"
+      ],
+      "endofround": [
+        "End of round:",
+        "If you didn’t play this card this turn, return card to your hand"
+      ],
+      "description": [],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d0e0e3",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "energy-rifle"
+    },
+    "energy-saber": {
+      "type": "Basic Weapon",
+      "title": "Energy Saber",
+      "instructions": [
+        "Priority [1]:",
+        "Deal 3 damage to an adjacent target"
+      ],
+      "description": [
+        "“Bzzzzzzzz-t”, “Swoooosh”"
+      ],
+      "endofround": [
+        "End of round:",
+        "Discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d0e0e3",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "energy-saber"
+    },
+    "energy-shield": {
+      "type": "Item",
+      "title": "Energy Shield",
+      "instructions": [
+        "Priority [0]:",
+        "Absorb up to 4 weapon damage this turn"
+      ],
+      "description": [],
+      "endofround": [
+        "End of round:",
+        "If you absorbed any weapon damage then discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d9d2e9",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "energy-shield"
+    },
+    "explosives": {
+      "type": "Item",
+      "title": "Explosives",
+      "instructions": [
+        "Priority [3]:",
+        "Deal 3 damage to all creatures in an adjacent room, then cause a Hull Breach in the target room"
+      ],
+      "description": [],
+      "endofround": [
+        "End of round:",
+        "Discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d9d2e9",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "napalm"
+    },
+    "hack-cart": {
+      "type": "Item",
+      "title": "Hack Cart",
+      "instructions": [
+        "Priority [0]:",
+        "Choose one of: Toggle Door, Activate Terminal, or Disable Robot, and then play a basic action"
+      ],
+      "description": [],
+      "endofround": [
+        "End of round:",
+        "Discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d9d2e9",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "hack-cart"
+    },
+    "jump-pack": {
+      "type": "Item",
+      "title": "Jump Pack",
+      "instructions": [
+        "Priority [0]:",
+        "Move up to eight spaces"
+      ],
+      "description": [
+        "“Whooosh!”"
+      ],
+      "endofround": [
+        "End of round:",
+        "Discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d9d2e9",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "jump-pack"
+    },
+    "medikit": {
+      "type": "Item",
+      "title": "Medikit",
+      "instructions": [
+        "Priority [3]:",
+        "Give +3 health to a target in the current room"
+      ],
+      "description": [],
+      "endofround": [
+        "End of round:",
+        "Discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d9d2e9",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "medikit"
+    },
+    "minigun": {
+      "type": "Item",
+      "title": "Minigun",
+      "instructions": [
+        "Priority [1]:",
+        "Deal 2 damage to a target",
+        "Priority [2]:",
+        "Deal 2 damage to a target",
+        "Priority [3]:",
+        "Deal 2 damage to a target"
+      ],
+      "description": [],
+      "endofround": [
+        "End of round:",
+        "Discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d0e0e3",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "minigun"
+    },
+    "napalm": {
+      "type": "Item",
+      "title": "Napalm",
+      "instructions": [
+        "Priority [3]:",
+        "Deal 3 damage to a target and all adjacent targets, then set the target room on fire by placing a burning room token"
+      ],
+      "description": [],
+      "endofround": [
+        "End of round:",
+        "Discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d9d2e9",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "napalm"
+    },
+    "oxygen-tank": {
+      "type": "Item",
+      "title": "Oxygen Tank",
+      "instructions": [
+        "Priority [3]:",
+        "Give +3 oxygen to a target in the current room"
+      ],
+      "description": [],
+      "endofround": [
+        "End of round:",
+        "Discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d9d2e9",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "oxygen-tank"
+    },
+    "refix-kit": {
+      "type": "Item",
+      "title": "Refix Kit",
+      "instructions": [
+        "Priority [3]:",
+        "Draw an item from the item discard pile"
+      ],
+      "description": [
+        "“It worked once, it can work again.”"
+      ],
+      "endofround": [
+        "End of round:",
+        "Discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d9d2e9",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "refix-kit"
+    },
+    "reflect-shield": {
+      "type": "Item",
+      "title": "Reflect Shield",
+      "instructions": [
+        "Priority [0]:",
+        "Absorb up to 2 weapon damage this turn",
+        "Priority [3]:",
+        "Deal any absorbed damage to a single target"
+      ],
+      "description": [],
+      "endofround": [
+        "End of round:",
+        "Discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d9d2e9",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "reflect-shield"
+    },
+    "rocket-grenade": {
+      "type": "Item",
+      "title": "Rocket Grenade",
+      "instructions": [
+        "Priority [3]:",
+        "Deal 4 damage to a target and all adjacent targets",
+        "",
+        "Breach targetted room"
+      ],
+      "description": [],
+      "endofround": [
+        "End of round:",
+        "Discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d0e0e3",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "rocket-grenade"
+    },
+    "stims": {
+      "type": "Item",
+      "title": "Stims",
+      "instructions": [
+        "Priority [0]:",
+        "Play any basic action or basic weapon and treat its priority as [0]"
+      ],
+      "description": [],
+      "endofround": [
+        "End of round:",
+        "Discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d9d2e9",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "stims"
+    },
+    "uplink": {
+      "type": "Item",
+      "title": "Uplink",
+      "instructions": [
+        "Priority [3]:",
+        "Play any action, weapon or item and treat its priority as [3]"
+      ],
+      "description": [],
+      "endofround": [
+        "End of round:",
+        "Discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d9d2e9",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "uplink"
+    },
+    "welding-tool": {
+      "type": "Item",
+      "title": "Welding Tool",
+      "instructions": [
+        "Priority [2]:",
+        "Seal or Unseal a Bulkhead, or remove a Hull Breach"
+      ],
+      "description": [],
+      "endofround": [
+        "End of round:",
+        "Discard this card"
+      ],
+      "background": "",
+      "theme": {
+        "primaryCardColour": "#d9d2e9",
+        "secondaryCardColour": "#d9d9d9"
+      },
+      "asset-type": "item",
+      "asset-id": "welding-tool"
+    }
+  }
+}

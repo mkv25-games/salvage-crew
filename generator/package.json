@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate:assets": "hag generate -o website",
     "generate:map-tiles": "hag generate map-tiles.json -o website",
+    "generate:rules": "hag generate game-rules.json -o website",
     "generate:website": "hag generate *website*.json -o website",
     "upload:text": "cd website && node ../scripts/upload-text.js && cd ..",
     "upload:all": "cd website && node ../scripts/upload-all.js && cd .."
