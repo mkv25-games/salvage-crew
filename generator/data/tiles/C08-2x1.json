@@ -1,0 +1,13 @@
+{
+  "background": "/data/tiles/map-tiles-corridors.png",
+  "dimension": {
+    "width": "600px",
+    "height": "300px",
+    "x": "0px",
+    "y": "900px"
+  },
+  "asset-id": "C08-2x1",
+  "asset-type": ["map", "tile"],
+  "description": [],
+  "count": 2
+}

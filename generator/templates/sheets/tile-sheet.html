@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/templates/cards/cards.css" type="text/css">
+    <style>
+        .tilesheet {
+            width: 4480px;
+            height: 2880px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .tile {
+            display: block;
+            position: absolute;
+            outline: 2px solid black;
+            outline-offset: -2px;
+        }
+    </style>
+</head>
+
+<body>
+    <renderframe class="tilesheet">
+    {{#each tiles}}
+        <div class="tile" style="background-image: url('/output/images{{#each asset-type}}/{{this}}{{/each}}/{{asset-id}}.png'); background-size: auto; width:{{dimension.width}}; height:{{dimension.height}}; left: {{dimension.x}}; top:{{dimension.y}}"></div>
+    {{/each}}
+    </renderframe>
+</body>
+
+</html>

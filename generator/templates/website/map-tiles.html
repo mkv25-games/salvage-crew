@@ -42,35 +42,35 @@
     <h1>{{title}}</h1>
     {{#each tiles}}
       <section class="card">
-        <h3>{{data.asset-id}}</h3>
+        <h3>{{asset-id}}</h3>
         <div class="row">
           <div class="six columns">
             <span class="map tile image">
-              <img src="images/{{#each data.asset-type}}{{this}}/{{/each}}{{data.asset-id}}.png">
+              <img src="images/{{#each asset-type}}{{this}}/{{/each}}{{asset-id}}.png">
             </span>
           </div>
           <div class="six columns">
             <table width="100%">
-              {{#if data.asset-type}}
+              {{#if asset-type}}
                 <tr>
                   <td>Type:</td>
                   <td>
-                    {{#each data.asset-type}}
+                    {{#each asset-type}}
                       <span class="{{this}}">{{this}}</span>
                     {{/each}}
                   </td>
                 </tr>
               {{/if}}
-              {{#if data.count}}
+              {{#if count}}
                 <tr>
                   <td>Count:</td>
-                  <td>x{{data.count}}</td>
+                  <td>x{{count}}</td>
                 </tr>
               {{/if}}
-              {{#if data.description}}
+              {{#if description}}
                 <tr>
                   <td colspan="2">
-                    {{#each data.description}}
+                    {{#each description}}
                       <p>{{this}}</p>
                     {{/each}}
                   </td>

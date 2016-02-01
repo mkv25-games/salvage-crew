@@ -134,4 +134,66 @@
       "/output/images/cards/item/oxygen-tank.png"
     ]
   }
+}, {
+  "asset": "images/sheets/map-tiles-01.png",
+  "template": "/sheets/tile-sheet.html",
+  "renderer": {
+    "$ref": "data/renderer/printable-tile-sheet.json"
+  },
+  "data": {
+    "name": "Map Tiles 01",
+    "print-count": 2,
+    "asset-id": "map-tiles-01",
+    "tiles": [{
+      "$ref": "data/tiles/R1-2x2.json"
+    }, {
+      "$ref": "data/tiles/R2-2x2.json"
+    }, {
+      "$ref": "data/tiles/R3-2x2.json"
+    }, {
+      "$ref": "data/tiles/R4-2x2.json"
+    }, {
+      "$ref": "data/tiles/C01-2x1.json"
+    }, {
+      "$ref": "data/tiles/C02-2x1.json"
+    }, {
+      "$ref": "data/tiles/C03-2x1.json"
+    }, {
+      "$ref": "data/tiles/C04-2x1.json"
+    }]
+  }
+}, {
+  "asset": "images/sheets/map-tiles-02.png",
+  "template": "/sheets/tile-sheet.html",
+  "renderer": {
+    "$ref": "data/renderer/printable-tile-sheet.json"
+  },
+  "data": {
+    "name": "Map Tiles 02",
+    "print-count": 2,
+    "asset-id": "map-tiles-02",
+    "tiles": [{
+      "$ref": "data/tiles/C05-2x1.json"
+    }, {
+      "$ref": "data/tiles/C06-2x1.json"
+    }, {
+      "$ref": "data/tiles/C07-2x1.json"
+    }, {
+      "$ref": "data/tiles/C08-2x1.json"
+    }, {
+      "$ref": "data/tiles/C09-2x1.json"
+    }, {
+      "$ref": "data/tiles/C10-2x1.json"
+    }, {
+      "$ref": "data/tiles/C11-2x1.json"
+    }, {
+      "$ref": "data/tiles/C12-2x1.json"
+    }, {
+      "$ref": "data/tiles/C13-2x1.json"
+    }, {
+      "$ref": "data/tiles/C14-2x1.json"
+    }, {
+      "$ref": "data/tiles/DP-2x1.json"
+    }]
+  }
 }]

@@ -5,91 +5,43 @@
     "$ref": "data/renderer/map-tile-2x2.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-large-rooms.png",
-    "dimension": {
-      "width": "600px",
-      "height": "600px",
-      "x": "0px",
-      "y": "0px"
-    },
-    "asset-id": "R1-2x2",
-    "asset-type": ["map", "tile"],
-    "description": ["Large room with a single console, and a wiring matrix embedded into the floor."]
+    "$ref": "data/tiles/R1-2x2.json"
   }
-},{
+}, {
   "asset": "images/map/tile/R2-2x2.png",
   "template": "/tiles/sizeable-tile-frame.html",
   "renderer": {
     "$ref": "data/renderer/map-tile-2x2.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-large-rooms.png",
-    "dimension": {
-      "width": "600px",
-      "height": "600px",
-      "x": "0px",
-      "y": "600px"
-    },
-    "asset-id": "R2-2x2",
-    "asset-type": ["map", "tile"],
-    "description": ["Large room with a single console, and storage containers locked into the floor."]
+    "$ref": "data/tiles/R2-2x2.json"
   }
-},{
+}, {
   "asset": "images/map/tile/R3-2x2.png",
   "template": "/tiles/sizeable-tile-frame.html",
   "renderer": {
     "$ref": "data/renderer/map-tile-2x2.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-large-rooms.png",
-    "dimension": {
-      "width": "600px",
-      "height": "600px",
-      "x": "1200px",
-      "y": "0px"
-    },
-    "asset-id": "R3-2x2",
-    "asset-type": ["map", "tile"],
-    "description": ["Large room with a dual console, and a small wiring matrix embedded into the floor."],
-    "count": 2
+    "$ref": "data/tiles/R3-2x2.json"
   }
-},{
+}, {
   "asset": "images/map/tile/R4-2x2.png",
   "template": "/tiles/sizeable-tile-frame.html",
   "renderer": {
     "$ref": "data/renderer/map-tile-2x2.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-large-rooms.png",
-    "dimension": {
-      "width": "600px",
-      "height": "600px",
-      "x": "1200px",
-      "y": "600px"
-    },
-    "asset-id": "R4-2x2",
-    "asset-type": ["map", "tile"],
-    "description": ["Large room with two consoles, and a large metal plate across the middle of the room."],
-    "count": 2
+    "$ref": "data/tiles/R4-2x2.json"
   }
-},{
+}, {
   "asset": "images/map/tile/C01-2x1.png",
   "template": "/tiles/sizeable-tile-frame.html",
   "renderer": {
     "$ref": "data/renderer/map-tile-2x1.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-large-rooms.png",
-    "dimension": {
-      "width": "600px",
-      "height": "300px",
-      "x": "600px",
-      "y": "0px"
-    },
-    "asset-id": "C01-2x1",
-    "asset-type": ["map", "tile"],
-    "description": [],
-    "count": 2
+    "$ref": "data/tiles/C01-2x1.json"
   }
 }, {
   "asset": "images/map/tile/C02-2x1.png",
@@ -98,17 +50,7 @@
     "$ref": "data/renderer/map-tile-2x1.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-large-rooms.png",
-    "dimension": {
-      "width": "600px",
-      "height": "300px",
-      "x": "600px",
-      "y": "300px"
-    },
-    "asset-id": "C02-2x1",
-    "asset-type": ["map", "tile"],
-    "description": [],
-    "count": 2
+    "$ref": "data/tiles/C02-2x1.json"
   }
 }, {
   "asset": "images/map/tile/C03-2x1.png",
@@ -117,17 +59,7 @@
     "$ref": "data/renderer/map-tile-2x1.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-large-rooms.png",
-    "dimension": {
-      "width": "600px",
-      "height": "300px",
-      "x": "600px",
-      "y": "600px"
-    },
-    "asset-id": "C03-2x1",
-    "asset-type": ["map", "tile"],
-    "description": [],
-    "count": 2
+    "$ref": "data/tiles/C03-2x1.json"
   }
 }, {
   "asset": "images/map/tile/C04-2x1.png",
@@ -136,17 +68,7 @@
     "$ref": "data/renderer/map-tile-2x1.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-large-rooms.png",
-    "dimension": {
-      "width": "600px",
-      "height": "300px",
-      "x": "600px",
-      "y": "900px"
-    },
-    "asset-id": "C04-2x1",
-    "asset-type": ["map", "tile"],
-    "description": [],
-    "count": 2
+    "$ref": "data/tiles/C04-2x1.json"
   }
 }, {
   "asset": "images/map/tile/C05-2x1.png",
@@ -155,17 +77,7 @@
     "$ref": "data/renderer/map-tile-2x1.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-corridors.png",
-    "dimension": {
-      "width": "600px",
-      "height": "300px",
-      "x": "0px",
-      "y": "0px"
-    },
-    "asset-id": "C05-2x1",
-    "asset-type": ["map", "tile"],
-    "description": [],
-    "count": 2
+    "$ref": "data/tiles/C05-2x1.json"
   }
 }, {
   "asset": "images/map/tile/C06-2x1.png",
@@ -174,17 +86,7 @@
     "$ref": "data/renderer/map-tile-2x1.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-corridors.png",
-    "dimension": {
-      "width": "600px",
-      "height": "300px",
-      "x": "0px",
-      "y": "300px"
-    },
-    "asset-id": "C06-2x1",
-    "asset-type": ["map", "tile"],
-    "description": [],
-    "count": 2
+    "$ref": "data/tiles/C06-2x1.json"
   }
 }, {
   "asset": "images/map/tile/C07-2x1.png",
@@ -193,17 +95,7 @@
     "$ref": "data/renderer/map-tile-2x1.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-corridors.png",
-    "dimension": {
-      "width": "600px",
-      "height": "300px",
-      "x": "0px",
-      "y": "600px"
-    },
-    "asset-id": "C07-2x1",
-    "asset-type": ["map", "tile"],
-    "description": [],
-    "count": 2
+    "$ref": "data/tiles/C07-2x1.json"
   }
 }, {
   "asset": "images/map/tile/C08-2x1.png",
@@ -212,17 +104,7 @@
     "$ref": "data/renderer/map-tile-2x1.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-corridors.png",
-    "dimension": {
-      "width": "600px",
-      "height": "300px",
-      "x": "0px",
-      "y": "900px"
-    },
-    "asset-id": "C08-2x1",
-    "asset-type": ["map", "tile"],
-    "description": [],
-    "count": 2
+    "$ref": "data/tiles/C08-2x1.json"
   }
 }, {
   "asset": "images/map/tile/C09-2x1.png",
@@ -231,17 +113,7 @@
     "$ref": "data/renderer/map-tile-2x1.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-corridors.png",
-    "dimension": {
-      "width": "600px",
-      "height": "300px",
-      "x": "600px",
-      "y": "0px"
-    },
-    "asset-id": "C09-2x1",
-    "asset-type": ["map", "tile"],
-    "description": [],
-    "count": 2
+    "$ref": "data/tiles/C09-2x1.json"
   }
 }, {
   "asset": "images/map/tile/C10-2x1.png",
@@ -250,17 +122,7 @@
     "$ref": "data/renderer/map-tile-2x1.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-corridors.png",
-    "dimension": {
-      "width": "600px",
-      "height": "300px",
-      "x": "600px",
-      "y": "300px"
-    },
-    "asset-id": "C10-2x1",
-    "asset-type": ["map", "tile"],
-    "description": [],
-    "count": 2
+    "$ref": "data/tiles/C10-2x1.json"
   }
 }, {
   "asset": "images/map/tile/C11-2x1.png",
@@ -269,17 +131,7 @@
     "$ref": "data/renderer/map-tile-2x1.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-corridors.png",
-    "dimension": {
-      "width": "600px",
-      "height": "300px",
-      "x": "600px",
-      "y": "600px"
-    },
-    "asset-id": "C11-2x1",
-    "asset-type": ["map", "tile"],
-    "description": [],
-    "count": 2
+    "$ref": "data/tiles/C11-2x1.json"
   }
 }, {
   "asset": "images/map/tile/C12-2x1.png",
@@ -288,17 +140,25 @@
     "$ref": "data/renderer/map-tile-2x1.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-corridors.png",
-    "dimension": {
-      "width": "600px",
-      "height": "300px",
-      "x": "600px",
-      "y": "900px"
-    },
-    "asset-id": "C12-2x1",
-    "asset-type": ["map", "tile"],
-    "description": [],
-    "count": 2
+    "$ref": "data/tiles/C12-2x1.json"
+  }
+}, {
+  "asset": "images/map/tile/C13-2x1.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-1x3.json"
+  },
+  "data": {
+    "$ref": "data/tiles/C13-2x1.json"
+  }
+}, {
+  "asset": "images/map/tile/C14-2x1.png",
+  "template": "/tiles/sizeable-tile-frame.html",
+  "renderer": {
+    "$ref": "data/renderer/map-tile-1x3.json"
+  },
+  "data": {
+    "$ref": "data/tiles/C14-2x1.json"
   }
 }, {
   "asset": "images/map/tile/DP-2x1.png",
@@ -307,54 +167,6 @@
     "$ref": "data/renderer/map-tile-2x1.json"
   },
   "data": {
-    "background": "/data/tiles/map-tiles-corridors.png",
-    "dimension": {
-      "width": "600px",
-      "height": "300px",
-      "x": "1200px",
-      "y": "900px"
-    },
-    "asset-id": "DP-2x1",
-    "asset-type": ["map", "tile"],
-    "description": ["Docking port; where small vessels and landing craft can attach to gain access."],
-    "count": 2
-  }
-}, {
-  "asset": "images/map/tile/C13-2x1.png",
-  "template": "/tiles/sizeable-tile-frame.html",
-  "renderer": {
-    "$ref": "data/renderer/map-tile-1x3.json"
-  },
-  "data": {
-    "background": "/data/tiles/map-tiles-corridors.png",
-    "dimension": {
-      "width": "300px",
-      "height": "900px",
-      "x": "1200px",
-      "y": "0px"
-    },
-    "asset-id": "C13-2x1",
-    "asset-type": ["map", "tile"],
-    "description": [],
-    "count": 2
-  }
-}, {
-  "asset": "images/map/tile/C13-2x1.png",
-  "template": "/tiles/sizeable-tile-frame.html",
-  "renderer": {
-    "$ref": "data/renderer/map-tile-1x3.json"
-  },
-  "data": {
-    "background": "/data/tiles/map-tiles-corridors.png",
-    "dimension": {
-      "width": "300px",
-      "height": "900px",
-      "x": "1500px",
-      "y": "0px"
-    },
-    "asset-id": "C13-2x1",
-    "asset-type": ["map", "tile"],
-    "description": [],
-    "count": 2
+    "$ref": "data/tiles/DP-2x1.json"
   }
 }]

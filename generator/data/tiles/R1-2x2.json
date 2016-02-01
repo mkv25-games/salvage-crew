@@ -1,0 +1,12 @@
+{
+  "background": "/data/tiles/map-tiles-large-rooms.png",
+  "dimension": {
+    "width": "600px",
+    "height": "600px",
+    "x": "0px",
+    "y": "0px"
+  },
+  "asset-id": "R1-2x2",
+  "asset-type": ["map", "tile"],
+  "description": ["Large room with a single console, and a wiring matrix embedded into the floor."]
+}

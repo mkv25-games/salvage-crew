@@ -1,0 +1,13 @@
+{
+  "background": "/data/tiles/map-tiles-large-rooms.png",
+  "dimension": {
+    "width": "600px",
+    "height": "600px",
+    "x": "1200px",
+    "y": "600px"
+  },
+  "asset-id": "R4-2x2",
+  "asset-type": ["map", "tile"],
+  "description": ["Large room with two consoles, and a large metal plate across the middle of the room."],
+  "count": 2
+}

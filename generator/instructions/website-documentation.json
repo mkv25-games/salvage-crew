@@ -151,9 +151,45 @@
     "navigation": {
       "$ref": "data/website/navigation.json"
     },
-    "tiles": {
-      "$ref": "instructions/map-tiles.json"
-    }
+    "tiles": [{
+      "$ref": "data/tiles/R1-2x2.json"
+    }, {
+      "$ref": "data/tiles/R2-2x2.json"
+    }, {
+      "$ref": "data/tiles/R3-2x2.json"
+    }, {
+      "$ref": "data/tiles/R4-2x2.json"
+    }, {
+      "$ref": "data/tiles/C01-2x1.json"
+    }, {
+      "$ref": "data/tiles/C02-2x1.json"
+    }, {
+      "$ref": "data/tiles/C03-2x1.json"
+    }, {
+      "$ref": "data/tiles/C04-2x1.json"
+    }, {
+      "$ref": "data/tiles/C05-2x1.json"
+    }, {
+      "$ref": "data/tiles/C06-2x1.json"
+    }, {
+      "$ref": "data/tiles/C07-2x1.json"
+    }, {
+      "$ref": "data/tiles/C08-2x1.json"
+    }, {
+      "$ref": "data/tiles/C09-2x1.json"
+    }, {
+      "$ref": "data/tiles/C10-2x1.json"
+    }, {
+      "$ref": "data/tiles/C11-2x1.json"
+    }, {
+      "$ref": "data/tiles/C12-2x1.json"
+    }, {
+      "$ref": "data/tiles/C13-2x1.json"
+    }, {
+      "$ref": "data/tiles/C14-2x1.json"
+    }, {
+      "$ref": "data/tiles/DP-2x1.json"
+    }]
   }
 }, {
   "asset": "printables.html",
