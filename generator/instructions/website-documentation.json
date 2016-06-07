@@ -28,6 +28,12 @@
     }, {
       "$ref": "data/events/blackout.json"
     }, {
+      "$ref": "data/events/dispersion.json"
+    }, {
+      "$ref": "data/events/division.json"
+    }, {
+      "$ref": "data/events/explosion.json"
+    }, {
       "$ref": "data/events/fuel-impact.json"
     }, {
       "$ref": "data/events/space-debris.json"

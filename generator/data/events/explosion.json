@@ -1,0 +1,17 @@
+{
+  "type": "Event",
+  "title": "Explosion",
+  "description": ["“Bloody scientists…”"],
+  "instructions": ["Deal 2 damage to all targets in this room, and then cause a Hull Breach."],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9ead3",
+    "secondaryCardColour": "#666666"
+  },
+  "primaryTag": "ship",
+  "secondaryTag": "science",
+  "attackModifier": "+2 attack",
+  "defenceModifier": "0 defence",
+  "asset-type": "event",
+  "asset-id": "explosion"
+}

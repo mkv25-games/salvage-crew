@@ -61,4 +61,31 @@
   "data": {
     "$ref": "data/events/blackout.json"
   }
+}, {
+  "asset": "images/cards/event/explosion.png",
+  "template": "/cards/event.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/events/explosion.json"
+  }
+}, {
+  "asset": "images/cards/event/division.png",
+  "template": "/cards/event.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/events/division.json"
+  }
+}, {
+  "asset": "images/cards/event/dispersion.png",
+  "template": "/cards/event.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/events/dispersion.json"
+  }
 }]

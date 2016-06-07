@@ -1,0 +1,17 @@
+{
+  "type": "Event",
+  "title": "Dispersion",
+  "description": ["::Warning, anti-ooze protocol initiated::", "“You switch to your O2 supply as the room begins to fill with yellow gas.”"],
+  "instructions": ["End of Round: Each player in this room loses 1 O2, then destroy all Ooze monsters in this room"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9ead3",
+    "secondaryCardColour": "#666666"
+  },
+  "primaryTag": "ship",
+  "secondaryTag": "science",
+  "attackModifier": "0 attack",
+  "defenceModifier": "0 defence",
+  "asset-type": "event",
+  "asset-id": "dispersion"
+}

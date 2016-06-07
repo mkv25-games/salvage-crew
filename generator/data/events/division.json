@@ -1,0 +1,17 @@
+{
+  "type": "Event",
+  "title": "Division",
+  "description": ["“The monsters began to shudder, to split, to reform. Their numbers double in front of your eyes.”"],
+  "instructions": ["End of Round: For each Ooze monster in this room, place a new monster in this room."],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#d9ead3",
+    "secondaryCardColour": "#666666"
+  },
+  "primaryTag": "ship",
+  "secondaryTag": "science",
+  "attackModifier": "+1 attack",
+  "defenceModifier": "-1 defence",
+  "asset-type": "event",
+  "asset-id": "division"
+}
