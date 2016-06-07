@@ -1,0 +1,17 @@
+{
+  "type": "Event",
+  "title": "Suprising Calm",
+  "description": ["“The asteroids cloud around the ship, but you find yourself bracing for an impact which never comes.”"],
+  "instructions": ["Nothing happens"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#c19a86",
+    "secondaryCardColour": "#666666"
+  },
+  "primaryTag": "space",
+  "secondaryTag": "asteroids",
+  "attackModifier": "-1 attack",
+  "defenceModifier": "-1 defence",
+  "asset-type": "event",
+  "asset-id": "suprising-calm"
+}

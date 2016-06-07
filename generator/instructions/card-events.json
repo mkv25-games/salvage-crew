@@ -1,0 +1,64 @@
+[{
+  "asset": "images/cards/event/asteroid-impact.png",
+  "template": "/cards/event.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/events/asteroid-impact.json"
+  }
+}, {
+  "asset": "images/cards/event/space-debris.png",
+  "template": "/cards/event.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/events/space-debris.json"
+  }
+}, {
+  "asset": "images/cards/event/suprising-calm.png",
+  "template": "/cards/event.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/events/suprising-calm.json"
+  }
+}, {
+  "asset": "images/cards/event/array-impact.png",
+  "template": "/cards/event.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/events/array-impact.json"
+  }
+}, {
+  "asset": "images/cards/event/fuel-impact.png",
+  "template": "/cards/event.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/events/fuel-impact.json"
+  }
+}, {
+  "asset": "images/cards/event/surge.png",
+  "template": "/cards/event.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/events/surge.json"
+  }
+}, {
+  "asset": "images/cards/event/blackout.png",
+  "template": "/cards/event.html",
+  "renderer": {
+    "$ref": "data/renderer/standard-card.json"
+  },
+  "data": {
+    "$ref": "data/events/blackout.json"
+  }
+}]

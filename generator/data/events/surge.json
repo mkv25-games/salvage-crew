@@ -1,0 +1,17 @@
+{
+  "type": "Event",
+  "title": "Surge",
+  "description": ["“A crackle of painful energy surges through you and your weapons”"],
+  "instructions": ["End of round: All players take 1 damage, and may return all their items to their hand"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#fff2cc",
+    "secondaryCardColour": "#666666"
+  },
+  "primaryTag": "ship",
+  "secondaryTag": "electrical",
+  "attackModifier": "+1 attack",
+  "defenceModifier": "-1 defence",
+  "asset-type": "event",
+  "asset-id": "surge"
+}

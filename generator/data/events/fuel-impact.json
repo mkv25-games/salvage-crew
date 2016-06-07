@@ -1,0 +1,17 @@
+{
+  "type": "Event",
+  "title": "Fuel Impact",
+  "description": ["“A single asteroid finds its way through the shield and the hull, striking an exposed fuel cell in a fireball of destruction”"],
+  "instructions": ["Deal 1 damage to each target in this room, then set the room on fire"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#c19a86",
+    "secondaryCardColour": "#666666"
+  },
+  "primaryTag": "space",
+  "secondaryTag": "asteroids",
+  "attackModifier": "0 attack",
+  "defenceModifier": "0 defence",
+  "asset-type": "event",
+  "asset-id": "fuel-impact"
+}

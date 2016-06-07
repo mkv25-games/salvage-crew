@@ -4,16 +4,19 @@
     "text": "Index",
     "href": "index.html"
   }, {
-    "text": "Contacts",
+    "text": "Contacts Deck",
     "href": "contact-cards.html"
   }, {
-    "text": "Items",
+    "text": "Events Deck",
+    "href": "event-cards.html"
+  }, {
+    "text": "Items Deck",
     "href": "item-cards.html"
   }, {
-    "text": "Skills",
+    "text": "Skills Deck",
     "href": "skill-cards.html"
   }, {
-    "text": "Traits",
+    "text": "Traits Deck",
     "href": "trait-cards.html"
   }, {
     "text": "Map Tiles",

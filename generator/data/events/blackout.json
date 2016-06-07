@@ -1,0 +1,17 @@
+{
+  "type": "Event",
+  "title": "Blackout",
+  "description": ["“You hear a loud clank, and an electrical buzz. The lights go out. You tap the nearest console; it’s dead.”"],
+  "instructions": ["Until the end of this round, all door consoles are inactive"],
+  "background": "",
+  "theme": {
+    "primaryCardColour": "#fff2cc",
+    "secondaryCardColour": "#666666"
+  },
+  "primaryTag": "ship",
+  "secondaryTag": "electrical",
+  "attackModifier": "+2 attack",
+  "defenceModifier": "0 defence",
+  "asset-type": "event",
+  "asset-id": "blackout"
+}
